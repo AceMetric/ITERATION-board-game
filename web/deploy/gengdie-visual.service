@@ -1,0 +1,30 @@
+# Install as /etc/systemd/system/gengdie-visual.service.
+# Confirm /usr/bin/node and /opt/gengdie-visual before installation.
+[Unit]
+Description=Gengdie visual board game server
+After=network.target
+
+[Service]
+Type=simple
+User=gengdie
+Group=gengdie
+WorkingDirectory=/opt/gengdie-visual
+ExecStart=/usr/bin/node /opt/gengdie-visual/server.cjs
+Environment=NODE_ENV=production
+Environment=HOST=127.0.0.1
+Environment=PORT=8788
+Environment=GAME_SAVE_DIR=/var/lib/gengdie-visual/rooms
+Environment=MAX_ROOMS=200
+StateDirectory=gengdie-visual
+StateDirectoryMode=0700
+UMask=0077
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/gengdie-visual
+
+[Install]
+WantedBy=multi-user.target

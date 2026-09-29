@@ -1,0 +1,12 @@
+import { readFile, mkdir, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import { resolve, dirname } from 'node:path';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const destination=resolve(process.argv[2]||resolve(root,'dist/server/index.js'));
+const read=path=>readFile(resolve(root,path),'utf8');
+const wrap=(name,source,deps={})=>`const ${name}=(()=>{const module={exports:{}};const require=id=>{switch(id){${Object.entries(deps).map(([k,v])=>`case ${JSON.stringify(k)}: return ${v};`).join('')}default:throw Error('Unknown rules dependency '+id);}};\n${source}\nreturn module.exports;})();\n`;
+const [config,engine,flow,data,crypto,storage,api]=await Promise.all(['../game/game_config.js','../game/game_engine.js','../game/game_flow.js','vendor/game_data.json','worker/crypto.mjs','worker/storage.mjs','worker/api.mjs'].map(read));
+const testing=await read('../src/tabletop-v4-testing.js');
+const source='// Generated Worker; rules modules below are embedded byte-for-byte.\n'+wrap('Testing',testing)+wrap('Config',config)+wrap('Engine',engine,{'./game_config.js':'Config'})+wrap('Flow',flow,{'./game_engine.js':'Engine'})+'const data='+data+';\n'+crypto.replace(/^export /gm,'')+'\n'+storage.replace(/^export /gm,'')+'\n'+api.replace(/^import .*;\n/gm,'').replace(/^export /gm,'')+'\nexport default createWorker(data,{HistoryGame:Engine.HistoryGame,Flow,Config});\n';
+await mkdir(dirname(destination),{recursive:true});await writeFile(destination,source);
+console.log(JSON.stringify({worker:destination,bytes:Buffer.byteLength(source)}));

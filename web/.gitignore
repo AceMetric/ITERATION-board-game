@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.sites-runtime/
+.wrangler/
+.env*
+*.tar.gz
+game/rooms/
+__pycache__/
+.DS_Store
+standalone.html
+output/
+*.log

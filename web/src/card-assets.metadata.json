@@ -1,0 +1,1932 @@
+{
+  "formatVersion": 1,
+  "sourcePriority": "仓库内 卡牌/ 原始卡面；T2-06 使用 web/assets/ 的插画替代图",
+  "transform": {
+    "maxLongEdge": 900,
+    "quality": 85,
+    "format": "webp",
+    "preserveAspectRatio": true,
+    "colorSpace": "sRGB",
+    "embeddedICCConversion": true
+  },
+  "runtimeDataSha256": "9d841ff95a15ba022564b17f1d10f7b89d1c5d6dd56000866ec5d6110b1d6ebf",
+  "summary": {
+    "fullTechCards": 59,
+    "techTotal": 60,
+    "events": 14,
+    "wonderEraFaces": 27,
+    "resourceFaces": 12,
+    "backs": 13,
+    "assetCount": 126,
+    "colorProfileConverted": 53,
+    "totalBytes": 7742950
+  },
+  "missingSourceFiles": [],
+  "missingFullCardFaces": [
+    "T2-06"
+  ],
+  "artFallbacks": {
+    "T2-06": "T2-06-art"
+  },
+  "knownDifferences": [
+    {
+      "id": "T5-07",
+      "field": "name",
+      "printed": "巨型一体化压铸技术",
+      "runtime": "超大型一体化压铸技术"
+    }
+  ],
+  "verificationNote": "逐一核对 ID 与来源覆盖；抽样目视核对卡面。未逐张 OCR 审核全部印刷文字。实验参数和特殊模式会使卡面数值与本局规则不同。",
+  "assets": {
+    "E01": {
+      "path": "assets/E01.webp",
+      "type": "card",
+      "source": "卡牌/事件/尤里卡.png",
+      "sourceSha256": "63c4a60c9fda82e36873be86e7c0fa52999c374d542375d878e3f0fccc7e42fd",
+      "sourceSize": [
+        761,
+        1249
+      ],
+      "size": [
+        548,
+        900
+      ],
+      "bytes": 46986
+    },
+    "E02": {
+      "path": "assets/E02.webp",
+      "type": "card",
+      "source": "卡牌/事件/都江堰.png",
+      "sourceSha256": "e93fa344a20c45a797ee991e297f97efaf7616bde2a8ba8a3de65aba6bee002a",
+      "sourceSize": [
+        762,
+        1249
+      ],
+      "size": [
+        549,
+        900
+      ],
+      "bytes": 51336
+    },
+    "E03": {
+      "path": "assets/E03.webp",
+      "type": "card",
+      "source": "卡牌/事件/统一度量衡.png",
+      "sourceSha256": "613cb08a9675d03719ef52d5cc955c8a5d69292d39eb7b7e310a7d31605b09a1",
+      "sourceSize": [
+        761,
+        1248
+      ],
+      "size": [
+        549,
+        900
+      ],
+      "bytes": 49220
+    },
+    "E04": {
+      "path": "assets/E04.webp",
+      "type": "card",
+      "source": "卡牌/事件/张骞出使西域.png",
+      "sourceSha256": "4067418f2327de20404bc6294963f265564b598832aae23aa6de35a653fcd271",
+      "sourceSize": [
+        761,
+        1248
+      ],
+      "size": [
+        549,
+        900
+      ],
+      "bytes": 52020
+    },
+    "E05": {
+      "path": "assets/E05.webp",
+      "type": "card",
+      "source": "卡牌/事件/盐铁之议.png",
+      "sourceSha256": "c4dd6722540bf19c92342df4565a7deb2cf8ad73130671e97b1c5a46d411adfc",
+      "sourceSize": [
+        761,
+        1249
+      ],
+      "size": [
+        548,
+        900
+      ],
+      "bytes": 46462
+    },
+    "E06": {
+      "path": "assets/E06.webp",
+      "type": "card",
+      "source": "卡牌/事件/第二次鼠疫大流行.jpg",
+      "sourceSha256": "cd1c0a21f74c7c549ddb95e213441b2fe9c46ce8a0ceef91fbe8d4b9eceeca46",
+      "sourceSize": [
+        777,
+        1250
+      ],
+      "size": [
+        559,
+        900
+      ],
+      "bytes": 70174
+    },
+    "E07": {
+      "path": "assets/E07.webp",
+      "type": "card",
+      "source": "卡牌/事件/郑和下西洋.png",
+      "sourceSha256": "76f2c2aec1e628d56e4d1fd0cd5f189210816fa1661c451e0dbb4bbc660297d2",
+      "sourceSize": [
+        761,
+        1249
+      ],
+      "size": [
+        548,
+        900
+      ],
+      "bytes": 51772
+    },
+    "E08": {
+      "path": "assets/E08.webp",
+      "type": "card",
+      "source": "卡牌/事件/凡尔赛条约.png",
+      "sourceSha256": "edf612d46e610fac863f1c0a59f003b47b2108896336e929191920636fac0321",
+      "sourceSize": [
+        761,
+        1249
+      ],
+      "size": [
+        548,
+        900
+      ],
+      "bytes": 57490
+    },
+    "E09": {
+      "path": "assets/E09.webp",
+      "type": "card",
+      "source": "卡牌/事件/火烧大图书馆.png",
+      "sourceSha256": "75f893d37f70663c36269b7cd0b24146c8eb2f695cdd3918cf4d746a9dcc7d51",
+      "sourceSize": [
+        761,
+        1249
+      ],
+      "size": [
+        548,
+        900
+      ],
+      "bytes": 58298
+    },
+    "E10": {
+      "path": "assets/E10.webp",
+      "type": "card",
+      "source": "卡牌/事件/泡沫经济.jpg",
+      "sourceSha256": "8faabb097063efea637a0f94506f16c1f9762e2ba161118f04e45cdf74cac285",
+      "sourceSize": [
+        776,
+        1250
+      ],
+      "size": [
+        559,
+        900
+      ],
+      "bytes": 54738
+    },
+    "E11": {
+      "path": "assets/E11.webp",
+      "type": "card",
+      "source": "卡牌/事件/柏林墙.jpg",
+      "sourceSha256": "e85a03afadbeec804a11ab6b16eb369fc9abd6e5b685785a370e00a4fec85d45",
+      "sourceSize": [
+        777,
+        1250
+      ],
+      "size": [
+        559,
+        900
+      ],
+      "bytes": 51780
+    },
+    "E12": {
+      "path": "assets/E12.webp",
+      "type": "card",
+      "source": "卡牌/事件/文艺复兴.png",
+      "sourceSha256": "028512e11866074f97d9995f122822942f28a9c1a52e33b95e9ab9bd60ce7538",
+      "sourceSize": [
+        762,
+        1249
+      ],
+      "size": [
+        549,
+        900
+      ],
+      "bytes": 52556
+    },
+    "E13": {
+      "path": "assets/E13.webp",
+      "type": "card",
+      "source": "卡牌/事件/发射人造地球卫星.jpg",
+      "sourceSha256": "738787265d3f35ab5ca2d505748747c305424ba7a59a4acbe8a5aef21d87d573",
+      "sourceSize": [
+        776,
+        1250
+      ],
+      "size": [
+        559,
+        900
+      ],
+      "bytes": 52702
+    },
+    "E14": {
+      "path": "assets/E14.webp",
+      "type": "card",
+      "source": "卡牌/事件/月光社.jpg",
+      "sourceSha256": "f65abce2a59ba1bab09fc596217c66766140fdc487525243d5d4686a6fcc19dd",
+      "sourceSize": [
+        776,
+        1311
+      ],
+      "size": [
+        533,
+        900
+      ],
+      "bytes": 52260
+    },
+    "R0-1": {
+      "path": "assets/R0-1.webp",
+      "type": "card",
+      "source": "卡牌/资源/金币1.png",
+      "sourceSha256": "186aa0858a9666c2ce2cddc122700497923f48254b925de53ddb897c824af657",
+      "sourceSize": [
+        855,
+        1328
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 38904
+    },
+    "R0-10": {
+      "path": "assets/R0-10.webp",
+      "type": "card",
+      "source": "卡牌/资源/金币10.png",
+      "sourceSha256": "2cc9db77a204e32e316c856ed79e703528ae3a97df82c28b822f635b6d1cbbec",
+      "sourceSize": [
+        855,
+        1328
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 39536
+    },
+    "R0-2": {
+      "path": "assets/R0-2.webp",
+      "type": "card",
+      "source": "卡牌/资源/金币2.png",
+      "sourceSha256": "6089b3536986856eebaf2a3ee6794b88291bc5d3f211a47f3e9d231d1e406939",
+      "sourceSize": [
+        855,
+        1328
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 37852
+    },
+    "R0-5": {
+      "path": "assets/R0-5.webp",
+      "type": "card",
+      "source": "卡牌/资源/金币5.png",
+      "sourceSha256": "72b5c3b6d77ee3518688cb01dbb9b880298d9e52cbe20d99e42c639ff08cec9b",
+      "sourceSize": [
+        855,
+        1328
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 44202
+    },
+    "R1-1": {
+      "path": "assets/R1-1.webp",
+      "type": "card",
+      "source": "卡牌/资源/人力1.png",
+      "sourceSha256": "8279b6081f30d0320c3a26b2c8cf08e419886b2dd832b403fe6e0357a659577e",
+      "sourceSize": [
+        855,
+        1328
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 30272
+    },
+    "R1-10": {
+      "path": "assets/R1-10.webp",
+      "type": "card",
+      "source": "卡牌/资源/人力10.png",
+      "sourceSha256": "060b60329d7b14610a2222eb72dc4c74a9a8b009d5e1de58c1a9d1ae5a4af8b0",
+      "sourceSize": [
+        855,
+        1328
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 35642
+    },
+    "R1-2": {
+      "path": "assets/R1-2.webp",
+      "type": "card",
+      "source": "卡牌/资源/人力2.png",
+      "sourceSha256": "c34d717aa26c1513a3aec233bb92a05b22d797c00a25732fd822da5f7034bd18",
+      "sourceSize": [
+        855,
+        1328
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 32522
+    },
+    "R1-5": {
+      "path": "assets/R1-5.webp",
+      "type": "card",
+      "source": "卡牌/资源/人力5.png",
+      "sourceSha256": "5066e87761b1addd257daacf92bbe957be147d176b3a3df452f056a54e81f4ca",
+      "sourceSize": [
+        855,
+        1328
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 32968
+    },
+    "R2-1": {
+      "path": "assets/R2-1.webp",
+      "type": "card",
+      "source": "卡牌/资源/矿物1.png",
+      "sourceSha256": "b25a0d82bd9b183cc193cae9eeabcdcce592e140a7c755feb444f8f9ea21a359",
+      "sourceSize": [
+        855,
+        1328
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 38016
+    },
+    "R2-10": {
+      "path": "assets/R2-10.webp",
+      "type": "card",
+      "source": "卡牌/资源/矿物10.png",
+      "sourceSha256": "dcfa82dd8beacd1aa6222ca9b166a0354b37bf0d99d14ab572466df66f0c0b74",
+      "sourceSize": [
+        855,
+        1328
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 44374
+    },
+    "R2-2": {
+      "path": "assets/R2-2.webp",
+      "type": "card",
+      "source": "卡牌/资源/矿物2.png",
+      "sourceSha256": "a64d839532861412f9ddd3edbfcd5333b93d08cd2d1b91314a500d5686ebb151",
+      "sourceSize": [
+        855,
+        1328
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 39126
+    },
+    "R2-5": {
+      "path": "assets/R2-5.webp",
+      "type": "card",
+      "source": "卡牌/资源/矿物5.png",
+      "sourceSha256": "64757e5c9435acc015a808ab9605eb8acc4eeb62c7f51d3f24607e8bb5832754",
+      "sourceSize": [
+        855,
+        1328
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 42970
+    },
+    "T1-01": {
+      "path": "assets/T1-01.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代1/驯火与热加工.png",
+      "sourceSha256": "5123e843765f5df4a123b176b012c6647511e640dbf11d8b890ea88ef1c3f257",
+      "sourceSize": [
+        786,
+        1199
+      ],
+      "size": [
+        590,
+        900
+      ],
+      "bytes": 70790
+    },
+    "T1-02": {
+      "path": "assets/T1-02.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代1/石器与复合工具.png",
+      "sourceSha256": "7d5cc707d8d40a1707c4c284384b132c36415c714bbf19cdfe5a6586f49305d5",
+      "sourceSize": [
+        789,
+        1196
+      ],
+      "size": [
+        594,
+        900
+      ],
+      "bytes": 69768
+    },
+    "T1-03": {
+      "path": "assets/T1-03.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代1/农业与灌溉.png",
+      "sourceSha256": "2f4c1c498e3cb37f09f18464fb99bdaff7ce782db23f6f795f64eb374a8cd2e2",
+      "sourceSize": [
+        786,
+        1197
+      ],
+      "size": [
+        591,
+        900
+      ],
+      "bytes": 74808
+    },
+    "T1-04": {
+      "path": "assets/T1-04.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代1/陶器与窑烧.png",
+      "sourceSha256": "c6f1e17b45ad5360f44c240dc1580041d7a97774b175a57dcd6f5403a6a01408",
+      "sourceSize": [
+        786,
+        1198
+      ],
+      "size": [
+        590,
+        900
+      ],
+      "bytes": 61510
+    },
+    "T1-05": {
+      "path": "assets/T1-05.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代1/纺织与编织.png",
+      "sourceSha256": "c5d41c3c6bc381b52d7ac7c4040b5b1f28e36406ddff41c93e2e9953c87c5938",
+      "sourceSize": [
+        786,
+        1198
+      ],
+      "size": [
+        590,
+        900
+      ],
+      "bytes": 64156
+    },
+    "T1-06": {
+      "path": "assets/T1-06.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代1/文字与计数.png",
+      "sourceSha256": "37d732363917661c44c6b98169933409d1bd4968d6f4a5e620d70d8e6768da2c",
+      "sourceSize": [
+        802,
+        1239
+      ],
+      "size": [
+        583,
+        900
+      ],
+      "bytes": 60508
+    },
+    "T1-07": {
+      "path": "assets/T1-07.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代2/算术与几何.png",
+      "sourceSha256": "56cb74428a639e490a4127f34b78ce524d3ec47d65746bc3529db1fb796ad3ee",
+      "sourceSize": [
+        802,
+        1245
+      ],
+      "size": [
+        580,
+        900
+      ],
+      "bytes": 56694
+    },
+    "T1-08": {
+      "path": "assets/T1-08.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代1/天文观测.png",
+      "sourceSha256": "9afc6c6288802a8a86d482ca546bd505b35961c4220358157a3798ba437cc2d8",
+      "sourceSize": [
+        802,
+        1246
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 70386
+    },
+    "T1-09": {
+      "path": "assets/T1-09.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代1/青铜与铁器冶炼.png",
+      "sourceSha256": "270d0001afee544aebb147d9d3fccdee65abaf6096ae27da7f78a1e0dc0133bf",
+      "sourceSize": [
+        802,
+        1240
+      ],
+      "size": [
+        582,
+        900
+      ],
+      "bytes": 66040
+    },
+    "T1-10": {
+      "path": "assets/T1-10.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代1/轮与车.png",
+      "sourceSha256": "160d1529bffe2f4207d33e8996923f087d3028f283eb5fd235f1eb0e27609e78",
+      "sourceSize": [
+        786,
+        1194
+      ],
+      "size": [
+        592,
+        900
+      ],
+      "bytes": 59048
+    },
+    "T1-11": {
+      "path": "assets/T1-11.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代1/大型水利工程.png",
+      "sourceSha256": "123583481e6dd17f4382f9ccc53d042a308ec3527a43c2ca732ef9346b97cd87",
+      "sourceSize": [
+        802,
+        1240
+      ],
+      "size": [
+        582,
+        900
+      ],
+      "bytes": 69224
+    },
+    "T1-12": {
+      "path": "assets/T1-12.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代1/四元素说.png",
+      "sourceSha256": "1c818d0c6de9dffd445aeaa3715bbe06972e8f9d5cba32de2b0681d3cbc4db1f",
+      "sourceSize": [
+        802,
+        1248
+      ],
+      "size": [
+        578,
+        900
+      ],
+      "bytes": 66780
+    },
+    "T1-13": {
+      "path": "assets/T1-13.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代1/实验科学方法.png",
+      "sourceSha256": "354dac47647b916e735b86ad8072065f2f0fd7de596af679dc6119cf1ae29460",
+      "sourceSize": [
+        785,
+        1194
+      ],
+      "size": [
+        592,
+        900
+      ],
+      "bytes": 64210
+    },
+    "T2-01": {
+      "path": "assets/T2-01.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代2/远洋航海、测绘与指南针.jpg",
+      "sourceSha256": "a3468bab8ab545b6cad126be5f86fbeb3b38a961ffaf06f65b106b93d12de8bd",
+      "sourceSize": [
+        786,
+        1195
+      ],
+      "size": [
+        592,
+        900
+      ],
+      "bytes": 70532
+    },
+    "T2-02": {
+      "path": "assets/T2-02.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代2/拱券与大型建筑.jpg",
+      "sourceSha256": "73490bb40a341c75087d52ef70644df5f2d1277a86a55de1dd3a2f5a91b32b40",
+      "sourceSize": [
+        786,
+        1196
+      ],
+      "size": [
+        591,
+        900
+      ],
+      "bytes": 64740
+    },
+    "T2-03": {
+      "path": "assets/T2-03.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代2/杠杆滑轮与机械原理.png",
+      "sourceSha256": "64259dd8fe07026c319b083535654817c3257c33847ab01ffa8fcab8b82515fd",
+      "sourceSize": [
+        803,
+        1239
+      ],
+      "size": [
+        583,
+        900
+      ],
+      "bytes": 72766
+    },
+    "T2-04": {
+      "path": "assets/T2-04.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代2/代数学.jpg",
+      "sourceSha256": "e247918bc2ca7d21fb38efd5253c23160e7662cad6d21abb9e4a0de4c01214ba",
+      "sourceSize": [
+        786,
+        1196
+      ],
+      "size": [
+        591,
+        900
+      ],
+      "bytes": 71312
+    },
+    "T2-05": {
+      "path": "assets/T2-05.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代2/地心宇宙体系.png",
+      "sourceSha256": "33246663ced03352bc608dcbc28d9a4d8ce86918958279b52dc9851de132d869",
+      "sourceSize": [
+        802,
+        1247
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 69090
+    },
+    "T2-06-art": {
+      "path": "assets/T2-06-art.webp",
+      "type": "art",
+      "source": "web/assets/T2-06-art.webp",
+      "sourceSha256": "1bf939f3f66fc0d20c0d0c8fbea99c162a47f5fae2040ab9b5f66dacfb67ae2c",
+      "sourceSize": [
+        900,
+        900
+      ],
+      "size": [
+        900,
+        900
+      ],
+      "bytes": 228470
+    },
+    "T2-07": {
+      "path": "assets/T2-07.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代2/造纸与印刷.png",
+      "sourceSha256": "e38ca0b8837cfc06e1df427546ce916500888df9192dd179e6e0bb14ad67201d",
+      "sourceSize": [
+        802,
+        1240
+      ],
+      "size": [
+        582,
+        900
+      ],
+      "bytes": 65842
+    },
+    "T2-08": {
+      "path": "assets/T2-08.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代2/火药与早期化学.png",
+      "sourceSha256": "13107d68291ccc4502b0cf65dfa4ce8799dd85a86cf8f4f882f3c850cf9d0ecb",
+      "sourceSize": [
+        802,
+        1245
+      ],
+      "size": [
+        580,
+        900
+      ],
+      "bytes": 65004
+    },
+    "T2-09": {
+      "path": "assets/T2-09.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代2/日心说.png",
+      "sourceSha256": "9218b62c74da834c63536fc56b0614a47b5ab886cc11e8dceebe5c641825b407",
+      "sourceSize": [
+        802,
+        1248
+      ],
+      "size": [
+        578,
+        900
+      ],
+      "bytes": 61662
+    },
+    "T2-10": {
+      "path": "assets/T2-10.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代2/伽利略运动学.png",
+      "sourceSha256": "a7203a22106a5d31e2c776fc2e23e84991e80347a84d5d350d24b146c7733b69",
+      "sourceSize": [
+        802,
+        1240
+      ],
+      "size": [
+        582,
+        900
+      ],
+      "bytes": 62852
+    },
+    "T2-11": {
+      "path": "assets/T2-11.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代2/机械钟.jpg",
+      "sourceSha256": "1476b0bdfecc2cae2bf17509b1fc2115a9cb3aa9882fb870f8ea53c856dcf841",
+      "sourceSize": [
+        786,
+        1198
+      ],
+      "size": [
+        590,
+        900
+      ],
+      "bytes": 71250
+    },
+    "T2-12": {
+      "path": "assets/T2-12.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代2/经典力学和万有引力.jpg",
+      "sourceSha256": "a78e4e07a7c49d5c8721db0f7f79f4160fe704998af63b0e8865a894730561e6",
+      "sourceSize": [
+        786,
+        1195
+      ],
+      "size": [
+        592,
+        900
+      ],
+      "bytes": 71138
+    },
+    "T3-01": {
+      "path": "assets/T3-01.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代3/近代化学：质量守恒与氧化.jpg",
+      "sourceSha256": "33a1b292965887dbd3503c927dbe9cfdf622513d82dd2211786f9da772504b02",
+      "sourceSize": [
+        787,
+        1196
+      ],
+      "size": [
+        592,
+        900
+      ],
+      "bytes": 62082
+    },
+    "T3-02": {
+      "path": "assets/T3-02.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代3/解析几何.jpg",
+      "sourceSha256": "f3179d9150f5bcdb68d9878d3266bc4712830c6cda77e255e9775fadfa10e1ef",
+      "sourceSize": [
+        782,
+        1229
+      ],
+      "size": [
+        573,
+        900
+      ],
+      "bytes": 63352
+    },
+    "T3-03": {
+      "path": "assets/T3-03.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代3/微积分.jpg",
+      "sourceSha256": "9d2be2c30bbe9768c38261554adb36b627cf17aa263d3e8fa0609b5a3419231d",
+      "sourceSize": [
+        783,
+        1230
+      ],
+      "size": [
+        573,
+        900
+      ],
+      "bytes": 66644
+    },
+    "T3-04": {
+      "path": "assets/T3-04.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代3/燃素说.jpg",
+      "sourceSha256": "b1c77417fa32441bea495a34bc89b7d07394aa949143247bacb9d27eeb768258",
+      "sourceSize": [
+        783,
+        1233
+      ],
+      "size": [
+        572,
+        900
+      ],
+      "bytes": 59360
+    },
+    "T3-05": {
+      "path": "assets/T3-05.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代3/炼钢.jpg",
+      "sourceSha256": "25b44fbb6a25da490d06d14e469483fe8961f41562d3248728f9833cc9823c3d",
+      "sourceSize": [
+        786,
+        1195
+      ],
+      "size": [
+        592,
+        900
+      ],
+      "bytes": 67088
+    },
+    "T3-06": {
+      "path": "assets/T3-06.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代3/蒸汽机.jpg",
+      "sourceSha256": "1b93a3b210d06f6108ddc62eb28fdfe236bc0974926ddd2cc09e391873dd8b90",
+      "sourceSize": [
+        782,
+        1231
+      ],
+      "size": [
+        572,
+        900
+      ],
+      "bytes": 61418
+    },
+    "T3-07": {
+      "path": "assets/T3-07.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代3/热力学.jpg",
+      "sourceSha256": "034aa4d3fb5d8e11e41ec764ab9e00fa4b5954a4de9dca3caf951ed595e02ca2",
+      "sourceSize": [
+        784,
+        1230
+      ],
+      "size": [
+        574,
+        900
+      ],
+      "bytes": 61918
+    },
+    "T3-08": {
+      "path": "assets/T3-08.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代3/机械化工业.jpg",
+      "sourceSha256": "1e52e95a14cab893223b0bf28b64f4efd2577b6548f2efe67c1aae39d53ac597",
+      "sourceSize": [
+        782,
+        1231
+      ],
+      "size": [
+        572,
+        900
+      ],
+      "bytes": 67630
+    },
+    "T3-09": {
+      "path": "assets/T3-09.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代3/铁路与蒸汽运输.jpg",
+      "sourceSha256": "d68f6a7a094617989ef6c26988ade47930d86d6ff608ed348efbfe2f560d4679",
+      "sourceSize": [
+        783,
+        1230
+      ],
+      "size": [
+        573,
+        900
+      ],
+      "bytes": 66568
+    },
+    "T3-10": {
+      "path": "assets/T3-10.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代3/电磁学.jpg",
+      "sourceSha256": "230d5e7178f783cc71d48cde73fe156b7e929ab0be84dd74cd976b010063a415",
+      "sourceSize": [
+        784,
+        1231
+      ],
+      "size": [
+        573,
+        900
+      ],
+      "bytes": 62678
+    },
+    "T3-11": {
+      "path": "assets/T3-11.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代3/电力系统.jpg",
+      "sourceSha256": "00c2b6938f3365f4d7be0d81104c22498aa252d4feea2515bbe8f3ed451920b9",
+      "sourceSize": [
+        783,
+        1231
+      ],
+      "size": [
+        572,
+        900
+      ],
+      "bytes": 63298
+    },
+    "T3-12": {
+      "path": "assets/T3-12.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代3/量子理论.jpg",
+      "sourceSha256": "059816916617c630f11a35865f1ccbee40294de0d0fbd9553758625d48b1839a",
+      "sourceSize": [
+        786,
+        1196
+      ],
+      "size": [
+        591,
+        900
+      ],
+      "bytes": 69928
+    },
+    "T4-01": {
+      "path": "assets/T4-01.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代4/相对论.jpg",
+      "sourceSha256": "bde8069b451fd35cd7c25c51503566f39b9a906292476461a946c86d34dd8e51",
+      "sourceSize": [
+        788,
+        1196
+      ],
+      "size": [
+        593,
+        900
+      ],
+      "bytes": 68686
+    },
+    "T4-02": {
+      "path": "assets/T4-02.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代4/元素周期律.jpg",
+      "sourceSha256": "80be36f6da841292699c481c29c9790e97006acf2a1121e587efebd07017e40c",
+      "sourceSize": [
+        782,
+        1232
+      ],
+      "size": [
+        571,
+        900
+      ],
+      "bytes": 77922
+    },
+    "T4-03": {
+      "path": "assets/T4-03.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代4/李森科主义.jpg",
+      "sourceSha256": "38806dc2ce8fe2d62cd56e76bcab016ad9a5113bb945749267ad5a26feb1f179",
+      "sourceSize": [
+        784,
+        1230
+      ],
+      "size": [
+        574,
+        900
+      ],
+      "bytes": 72190
+    },
+    "T4-04": {
+      "path": "assets/T4-04.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代4/达尔文进化论.jpg",
+      "sourceSha256": "28ba4816a4c4a9e1e8555794d280a38ee67db1fb92936d7b39383eb60a6e4c9c",
+      "sourceSize": [
+        783,
+        1231
+      ],
+      "size": [
+        572,
+        900
+      ],
+      "bytes": 73938
+    },
+    "T4-05": {
+      "path": "assets/T4-05.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代4/航空.jpg",
+      "sourceSha256": "77f1d015b8bb984e4c40c4ebbac68bf0546617ee576618ad07485f718daf0bb2",
+      "sourceSize": [
+        782,
+        1233
+      ],
+      "size": [
+        571,
+        900
+      ],
+      "bytes": 71074
+    },
+    "T4-06": {
+      "path": "assets/T4-06.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代4/内燃机.jpg",
+      "sourceSha256": "e11803fee710e0c3929f651ee4eaa495a91ad154bf5a7c0d3c1098e0cf8a69d8",
+      "sourceSize": [
+        782,
+        1230
+      ],
+      "size": [
+        572,
+        900
+      ],
+      "bytes": 69730
+    },
+    "T4-07": {
+      "path": "assets/T4-07.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代4/石油炼制与现代化工.jpg",
+      "sourceSha256": "10be83140edb3404e405fa772e8209f1b823deef6b502b27cbd00338f3b7fefc",
+      "sourceSize": [
+        783,
+        1230
+      ],
+      "size": [
+        573,
+        900
+      ],
+      "bytes": 70238
+    },
+    "T4-08": {
+      "path": "assets/T4-08.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代4/原子核物理.jpg",
+      "sourceSha256": "0185bcac355e413e7573aa306378b7da4721559d79679b176f3e84154f258bd2",
+      "sourceSize": [
+        783,
+        1230
+      ],
+      "size": [
+        573,
+        900
+      ],
+      "bytes": 63770
+    },
+    "T4-09": {
+      "path": "assets/T4-09.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代4/核裂变与核能.jpg",
+      "sourceSha256": "d81954a91a45b55ac4b0dd082e6acfed3d709f2febc0a75033c8baa234fa582f",
+      "sourceSize": [
+        784,
+        1230
+      ],
+      "size": [
+        574,
+        900
+      ],
+      "bytes": 76514
+    },
+    "T4-10": {
+      "path": "assets/T4-10.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代4/原子弹与核武器.jpg",
+      "sourceSha256": "34c72799a3cf380593f0f82f03d97cf3e563fb39f10397997531d66555e53927",
+      "sourceSize": [
+        782,
+        1229
+      ],
+      "size": [
+        573,
+        900
+      ],
+      "bytes": 64078
+    },
+    "T4-11": {
+      "path": "assets/T4-11.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代4/抗生素.jpg",
+      "sourceSha256": "8050a080dccbcf525af07ff341c87489ad7fb08090bbba1c5ff76b276d2ab573",
+      "sourceSize": [
+        784,
+        1231
+      ],
+      "size": [
+        573,
+        900
+      ],
+      "bytes": 67762
+    },
+    "T4-12": {
+      "path": "assets/T4-12.webp",
+      "type": "card",
+      "source": "卡牌/科技/基础/时代4/电子计算机.jpg",
+      "sourceSha256": "49fada1258676d2fe7138b1ce9168464ce7043bc02d99cf24cbdd39c2e996b81",
+      "sourceSize": [
+        786,
+        1195
+      ],
+      "size": [
+        592,
+        900
+      ],
+      "bytes": 63876
+    },
+    "T5-01": {
+      "path": "assets/T5-01.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代5/半导体物理.png",
+      "sourceSha256": "5e9a14056519e974c9f5854c8a0ab7238262cc36bc26bebee8af3b7faabfb29f",
+      "sourceSize": [
+        802,
+        1243
+      ],
+      "size": [
+        581,
+        900
+      ],
+      "bytes": 64466
+    },
+    "T5-02": {
+      "path": "assets/T5-02.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代5/现代综合进化论与DNA.png",
+      "sourceSha256": "9311df3b39869734320f7ec18575a4802ad9461e589d86c4a7d35d8de9b55a46",
+      "sourceSize": [
+        802,
+        1240
+      ],
+      "size": [
+        582,
+        900
+      ],
+      "bytes": 72392
+    },
+    "T5-03": {
+      "path": "assets/T5-03.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代5/集成电路.png",
+      "sourceSha256": "039ab946ae90e0eca358bbfc6d802796c179672bea7896370cac3cb14e6ff98c",
+      "sourceSize": [
+        802,
+        1243
+      ],
+      "size": [
+        581,
+        900
+      ],
+      "bytes": 70692
+    },
+    "T5-04": {
+      "path": "assets/T5-04.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代5/信息论.png",
+      "sourceSha256": "93cc45d7121dfbc55e386f6a9ee24e7b7872e75b99f53a7f976dc25cadcf343a",
+      "sourceSize": [
+        802,
+        1240
+      ],
+      "size": [
+        582,
+        900
+      ],
+      "bytes": 67748
+    },
+    "T5-05": {
+      "path": "assets/T5-05.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代5/互联网.png",
+      "sourceSha256": "843922175efc17b1ad95b524c35292beaa89cb1be27ac7c0581bff94b3ae7c51",
+      "sourceSize": [
+        802,
+        1240
+      ],
+      "size": [
+        582,
+        900
+      ],
+      "bytes": 64580
+    },
+    "T5-06": {
+      "path": "assets/T5-06.webp",
+      "type": "card",
+      "source": "卡牌/科技/最终/通用人工智能.png",
+      "sourceSha256": "65625bf2ad94cbfbf104cdd01ed79adfbc058daadda4f97d3bfda24667eeff98",
+      "sourceSize": [
+        802,
+        1243
+      ],
+      "size": [
+        581,
+        900
+      ],
+      "bytes": 67262
+    },
+    "T5-07": {
+      "path": "assets/T5-07.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代5/巨型一体化压铸技术.png",
+      "sourceSha256": "b3a23d82027d8324623933ac168f72a7f041c278078c2a50d9a055be96bd7d92",
+      "sourceSize": [
+        802,
+        1245
+      ],
+      "size": [
+        580,
+        900
+      ],
+      "bytes": 68574
+    },
+    "T5-08": {
+      "path": "assets/T5-08.webp",
+      "type": "card",
+      "source": "卡牌/科技/最终/宇宙航行.png",
+      "sourceSha256": "9f7f719d9934d591e8dd8fa4a9ebe5eaa62c668f19e8ac5fca53178b3aa7d253",
+      "sourceSize": [
+        802,
+        1246
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 63194
+    },
+    "T5-09": {
+      "path": "assets/T5-09.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代5/稳态宇宙论.png",
+      "sourceSha256": "f1b99dd3a28b4e59a7bdadb0207503c82b0e01d4f67764f59f057f1a844a2b26",
+      "sourceSize": [
+        802,
+        1243
+      ],
+      "size": [
+        581,
+        900
+      ],
+      "bytes": 74584
+    },
+    "T5-10": {
+      "path": "assets/T5-10.webp",
+      "type": "card",
+      "source": "卡牌/科技/最终/脑机接口.png",
+      "sourceSha256": "5f98cdb0a625af38bdffa7e3dd86d38762b6cd99156b02f28285c59fbf0a2d25",
+      "sourceSize": [
+        803,
+        1242
+      ],
+      "size": [
+        582,
+        900
+      ],
+      "bytes": 63154
+    },
+    "T5-11": {
+      "path": "assets/T5-11.webp",
+      "type": "card",
+      "source": "卡牌/科技/专利/时代5/成瘾性药物.jpg",
+      "sourceSha256": "d3567903699326061e24e4c0a37f0f7a7d89939927d3d839fdb48555f919484c",
+      "sourceSize": [
+        784,
+        1229
+      ],
+      "size": [
+        574,
+        900
+      ],
+      "bytes": 86980
+    },
+    "W01-1": {
+      "path": "assets/W01-1.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代1/金字塔.jpg",
+      "sourceSha256": "263749928502aa5ffaaa3b87c31edafc88dc73b12978bea1dbb073632dd1d44f",
+      "sourceSize": [
+        758,
+        1237
+      ],
+      "size": [
+        551,
+        900
+      ],
+      "bytes": 61760
+    },
+    "W01-2": {
+      "path": "assets/W01-2.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代2/金字塔.jpg",
+      "sourceSha256": "7cf7ec8ebd42754e5140784295b72a495ee0bed3be2bccd97c2ba9c5aadd3d12",
+      "sourceSize": [
+        758,
+        1238
+      ],
+      "size": [
+        551,
+        900
+      ],
+      "bytes": 62112
+    },
+    "W02-1": {
+      "path": "assets/W02-1.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代1/巨石阵.jpg",
+      "sourceSha256": "cb85ccca27f6d2e2cfe6c3be490abcf6c79dd53380b3722b2416bd637c4a2a3d",
+      "sourceSize": [
+        759,
+        1237
+      ],
+      "size": [
+        552,
+        900
+      ],
+      "bytes": 68752
+    },
+    "W02-2": {
+      "path": "assets/W02-2.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代2/巨石阵.jpg",
+      "sourceSha256": "328a0d43ba8bc1fc6a371506a4d502db978bd2e76e0d1baf125bc0c2eb94522c",
+      "sourceSize": [
+        759,
+        1238
+      ],
+      "size": [
+        552,
+        900
+      ],
+      "bytes": 68730
+    },
+    "W03-1": {
+      "path": "assets/W03-1.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代1/空中花园.jpg",
+      "sourceSha256": "7a94f0a2120a46286566cbebf070b2733fa11cd1028c07286e35a42b23046550",
+      "sourceSize": [
+        758,
+        1237
+      ],
+      "size": [
+        551,
+        900
+      ],
+      "bytes": 74678
+    },
+    "W03-2": {
+      "path": "assets/W03-2.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代2/空中花园.jpg",
+      "sourceSha256": "d2078dc134ae77044245dc99245bcd60a2b908673746cd48ffe17562cfba0d1e",
+      "sourceSize": [
+        758,
+        1238
+      ],
+      "size": [
+        551,
+        900
+      ],
+      "bytes": 75670
+    },
+    "W04-1": {
+      "path": "assets/W04-1.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代1/兵马俑.jpg",
+      "sourceSha256": "94f343ef3ec3e98356b520b5aec7c2dacf142e2681db4b2ac07168da5f953302",
+      "sourceSize": [
+        759,
+        1237
+      ],
+      "size": [
+        552,
+        900
+      ],
+      "bytes": 72400
+    },
+    "W04-2": {
+      "path": "assets/W04-2.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代2/兵马俑.jpg",
+      "sourceSha256": "43f91f7f33ef9c11b173b6e6751e8af25e91f832bd77a2e6d4ba2e50ddaa7beb",
+      "sourceSize": [
+        759,
+        1238
+      ],
+      "size": [
+        552,
+        900
+      ],
+      "bytes": 72734
+    },
+    "W05-1": {
+      "path": "assets/W05-1.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代1/莫高窟.jpg",
+      "sourceSha256": "4239c342baa418a707fe87f73a5c4e56c121773ab19aa32ce8af4d591e133e41",
+      "sourceSize": [
+        758,
+        1237
+      ],
+      "size": [
+        551,
+        900
+      ],
+      "bytes": 71214
+    },
+    "W05-2": {
+      "path": "assets/W05-2.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代2/莫高窟.jpg",
+      "sourceSha256": "9c7ca2da57179caf6389a6b3aad1cbb842403cfa767072eefaaa44582d2fe619",
+      "sourceSize": [
+        758,
+        1238
+      ],
+      "size": [
+        551,
+        900
+      ],
+      "bytes": 71984
+    },
+    "W06-1": {
+      "path": "assets/W06-1.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代1/悬空寺.jpg",
+      "sourceSha256": "0b3eed9fddf1cf49a5d45a6fbb9dfc7275cd8a4737b8d53701017d5563c9750c",
+      "sourceSize": [
+        758,
+        1237
+      ],
+      "size": [
+        551,
+        900
+      ],
+      "bytes": 68940
+    },
+    "W06-2": {
+      "path": "assets/W06-2.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代2/悬空寺.jpg",
+      "sourceSha256": "1d9ce3ff27066c100ab0f5a624997bc1ad9353a1edf89698ca92ee8bcf117719",
+      "sourceSize": [
+        760,
+        1238
+      ],
+      "size": [
+        553,
+        900
+      ],
+      "bytes": 70618
+    },
+    "W07-3": {
+      "path": "assets/W07-3.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代3/紫禁城.jpg",
+      "sourceSha256": "5e7e0b680b32ac4330e62cb17b8cf1044fd6ac8cf06081c3c46cf88c2e33ad39",
+      "sourceSize": [
+        758,
+        1238
+      ],
+      "size": [
+        551,
+        900
+      ],
+      "bytes": 72924
+    },
+    "W07-4": {
+      "path": "assets/W07-4.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代4/紫禁城.jpg",
+      "sourceSha256": "fb729ee59faa5a4aecc93094222b8c9a1e159af9d90c3ff41d473d55d3698870",
+      "sourceSize": [
+        758,
+        1238
+      ],
+      "size": [
+        551,
+        900
+      ],
+      "bytes": 73538
+    },
+    "W08-3": {
+      "path": "assets/W08-3.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代3/苏伊士运河.jpg",
+      "sourceSha256": "7a58276fb9ad8b1ba31c7967228c0c17ee90ba4a44b351e0eb41b99406a675b1",
+      "sourceSize": [
+        759,
+        1238
+      ],
+      "size": [
+        552,
+        900
+      ],
+      "bytes": 65368
+    },
+    "W08-4": {
+      "path": "assets/W08-4.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代4/苏伊士运河.jpg",
+      "sourceSha256": "02424751570d1fed6edb19131434fd7fb4fb3de0180740a4357641ece7821cf7",
+      "sourceSize": [
+        759,
+        1238
+      ],
+      "size": [
+        552,
+        900
+      ],
+      "bytes": 64580
+    },
+    "W09-3": {
+      "path": "assets/W09-3.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代3/埃菲尔铁塔.jpg",
+      "sourceSha256": "523cf8172e462c6a0b9d44646c12dbb06643e48d8c302243161a3b7ed14394ae",
+      "sourceSize": [
+        758,
+        1238
+      ],
+      "size": [
+        551,
+        900
+      ],
+      "bytes": 67486
+    },
+    "W09-4": {
+      "path": "assets/W09-4.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代4/埃菲尔铁塔.jpg",
+      "sourceSha256": "0a6920256dff38c09d1e768b722efa329c61041745c12e0e9a2069c745a966a1",
+      "sourceSize": [
+        758,
+        1238
+      ],
+      "size": [
+        551,
+        900
+      ],
+      "bytes": 67174
+    },
+    "W10-3": {
+      "path": "assets/W10-3.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代3/ENIAC.png",
+      "sourceSha256": "548800d41a9d5529b871ae9bb58e568b5488f606ae4401aa8d31a75de6077295",
+      "sourceSize": [
+        767,
+        1163
+      ],
+      "size": [
+        594,
+        900
+      ],
+      "bytes": 68474
+    },
+    "W10-4": {
+      "path": "assets/W10-4.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代4/ENIAC.png",
+      "sourceSha256": "8e946bdf99981622dccd2d0359f696caf636d27348092b199fc1e5439fe271ae",
+      "sourceSize": [
+        767,
+        1164
+      ],
+      "size": [
+        593,
+        900
+      ],
+      "bytes": 68704
+    },
+    "W11-3": {
+      "path": "assets/W11-3.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代3/青藏铁路.png",
+      "sourceSha256": "b16fd9fe8e68c9a09667abf7c00b6527d6a8751e0f57dfdfe65d1f6592b4c80b",
+      "sourceSize": [
+        767,
+        1172
+      ],
+      "size": [
+        589,
+        900
+      ],
+      "bytes": 68136
+    },
+    "W11-4": {
+      "path": "assets/W11-4.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代4/青藏铁路.png",
+      "sourceSha256": "6ff2f7c3092f66014863788cd716d58e1ca786ad2aac2ec5119457363cb799c9",
+      "sourceSize": [
+        768,
+        1167
+      ],
+      "size": [
+        592,
+        900
+      ],
+      "bytes": 69756
+    },
+    "W12-3": {
+      "path": "assets/W12-3.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代3/大庆油田.png",
+      "sourceSha256": "32b5ccec8fa1caa85b99522de89749c889c8850dcb98699903f3bba413ee7445",
+      "sourceSize": [
+        767,
+        1162
+      ],
+      "size": [
+        594,
+        900
+      ],
+      "bytes": 70278
+    },
+    "W12-4": {
+      "path": "assets/W12-4.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代4/大庆油田.png",
+      "sourceSha256": "0455fccd90dcee01485dbaad935632957102c421579dc988c18979cde0cf15fa",
+      "sourceSize": [
+        767,
+        1163
+      ],
+      "size": [
+        594,
+        900
+      ],
+      "bytes": 71010
+    },
+    "W13-5": {
+      "path": "assets/W13-5.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代5/人类基因组计划.png",
+      "sourceSha256": "a8341d54ea1949ae4c0871a4ef02cd6884b7f7aa247abe47f456feff54b20484",
+      "sourceSize": [
+        767,
+        1163
+      ],
+      "size": [
+        594,
+        900
+      ],
+      "bytes": 81716
+    },
+    "W14-5": {
+      "path": "assets/W14-5.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代5/FAST.png",
+      "sourceSha256": "74af78158d7c836d55bd62959847b095764fa2c877080490159d31214b30b66d",
+      "sourceSize": [
+        767,
+        1163
+      ],
+      "size": [
+        594,
+        900
+      ],
+      "bytes": 77080
+    },
+    "W15-5": {
+      "path": "assets/W15-5.webp",
+      "type": "card",
+      "source": "卡牌/奇观/时代5/知春创新中心.png",
+      "sourceSha256": "bbe29980754807fe14519f3950f354ebe7065590c9c5b93fcdff3d1c55470e49",
+      "sourceSize": [
+        767,
+        1163
+      ],
+      "size": [
+        594,
+        900
+      ],
+      "bytes": 75114
+    },
+    "back-event": {
+      "path": "assets/back-event.webp",
+      "type": "back",
+      "source": "卡牌/事件/卡背.png",
+      "sourceSha256": "cbeb4539e6f0216c19b0ea58371c7559dcfbcc9759c85fdfb958df3dcf71f90d",
+      "sourceSize": [
+        869,
+        1249
+      ],
+      "size": [
+        626,
+        900
+      ],
+      "bytes": 26448
+    },
+    "back-final": {
+      "path": "assets/back-final.webp",
+      "type": "back",
+      "source": "卡牌/科技/最终/卡背.png",
+      "sourceSha256": "b5259f7ff831fbb7bc06dcc9ecc074dddd8bd11be87801f0bdb91a2d251642e9",
+      "sourceSize": [
+        790,
+        1221
+      ],
+      "size": [
+        582,
+        900
+      ],
+      "bytes": 32202
+    },
+    "back-resource": {
+      "path": "assets/back-resource.webp",
+      "type": "back",
+      "source": "卡牌/资源/卡背.png",
+      "sourceSha256": "76673755a6f553733d19c27321e211fdacb644d5c468dbf061b14b38705b82a7",
+      "sourceSize": [
+        855,
+        1328
+      ],
+      "size": [
+        579,
+        900
+      ],
+      "bytes": 20404
+    },
+    "back-tech-1": {
+      "path": "assets/back-tech-1.webp",
+      "type": "back",
+      "source": "卡牌/科技/基础/时代1/卡背.png",
+      "sourceSha256": "ba5d49c8728c22b79be556965d8fa491d0bb34b646dc18d6fc7b9663cc33aa6e",
+      "sourceSize": [
+        779,
+        1185
+      ],
+      "size": [
+        592,
+        900
+      ],
+      "bytes": 31012
+    },
+    "back-tech-2": {
+      "path": "assets/back-tech-2.webp",
+      "type": "back",
+      "source": "卡牌/科技/基础/时代2/卡背.png",
+      "sourceSha256": "2192f54c44447396ea4a257f9637ff0b9e86b9e485099fc31447064c0d8d74c0",
+      "sourceSize": [
+        779,
+        1186
+      ],
+      "size": [
+        591,
+        900
+      ],
+      "bytes": 31662
+    },
+    "back-tech-3": {
+      "path": "assets/back-tech-3.webp",
+      "type": "back",
+      "source": "卡牌/科技/基础/时代3/卡背.png",
+      "sourceSha256": "18937619300c0d73a4f186d25b590d66619fd681e2589a0eaa16b5d4385a186f",
+      "sourceSize": [
+        779,
+        1186
+      ],
+      "size": [
+        591,
+        900
+      ],
+      "bytes": 32546
+    },
+    "back-tech-4": {
+      "path": "assets/back-tech-4.webp",
+      "type": "back",
+      "source": "卡牌/科技/基础/时代4/卡背.png",
+      "sourceSha256": "a5d2f8e661229e6f4410aa23f0a425bf1f288fa67426761fb04d2cac110e648b",
+      "sourceSize": [
+        779,
+        1185
+      ],
+      "size": [
+        592,
+        900
+      ],
+      "bytes": 32832
+    },
+    "back-tech-5": {
+      "path": "assets/back-tech-5.webp",
+      "type": "back",
+      "source": "卡牌/科技/专利/时代5/卡背.png",
+      "sourceSha256": "446b0f5e3c25f31f3eeef58d54933142dfc0ed5df2c3abc7dcd8c8830efc42f0",
+      "sourceSize": [
+        784,
+        1221
+      ],
+      "size": [
+        578,
+        900
+      ],
+      "bytes": 26362
+    },
+    "back-wonder-1": {
+      "path": "assets/back-wonder-1.webp",
+      "type": "back",
+      "source": "卡牌/奇观/时代1/卡背.png",
+      "sourceSha256": "2fb16057132908f5b7d56f21d2795f9ef5af24abac56059c13770989f11f763f",
+      "sourceSize": [
+        863,
+        1368
+      ],
+      "size": [
+        568,
+        900
+      ],
+      "bytes": 39564
+    },
+    "back-wonder-2": {
+      "path": "assets/back-wonder-2.webp",
+      "type": "back",
+      "source": "卡牌/奇观/时代2/卡背.png",
+      "sourceSha256": "7f203d64227a4645ce04527c01d6fa4e25f7764ddc956a19cd162b1b27973e46",
+      "sourceSize": [
+        863,
+        1368
+      ],
+      "size": [
+        568,
+        900
+      ],
+      "bytes": 39996
+    },
+    "back-wonder-3": {
+      "path": "assets/back-wonder-3.webp",
+      "type": "back",
+      "source": "卡牌/奇观/时代3/卡背.png",
+      "sourceSha256": "91a17870ff095bae0ea34c33865372ffdf4e782d419b495d6a9d973d50d19758",
+      "sourceSize": [
+        863,
+        1368
+      ],
+      "size": [
+        568,
+        900
+      ],
+      "bytes": 40066
+    },
+    "back-wonder-4": {
+      "path": "assets/back-wonder-4.webp",
+      "type": "back",
+      "source": "卡牌/奇观/时代4/卡背.png",
+      "sourceSha256": "dc1ff85be6d9abe818dfbb51c8bd3b5d0dee984626d59bf7e6372791cdd2c217",
+      "sourceSize": [
+        863,
+        1368
+      ],
+      "size": [
+        568,
+        900
+      ],
+      "bytes": 40544
+    },
+    "back-wonder-5": {
+      "path": "assets/back-wonder-5.webp",
+      "type": "back",
+      "source": "卡牌/奇观/时代5/卡背.png",
+      "sourceSha256": "c38da259defa53a2ecbca6c9c4daa23fdfc6653e860b8ee10384c71348ab4c88",
+      "sourceSize": [
+        862,
+        1368
+      ],
+      "size": [
+        567,
+        900
+      ],
+      "bytes": 40256
+    }
+  }
+}

@@ -1,0 +1,9 @@
+# Replace play.example.com with a domain/subdomain you control.
+# Append this site block to the EXISTING Caddy configuration; do not replace it.
+# Keep Caddy's data directory persistent for automatic certificate renewal.
+play.example.com {
+    encode zstd gzip
+    # Preserve Host. The original game service requires same-origin API requests.
+    # This proxies only to the new service. Never add a file_server at project root.
+    reverse_proxy 127.0.0.1:8788
+}

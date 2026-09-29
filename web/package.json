@@ -1,0 +1,19 @@
+{
+  "name": "iteration-visual-boardgame",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "db:generate": "drizzle-kit generate",
+    "build": "node cloud/scripts/build-site.mjs",
+    "start": "node server.cjs",
+    "test": "node --test tests/*.test.cjs cloud/tests/adapter.test.mjs",
+    "test:rules": "node --test tests/payment_change.test.cjs tests/tabletop-assist.test.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.10",
+    "drizzle-orm": "0.45.2"
+  }
+}
