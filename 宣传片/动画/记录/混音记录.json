@@ -1,0 +1,73 @@
+{
+  "duration": 18.0,
+  "sampleRate": 48000,
+  "channels": 2,
+  "bits": 24,
+  "peakDBFS": -2.8662089050664834,
+  "rmsDBFS": -17.186997698152283,
+  "masterGain": 1,
+  "music": {
+    "file": "M01-原创电子管弦配乐.wav",
+    "excerptStart": 48,
+    "originalSynth": true
+  },
+  "events": [
+    {
+      "file": "A01-火声.wav",
+      "at": 0,
+      "duration": 6,
+      "gain": 0.36,
+      "actualDuration": 6.0
+    },
+    {
+      "file": "A04-建造.wav",
+      "at": 6.3,
+      "duration": 1.5,
+      "gain": 0.3,
+      "actualDuration": 1.5
+    },
+    {
+      "file": "A05-卡牌.wav",
+      "at": 10,
+      "duration": 0.488,
+      "gain": 0.85,
+      "actualDuration": 0.487625
+    },
+    {
+      "file": "A05-卡牌.wav",
+      "at": 9.9,
+      "duration": 0.488,
+      "gain": 0.7,
+      "actualDuration": 0.487625
+    },
+    {
+      "file": "A05-卡牌.wav",
+      "at": 10.25,
+      "duration": 0.488,
+      "gain": 0.65,
+      "actualDuration": 0.487625
+    },
+    {
+      "file": "A05-卡牌.wav",
+      "at": 10.6,
+      "duration": 0.488,
+      "gain": 0.65,
+      "actualDuration": 0.487625
+    },
+    {
+      "file": "A09-深空氛围.wav",
+      "at": 12,
+      "duration": 6,
+      "gain": 0.6,
+      "actualDuration": 6.0
+    },
+    {
+      "file": "A07-电子脉冲.wav",
+      "at": 13.2,
+      "duration": 2.5,
+      "gain": 0.18,
+      "actualDuration": 2.5
+    }
+  ],
+  "note": "过渡与落位使用同一秒制时间轴；现有合成配乐用于动作测试，可替换正式配乐。"
+}

@@ -1,0 +1,56 @@
+{
+  "videos": [
+    {
+      "file": "输出/更迭-插画电影化样片-v1.mp4",
+      "bytes": 19773996,
+      "sha256": "4478a7fd27e0a43538484157d2ee35db2e4403ff5f4d46f80c363c8ded23e83e",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "decodedFrames": 540,
+      "decodeExitCode": 0,
+      "audioChannels": 2,
+      "audioSampleRate": 48000,
+      "audioDuration": 18.005333333333333,
+      "audioPeakDBFS": -2.8692388197686585,
+      "audioNonSilent": true,
+      "audioClippedSamples": 0,
+      "passed": true
+    },
+    {
+      "file": "输出/原版效果-对照.mp4",
+      "bytes": 14165317,
+      "sha256": "b09f198f8782c5fac5cd71732a5416023a85438f397392520014b89976ddf2be",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "decodedFrames": 540,
+      "decodeExitCode": 0,
+      "audioChannels": 2,
+      "audioSampleRate": 48000,
+      "audioDuration": 18.005333333333333,
+      "audioPeakDBFS": -2.8692388197686585,
+      "audioNonSilent": true,
+      "audioClippedSamples": 0,
+      "passed": true
+    },
+    {
+      "file": "输出/更迭-动画升级对比-v1.mp4",
+      "bytes": 11038445,
+      "sha256": "db084a3986cb18f3b1a1141001377428a8da7c8ec23ee10c13a765bb96e23a8c",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "decodedFrames": 540,
+      "decodeExitCode": 0,
+      "audioChannels": 2,
+      "audioSampleRate": 48000,
+      "audioDuration": 18.005333333333333,
+      "audioPeakDBFS": -2.8692388197686585,
+      "audioNonSilent": true,
+      "audioClippedSamples": 0,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

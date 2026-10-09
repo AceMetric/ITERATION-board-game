@@ -1,0 +1,4 @@
+.cache/
+输出/frames/
+输出/compare-frames/
+工具/__pycache__/

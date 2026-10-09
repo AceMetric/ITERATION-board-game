@@ -31,7 +31,7 @@
     const bottom=ctx.createLinearGradient(0,1080,0,820);bottom.addColorStop(0,'rgba(9,18,32,.75)');bottom.addColorStop(1,'rgba(9,18,32,0)');ctx.fillStyle=bottom;ctx.fillRect(0,820,1920,260);
     if(!isProduct&&shot.cards&&shot.cards.length&&opts.showCards!==false){const cardW=shot.cards.length>1?170:210;const cardH=shot.cards.length>1?285:350;const right=side!=='right';for(let i=0;i<shot.cards.length;i++){const image=await load(shot.cards[i]);ctx.save();ctx.shadowColor='#08111dd9';ctx.shadowBlur=25;contain(ctx,image,right?1680-i*(cardW+16):120+i*(cardW+16),shot.id==='08'?100:690,cardW,cardH);ctx.restore();}}
     if(opts.effects!==false&&shot.effect){PromoEffects.render(ctx,1920,1080,shot.effect,p,20261009);}
-    text(ctx,shot);ctx.restore();
+    if(opts.showText!==false)text(ctx,shot);ctx.restore();
   }
   global.PromoFrame={render,ready,load,cover,contain,text};
 })(window);

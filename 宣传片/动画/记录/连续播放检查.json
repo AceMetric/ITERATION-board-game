@@ -1,0 +1,41 @@
+{
+  "ended": true,
+  "duration": 18,
+  "elapsed": 18.20959999999404,
+  "quality": {
+    "totalVideoFrames": 540,
+    "droppedVideoFrames": 0,
+    "corruptedVideoFrames": 0
+  },
+  "frames": [
+    {
+      "requested": 2,
+      "mediaTime": 2
+    },
+    {
+      "requested": 2.3,
+      "mediaTime": 2.3
+    },
+    {
+      "requested": 8,
+      "mediaTime": 8
+    },
+    {
+      "requested": 8.3,
+      "mediaTime": 8.3
+    },
+    {
+      "requested": 14,
+      "mediaTime": 14
+    },
+    {
+      "requested": 14.3,
+      "mediaTime": 14.3
+    },
+    {
+      "requested": 17.3,
+      "mediaTime": 17.3
+    }
+  ],
+  "passed": true
+}

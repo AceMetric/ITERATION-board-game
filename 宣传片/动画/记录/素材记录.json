@@ -1,0 +1,101 @@
+{
+  "newImageCount": 6,
+  "images": [
+    {
+      "path": "素材/火光/人物与器物.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        25,
+        7,
+        1672,
+        941
+      ],
+      "sha256": "403d17f4fdaeff2c36b0f0441e30e89858ec888d399e3874a0760059c081d2d6"
+    },
+    {
+      "path": "素材/火光/火焰.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "alphaBBox": [
+        31,
+        10,
+        1016,
+        1536
+      ],
+      "sha256": "808486980e8fb93ab7321c926859ad53ae496449f7da018d6ec886e973f3cf86"
+    },
+    {
+      "path": "素材/火光/背景.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "alphaRange": [
+        255,
+        255
+      ],
+      "alphaBBox": null,
+      "sha256": "d6b768301b3e21cfbe7ee150fc30241478ef792f357bd108fb233fd49497ad96"
+    },
+    {
+      "path": "素材/火光/近景.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "sha256": "9ebd02598dc2dec9a3f8a35a52878c0027735b543e8cf5b9befb04198714b978"
+    },
+    {
+      "path": "素材/金字塔/建筑.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        97,
+        169,
+        1672,
+        866
+      ],
+      "sha256": "c54e1fe6e3c0363a3fa0cb1a7b7a6ad334148bba3646570245ce1c4731557adb"
+    },
+    {
+      "path": "素材/金字塔/环境.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "alphaRange": [
+        255,
+        255
+      ],
+      "alphaBBox": null,
+      "sha256": "5166c039d70f12c221baf4fb3bd131a3002cbfbc26e17819560fed84df2de62f"
+    }
+  ],
+  "spaceLayers": "引用 ../素材/图层/BG-09/ 三份现有对齐图层",
+  "placement": "程序/参数.js 中的火光图层尺寸、位置与锚点；金字塔建筑层有小幅位置校准；地球保持底边余量。",
+  "generatedBy": "builtin ImageGen",
+  "nativeSceneResolutionPassed": false
+}

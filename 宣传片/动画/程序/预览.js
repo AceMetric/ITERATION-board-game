@@ -1,0 +1,11 @@
+import{init}from'./动画.js';
+const $=id=>document.getElementById(id),canvas=$('movie'),audio=$('audio');let playing=false,time=0,base=0,start=0,raf=0,busy=false,ready=false;
+const opts=()=>({mode:$('mode').value,text:$('text').checked});
+async function draw(){if(!ready)return;await promoMovie.render(time,opts());$('seek').value=time;$('time').textContent=time.toFixed(2)+' / 18.00';document.querySelectorAll('[data-t]').forEach(b=>b.classList.toggle('active',Math.floor(time/6)===Number(b.dataset.t)/6));}
+function pause(){playing=false;cancelAnimationFrame(raf);audio.pause();$('play').textContent='播放';}
+async function loop(now){if(!playing)return;time=Math.min(17.9666666667,base+(now-start)/1000);if(!busy){busy=true;await draw();busy=false;}if(time>=17.9666666){pause();return;}raf=requestAnimationFrame(loop);}
+async function play(){if(!ready)return;if(playing){pause();return;}if(time>=17.95)time=0;base=time;start=performance.now();audio.currentTime=time;audio.muted=!$('sound').checked;if(!audio.muted){try{await audio.play();}catch{$('status').textContent='声音未加载，仍可观看';}}start=performance.now();playing=true;$('play').textContent='暂停';raf=requestAnimationFrame(loop);}
+async function seek(t){pause();time=Math.max(0,Math.min(17.9666666667,Math.round(t*30)/30));audio.currentTime=time;await draw();}
+$('play').onclick=play;$('seek').oninput=()=>seek(Number($('seek').value));$('prev').onclick=()=>seek(time-1/30);$('next').onclick=()=>seek(time+1/30);$('mode').onchange=()=>draw();$('text').onchange=()=>draw();$('sound').onchange=()=>{audio.muted=!$('sound').checked;if(playing&&!audio.muted)audio.play().catch(()=>{});};document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>seek(Number(b.dataset.t)));
+document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT'||e.target.tagName==='SELECT')return;if(e.code==='Space'){e.preventDefault();play();}if(e.code==='ArrowLeft'){e.preventDefault();seek(time-1/30);}if(e.code==='ArrowRight'){e.preventDefault();seek(time+1/30);}});
+try{await init(canvas);ready=true;await draw();$('loading').remove();$('play').disabled=false;window.movieReady=true;window.movieUI={seek,getTime:()=>time,pause};}catch(e){$('loading').textContent='场景加载失败：'+e.message;console.error(e);}

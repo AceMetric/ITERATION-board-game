@@ -1,0 +1,55 @@
+{
+  "deterministic": [
+    {
+      "t": 2.2,
+      "repeatable": true
+    },
+    {
+      "t": 8.2,
+      "repeatable": true
+    },
+    {
+      "t": 15.2,
+      "repeatable": true
+    }
+  ],
+  "textToggle": true,
+  "effectToggle": true,
+  "baselineDifferent": true,
+  "baselineTextToggle": true,
+  "audio": {
+    "duration": 17.99997732426304,
+    "sampleRate": 44100,
+    "channels": 2
+  },
+  "fonts": true,
+  "frameControls": {
+    "next": 7.033333333333333,
+    "prev": 7,
+    "segmentSeek": 12
+  },
+  "clock": {
+    "played": 1.331400000008941,
+    "elapsed": 1.37,
+    "passed": true
+  },
+  "metadata": [
+    {
+      "file": "更迭-插画电影化样片-v1.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 18,
+      "decodedMediaTime": 14.033333
+    },
+    {
+      "file": "更迭-动画升级对比-v1.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 18,
+      "decodedMediaTime": 14.033333
+    }
+  ],
+  "errors": [],
+  "bad": [],
+  "passed": true
+}
