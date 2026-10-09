@@ -12,6 +12,7 @@ const contact=await page.evaluate(async frames=>{const canvas=document.createEle
 const mogao=await page.evaluate(()=>window.promoExport.renderShot('04',{progress:.65,variant:'mogao'}));save(mogao,path.join(out,'效果稿/逐镜/SHOT-04B.png'));
 for(const kind of ['fire','atmosphere','cards','network','stars']){const data=await page.evaluate(async kind=>window.promoExport.renderEffect(kind,.6),kind);save(data,path.join(out,'素材/效果',`FX-${kind}.png`));}
 for(const [id,name]of [['04','01-古代创造与奇观'],['06','02-工业工程与现代科学'],['09','03-星辰与桌游']]){const data=await page.evaluate(async id=>window.promoExport.renderShot(id,{progress:.65}),id);save(data,path.join(out,'效果稿',name+'.png'));}
+const layers=await page.evaluate(()=>window.promoExport.renderLayers());save(layers,path.join(out,'素材/图层/BG-09/拼合检查.png'));
 await page.setViewportSize({width:1440,height:1080});await page.reload();await page.waitForFunction(()=>window.promoReady);await page.screenshot({path:path.join(out,'效果稿/素材预览.png'),fullPage:true});
 const sourceFonts=await page.evaluate(()=>document.fonts.check('700 80px SourceHan'));if(!sourceFonts)errors.push('Font loading failed');
 console.log(JSON.stringify({text:10,product:2,effects:5,studies:3,shotFrames:10,fontLoaded:sourceFonts,errors}));await browser.close();if(errors.length)process.exitCode=1;})();

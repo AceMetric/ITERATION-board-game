@@ -69,7 +69,7 @@ def main():
   r={'id':f'L-09-{part}','kind':'layer','name':name,'shots':['09'],'path':path,'status':'待制作'}
   if (ROOT/path).exists():
    with Image.open(ROOT/path) as im:r.update(width=im.width,height=im.height)
-   r.update(status='已制作，待拼合检查')
+   r.update(status='已制作；同画布拼合已检查',refPaths=['宣传片/素材/正式场景/BG-09-星辰与未来.png'],source='宣传片/记录/生成记录.json',alignment=[0,0,r['width'],r['height']])
   records.append(r)
  scene_by_id={r['id']:r for r in records if r['kind']=='scene'}
  exploration={'BG-04A':'素材/主图/S05-文明的共同创造.png','BG-06':'素材/主图/S03-蒸汽与工程.png','BG-09':'素材/主图/S06-星辰与未来.png'}
@@ -84,7 +84,7 @@ def main():
   shot['cutouts']=['../'+r['path'] for r in records if r['kind']=='cutout' and id in r['shots']]
   if id in ['05','10']:shot['backs']=['../'+source_paths[k] for k in ['back-resource','back-tech-1','back-wonder-1']]
   shots.append(shot)
-  records.append({'id':'TXT-'+id,'kind':'text','name':''.join(lines),'shots':[id],'path':f'宣传片/素材/文字/TXT-{id}.png','source':'宣传片/程序/目录.js','status':'已制作' if (OUT/f'素材/文字/TXT-{id}.png').exists() else '待导出'})
+  records.append({'id':'TXT-'+id,'kind':'text','name':''.join(lines),'shots':[id],'path':f'宣传片/素材/文字/TXT-{id}.png','source':'宣传片/工具/准备资源.py','layoutSource':'宣传片/程序/画面.js','editablePath':f'宣传片/素材/文字/TXT-{id}.svg','status':'已制作' if (OUT/f'素材/文字/TXT-{id}.png').exists() else '待导出'})
   x=1040 if side=='right' else 116
   title_y=240 if id=='10' else 270
   size=118 if id=='10' else 74
@@ -98,9 +98,11 @@ def main():
  for kind,name in [('fire','火光与火星'),('atmosphere','光照与空间气氛'),('cards','卡牌与资源运动'),('network','信息连接'),('stars','星辰与航迹')]:
   records.append({'id':'FX-'+kind,'kind':'effect','name':name,'path':f'宣传片/素材/效果/FX-{kind}.png','source':'宣传片/程序/效果.js','status':'程序已制作；待导出示例' if not (OUT/f'素材/效果/FX-{kind}.png').exists() else '已制作'})
  audio=[('M01','原创电子管弦配乐'),('A01','火声'),('A02','田野与流水'),('A03','纸页'),('A04','建造'),('A05','卡牌'),('A06','蒸汽与金属'),('A07','电子脉冲'),('A08','群山风声'),('A09','深空氛围')]
+ audio_log=OUT/'记录/声音记录.json'
+ audio_info={r['id']:r for r in json.loads(audio_log.read_text())} if audio_log.exists() else {}
  for id,name in audio:
   path=f'宣传片/素材/声音/{id}-{name}.wav'
-  records.append({'id':id,'kind':'audio','name':name,'path':path,'status':'已制作' if (ROOT/path).exists() else '待制作'})
+  records.append({**audio_info.get(id,{}),'id':id,'kind':'audio','name':name,'path':path,'status':'已制作' if (ROOT/path).exists() else '待制作'})
  for r in records:
   r.setdefault('version',1)
   if r['kind']=='original':
@@ -113,11 +115,21 @@ def main():
   if p.exists() and p.suffix=='.png':
    with Image.open(p) as im:r.update(width=im.width,height=im.height,mode=im.mode)
   if p.exists():r.setdefault('sha256',hashlib.sha256(p.read_bytes()).hexdigest())
- data={'version':1,'canvas':[1920,1080],'seed':20261009,'shots':shots,'assets':records,'sources':originals,'notes':['生成场景的原生尺寸单独记录；1080p排版导出不等于原生1080p插画。','三张早期探索稿保留在素材/主图，正式场景另存。']}
+ exports=[]
+ for directory in ['效果稿','素材/组件构图','素材/文字','素材/声音/分轨']:
+  for p in sorted((OUT/directory).rglob('*')):
+   if p.is_file() and p.suffix in ['.png','.svg','.wav']:
+    e={'path':str(p.relative_to(ROOT)),'version':1,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
+    if p.suffix=='.png':
+     with Image.open(p) as im:e.update(width=im.width,height=im.height)
+    exports.append(e)
+ fonts=[{'path':f'宣传片/素材/字体/SourceHanSansCN-{weight}.otf','weight':number,'version':1,'sha256':hashlib.sha256((OUT/f'素材/字体/SourceHanSansCN-{weight}.otf').read_bytes()).hexdigest(),'source':f'https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/SubsetOTF/CN/SourceHanSansCN-{weight}.otf','license':'宣传片/素材/字体/LICENSE.txt'} for weight,number in [('Regular',400),('Bold',700)]]
+ data={'version':1,'canvas':[1920,1080],'seed':20261009,'style':{'warmWhite':'#f5edd9','warmGold':'#e9be72','deepNavy':'#101d2d','tracking':'2px'},'fonts':fonts,'shots':shots,'assets':records,'exports':exports,'sources':originals,'notes':['生成场景的原生尺寸单独记录；1080p排版导出不等于原生1080p插画。','三张早期探索稿保留在素材/主图，正式场景另存。','文字源内容在工具/准备资源.py的LINES，排版在程序/画面.js；SVG保留可编辑文字。']}
  (OUT/'素材/素材清单.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
  (OUT/'程序/目录.js').write_text('window.PROMO_PACK='+json.dumps(data,ensure_ascii=False).replace('</','<\\/')+';\n')
  rows=['# 最终素材清单','','九幅场景、三层星辰、20 份原始组件、13 份新增可用的原始透明配图、十组文字、五类程序效果、一首配乐与九类音效。状态由实际文件更新。','','生成图的原生尺寸见 JSON 索引。低于 1920×1080 的场景仍明确标为分辨率待达标；1920×1080 的静帧排版不会改变这一验收结论。','','| 编号 | 名称 | 分类 | 状态 | 文件 |','| --- | --- | --- | --- | --- |']
  for r in records:rows.append(f"| {r['id']} | {r['name']} | {r['kind']} | {r['status']} | [{Path(r['path']).name}](../../{r['path']}) |")
+ rows+=['','## 附加交付','','两张桌游组件构图、三张静态效果稿、十张逐镜静帧及莫高窟备选、静帧总览、十份可编辑文字 SVG、四份配乐分轨。附加文件的实际尺寸与摘要也登记在 JSON 的 exports 中。','','[浏览素材](../资源预览.html) · [分镜静帧总览](../效果稿/分镜静帧总览.png) · [验收记录](../记录/验收记录.md)']
  (OUT/'策划/05-最终素材清单.md').write_text('\n'.join(rows)+'\n')
  print(f'Assets: {len(records)}; shots: {len(shots)}; originals: {len(REQUIRED)}')
 

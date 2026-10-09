@@ -5,6 +5,30 @@
     1080
   ],
   "seed": 20261009,
+  "style": {
+    "warmWhite": "#f5edd9",
+    "warmGold": "#e9be72",
+    "deepNavy": "#101d2d",
+    "tracking": "2px"
+  },
+  "fonts": [
+    {
+      "path": "宣传片/素材/字体/SourceHanSansCN-Regular.otf",
+      "weight": 400,
+      "version": 1,
+      "sha256": "e2bc8a2e7f37474b774fff8db758681ece40bb6947a90d571bce9dd60671a8e4",
+      "source": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/SubsetOTF/CN/SourceHanSansCN-Regular.otf",
+      "license": "宣传片/素材/字体/LICENSE.txt"
+    },
+    {
+      "path": "宣传片/素材/字体/SourceHanSansCN-Bold.otf",
+      "weight": 700,
+      "version": 1,
+      "sha256": "62383707c086a32f3afd5e293f34c7eff64c7fea31f579fdc6cbe34d920519a6",
+      "source": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/SubsetOTF/CN/SourceHanSansCN-Bold.otf",
+      "license": "宣传片/素材/字体/LICENSE.txt"
+    }
+  ],
   "shots": [
     {
       "id": "01",
@@ -1136,8 +1160,22 @@
         "09"
       ],
       "path": "宣传片/素材/图层/BG-09/L-09-BG.png",
-      "status": "待制作",
-      "version": 1
+      "status": "已制作；同画布拼合已检查",
+      "width": 1672,
+      "height": 941,
+      "refPaths": [
+        "宣传片/素材/正式场景/BG-09-星辰与未来.png"
+      ],
+      "source": "宣传片/记录/生成记录.json",
+      "alignment": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "version": 1,
+      "mode": "RGB",
+      "sha256": "a75c496fa72663f9bbea580c0d9f36bf475d08ffc6822e076ee839de15dc995e"
     },
     {
       "id": "L-09-EARTH",
@@ -1147,8 +1185,22 @@
         "09"
       ],
       "path": "宣传片/素材/图层/BG-09/L-09-EARTH.png",
-      "status": "待制作",
-      "version": 1
+      "status": "已制作；同画布拼合已检查",
+      "width": 1672,
+      "height": 941,
+      "refPaths": [
+        "宣传片/素材/正式场景/BG-09-星辰与未来.png"
+      ],
+      "source": "宣传片/记录/生成记录.json",
+      "alignment": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "version": 1,
+      "mode": "RGBA",
+      "sha256": "b727f95a6e216f7dc760a7f9eaeecd5c10be5c864143a87dfaa4abce4ae7127b"
     },
     {
       "id": "L-09-SHIP",
@@ -1158,8 +1210,22 @@
         "09"
       ],
       "path": "宣传片/素材/图层/BG-09/L-09-SHIP.png",
-      "status": "待制作",
-      "version": 1
+      "status": "已制作；同画布拼合已检查",
+      "width": 1672,
+      "height": 941,
+      "refPaths": [
+        "宣传片/素材/正式场景/BG-09-星辰与未来.png"
+      ],
+      "source": "宣传片/记录/生成记录.json",
+      "alignment": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "version": 1,
+      "mode": "RGBA",
+      "sha256": "12f8da33274c9a3a94b2986407d737b7cb306694135b9f9cf57d2d16344853ac"
     },
     {
       "id": "TXT-01",
@@ -1169,7 +1235,9 @@
         "01"
       ],
       "path": "宣传片/素材/文字/TXT-01.png",
-      "source": "宣传片/程序/目录.js",
+      "source": "宣传片/工具/准备资源.py",
+      "layoutSource": "宣传片/程序/画面.js",
+      "editablePath": "宣传片/素材/文字/TXT-01.svg",
       "status": "已制作",
       "version": 1,
       "width": 1920,
@@ -1185,7 +1253,9 @@
         "02"
       ],
       "path": "宣传片/素材/文字/TXT-02.png",
-      "source": "宣传片/程序/目录.js",
+      "source": "宣传片/工具/准备资源.py",
+      "layoutSource": "宣传片/程序/画面.js",
+      "editablePath": "宣传片/素材/文字/TXT-02.svg",
       "status": "已制作",
       "version": 1,
       "width": 1920,
@@ -1201,7 +1271,9 @@
         "03"
       ],
       "path": "宣传片/素材/文字/TXT-03.png",
-      "source": "宣传片/程序/目录.js",
+      "source": "宣传片/工具/准备资源.py",
+      "layoutSource": "宣传片/程序/画面.js",
+      "editablePath": "宣传片/素材/文字/TXT-03.svg",
       "status": "已制作",
       "version": 1,
       "width": 1920,
@@ -1217,7 +1289,9 @@
         "04"
       ],
       "path": "宣传片/素材/文字/TXT-04.png",
-      "source": "宣传片/程序/目录.js",
+      "source": "宣传片/工具/准备资源.py",
+      "layoutSource": "宣传片/程序/画面.js",
+      "editablePath": "宣传片/素材/文字/TXT-04.svg",
       "status": "已制作",
       "version": 1,
       "width": 1920,
@@ -1233,7 +1307,9 @@
         "05"
       ],
       "path": "宣传片/素材/文字/TXT-05.png",
-      "source": "宣传片/程序/目录.js",
+      "source": "宣传片/工具/准备资源.py",
+      "layoutSource": "宣传片/程序/画面.js",
+      "editablePath": "宣传片/素材/文字/TXT-05.svg",
       "status": "已制作",
       "version": 1,
       "width": 1920,
@@ -1249,7 +1325,9 @@
         "06"
       ],
       "path": "宣传片/素材/文字/TXT-06.png",
-      "source": "宣传片/程序/目录.js",
+      "source": "宣传片/工具/准备资源.py",
+      "layoutSource": "宣传片/程序/画面.js",
+      "editablePath": "宣传片/素材/文字/TXT-06.svg",
       "status": "已制作",
       "version": 1,
       "width": 1920,
@@ -1265,7 +1343,9 @@
         "07"
       ],
       "path": "宣传片/素材/文字/TXT-07.png",
-      "source": "宣传片/程序/目录.js",
+      "source": "宣传片/工具/准备资源.py",
+      "layoutSource": "宣传片/程序/画面.js",
+      "editablePath": "宣传片/素材/文字/TXT-07.svg",
       "status": "已制作",
       "version": 1,
       "width": 1920,
@@ -1281,7 +1361,9 @@
         "08"
       ],
       "path": "宣传片/素材/文字/TXT-08.png",
-      "source": "宣传片/程序/目录.js",
+      "source": "宣传片/工具/准备资源.py",
+      "layoutSource": "宣传片/程序/画面.js",
+      "editablePath": "宣传片/素材/文字/TXT-08.svg",
       "status": "已制作",
       "version": 1,
       "width": 1920,
@@ -1297,7 +1379,9 @@
         "09"
       ],
       "path": "宣传片/素材/文字/TXT-09.png",
-      "source": "宣传片/程序/目录.js",
+      "source": "宣传片/工具/准备资源.py",
+      "layoutSource": "宣传片/程序/画面.js",
+      "editablePath": "宣传片/素材/文字/TXT-09.svg",
       "status": "已制作",
       "version": 1,
       "width": 1920,
@@ -1313,7 +1397,9 @@
         "10"
       ],
       "path": "宣传片/素材/文字/TXT-10.png",
-      "source": "宣传片/程序/目录.js",
+      "source": "宣传片/工具/准备资源.py",
+      "layoutSource": "宣传片/程序/画面.js",
+      "editablePath": "宣传片/素材/文字/TXT-10.svg",
       "status": "已制作",
       "version": 1,
       "width": 1920,
@@ -1404,15 +1490,24 @@
       "width": 1920,
       "height": 1080,
       "mode": "RGBA",
-      "sha256": "bfbd78fdf2db4441ca5c1c5f7d640219c0dcbdd488b0c5e16d5fcf7192a4436d"
+      "sha256": "54e33dfd003f98a992f5286f2da122287ba688c6e7b2262c179b573b3d5d3ecb"
     },
     {
-      "id": "M01",
-      "kind": "audio",
-      "name": "原创电子管弦配乐",
       "path": "宣传片/素材/声音/M01-原创电子管弦配乐.wav",
-      "status": "待制作",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 85.0,
+      "peakDbFS": -2.16,
+      "rmsDbFS": -17.57,
+      "sha256": "2cce6512923210d9fd83618d555eda794f4307d94ba8142461b4609662a13c09",
+      "id": "M01",
+      "name": "原创电子管弦配乐",
+      "source": "Codex 原创加法合成",
       "version": 1,
+      "bpm": 72,
+      "key": "D major",
+      "description": "约85秒电子管弦版本，弦乐空间、上行铜管主题、钟音脉动与鼓组逐渐汇聚；四份分轨可重新混音。不是现场管弦录音。",
       "shots": [
         "01",
         "02",
@@ -1424,106 +1519,513 @@
         "08",
         "09",
         "10"
-      ]
+      ],
+      "kind": "audio",
+      "status": "已制作"
     },
     {
-      "id": "A01",
-      "kind": "audio",
-      "name": "火声",
       "path": "宣传片/素材/声音/A01-火声.wav",
-      "status": "待制作",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 12.0,
+      "peakDbFS": -6.35,
+      "rmsDbFS": -29.7,
+      "sha256": "9d300dae7f4e8e12936247d885b1b3c1522736dcacfaa75c027962e9cc420f25",
+      "id": "A01",
+      "name": "火声",
       "version": 1,
       "shots": [
         "01"
-      ]
+      ],
+      "source": {
+        "page": "https://opengameart.org/content/fire-crackling",
+        "download": "https://opengameart.org/sites/default/files/fire-1.wav",
+        "file": "宣传片/素材/声音/来源/fire-1.wav",
+        "author": "AntumDeluge",
+        "license": "CC0",
+        "sha256": "26702de8a195bcbafeae72034861d875a1b7917168a25106f4e1957ecdddf7e5"
+      },
+      "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出；录音交叉淡化延展至12秒",
+      "description": "火声",
+      "kind": "audio",
+      "status": "已制作"
     },
     {
-      "id": "A02",
-      "kind": "audio",
-      "name": "田野与流水",
       "path": "宣传片/素材/声音/A02-田野与流水.wav",
-      "status": "待制作",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 12.0,
+      "peakDbFS": -6.38,
+      "rmsDbFS": -25.09,
+      "sha256": "02da2d760191dee8e88020d81360bc309dcf2651c2f32916d145005b210f5990",
+      "id": "A02",
+      "name": "田野与流水",
       "version": 1,
       "shots": [
         "02"
-      ]
+      ],
+      "source": {
+        "page": "https://opengameart.org/content/waterflow-sound",
+        "download": "https://opengameart.org/sites/default/files/waterflow.mp3",
+        "file": "宣传片/素材/声音/来源/waterflow.mp3",
+        "author": "TyberiusGames",
+        "license": "CC0",
+        "sha256": "5a053719d5b06a8e5005dbe81b66e020f10312635a823d66883702568c971e92"
+      },
+      "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出；录音交叉淡化延展至12秒",
+      "description": "灌溉与河流的水声，田野感由画面承担。",
+      "kind": "audio",
+      "status": "已制作"
     },
     {
-      "id": "A03",
-      "kind": "audio",
-      "name": "纸页",
       "path": "宣传片/素材/声音/A03-纸页.wav",
-      "status": "待制作",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 2.45,
+      "peakDbFS": -6.38,
+      "rmsDbFS": -22.15,
+      "sha256": "b9d24b53b76326d777b8402cc40026229e0e8396eebd1a60281c66f3293ee20e",
+      "id": "A03",
+      "name": "纸页",
       "version": 1,
       "shots": [
         "03"
-      ]
+      ],
+      "source": {
+        "page": "https://opengameart.org/content/scorchers-foley-sounds",
+        "download": "https://opengameart.org/sites/default/files/paper_rustling.wav",
+        "file": "宣传片/素材/声音/来源/paper_rustling.wav",
+        "author": "scorcher24",
+        "license": "CC0",
+        "sha256": "d4dd16dae7adecf4b9b871dfaf938d57c45579bdd0f03b0af13e874d4bd5598c"
+      },
+      "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出",
+      "description": "纸页",
+      "kind": "audio",
+      "status": "已制作"
     },
     {
-      "id": "A04",
-      "kind": "audio",
-      "name": "建造",
       "path": "宣传片/素材/声音/A04-建造.wav",
-      "status": "待制作",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 3.6,
+      "peakDbFS": -6.37,
+      "rmsDbFS": -31.11,
+      "sha256": "c1fa6b9cdded75edf8426bb46fcae1ade6cad44ec0e9088c423636f39135f16b",
+      "id": "A04",
+      "name": "建造",
       "version": 1,
       "shots": [
         "04"
-      ]
+      ],
+      "source": {
+        "page": "https://opengameart.org/content/metal-impact-sounds",
+        "download": "https://opengameart.org/sites/default/files/thud2.wav",
+        "file": "宣传片/素材/声音/来源/thud2.wav",
+        "author": "Brian MacIntosh / BMacZero",
+        "license": "CC0",
+        "sha256": "5fb5c1b37a95cb6716d0bb529a0b9fe1ae9f3e2228b8f30c5c3dcbb1b570a3af"
+      },
+      "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出",
+      "description": "沉稳建造敲击；来自金属低沉撞击录音的三次编排。",
+      "kind": "audio",
+      "status": "已制作"
     },
     {
-      "id": "A05",
-      "kind": "audio",
-      "name": "卡牌",
       "path": "宣传片/素材/声音/A05-卡牌.wav",
-      "status": "待制作",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 0.488,
+      "peakDbFS": -6.2,
+      "rmsDbFS": -29.95,
+      "sha256": "6d1ff9cb9f719460ebfe32b1390e1c18101353f08c82bd0ac5be0d73968e68f6",
+      "id": "A05",
+      "name": "卡牌",
       "version": 1,
       "shots": [
         "05"
-      ]
+      ],
+      "source": {
+        "page": "https://opengameart.org/content/various-paper-sound-effects",
+        "download": "https://opengameart.org/sites/default/files/paper_sound_-_1.mp3",
+        "file": "宣传片/素材/声音/来源/paper_sound_-_1.mp3",
+        "author": "Luckius",
+        "license": "CC0",
+        "sha256": "f62e6cab41a9c0a8c67b5752c95e80e6adc681110d579ada982627909be1773d"
+      },
+      "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出",
+      "description": "纸张短滑动拟作卡牌落位；不是实录桌游卡牌。",
+      "kind": "audio",
+      "status": "已制作"
     },
     {
-      "id": "A06",
-      "kind": "audio",
-      "name": "蒸汽与金属",
       "path": "宣传片/素材/声音/A06-蒸汽与金属.wav",
-      "status": "待制作",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 12.0,
+      "peakDbFS": -6.35,
+      "rmsDbFS": -19.98,
+      "sha256": "1c971916eb166780915e19fa2ead9f941943d8053b5643caabaa049523490570",
+      "id": "A06",
+      "name": "蒸汽与金属",
       "version": 1,
       "shots": [
         "06"
-      ]
+      ],
+      "source": {
+        "page": "https://opengameart.org/content/steam-boiler-sound-loop",
+        "download": "https://opengameart.org/sites/default/files/generator_loop.wav",
+        "file": "宣传片/素材/声音/来源/generator_loop.wav",
+        "author": "bart",
+        "license": "CC0",
+        "sha256": "64b174cf8ef71e7f71aa03cf29864ab489f7be1f624456cab916043da38911bd"
+      },
+      "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出；录音交叉淡化延展至12秒",
+      "description": "蒸汽与金属",
+      "kind": "audio",
+      "status": "已制作"
     },
     {
-      "id": "A07",
-      "kind": "audio",
-      "name": "电子脉冲",
       "path": "宣传片/素材/声音/A07-电子脉冲.wav",
-      "status": "待制作",
-      "version": 1,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 6.0,
+      "peakDbFS": -7.96,
+      "rmsDbFS": -18.62,
+      "sha256": "c2e0391e4e28517720f9953e3b142e24cb1ae03de50faca7acd5e1faecc38f3e",
+      "id": "A07",
+      "name": "电子脉冲",
       "shots": [
         "07"
-      ]
+      ],
+      "version": 1,
+      "source": "Codex 原创合成",
+      "description": "固定音列的轻微电子脉冲，适配知识节点连接。",
+      "kind": "audio",
+      "status": "已制作"
     },
     {
-      "id": "A08",
-      "kind": "audio",
-      "name": "群山风声",
       "path": "宣传片/素材/声音/A08-群山风声.wav",
-      "status": "待制作",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 12.0,
+      "peakDbFS": -6.38,
+      "rmsDbFS": -25.34,
+      "sha256": "0954b2ac15386a3950937c22d2d2b816a8173c3c3951cce80a560ba51c3d5dcc",
+      "id": "A08",
+      "name": "群山风声",
       "version": 1,
       "shots": [
         "08"
-      ]
+      ],
+      "source": {
+        "page": "https://opengameart.org/content/short-wind-sound",
+        "download": "https://opengameart.org/sites/default/files/short%20wind%20sound.wav",
+        "file": "宣传片/素材/声音/来源/short wind sound.wav",
+        "author": "remaxim",
+        "license": "CC0",
+        "sha256": "4435f5ad1baf171f21f876f778d0a8a7447becea0c4955bb2566e0c63ab20f41"
+      },
+      "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出；录音交叉淡化延展至12秒",
+      "description": "山间风声氛围；原始短风声经过延展。",
+      "kind": "audio",
+      "status": "已制作"
     },
     {
-      "id": "A09",
-      "kind": "audio",
-      "name": "深空氛围",
       "path": "宣传片/素材/声音/A09-深空氛围.wav",
-      "status": "待制作",
-      "version": 1,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 16.0,
+      "peakDbFS": -10.46,
+      "rmsDbFS": -18.46,
+      "sha256": "9aa4d497b40506715bbd50c3f81e4c4b8763f03bdf9e8bbc8b5f355325f977ec",
+      "id": "A09",
+      "name": "深空氛围",
       "shots": [
         "09"
-      ]
+      ],
+      "version": 1,
+      "source": "Codex 原创合成",
+      "description": "低频和声与缓慢漂移的氛围设计，作为游戏未来愿景的声音。",
+      "kind": "audio",
+      "status": "已制作"
+    }
+  ],
+  "exports": [
+    {
+      "path": "宣传片/效果稿/01-古代创造与奇观.png",
+      "version": 1,
+      "sha256": "2b105a4ea3f6028622dbcd1415d520ff93e565ba6c695b95a79c6cac25b71763",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/效果稿/02-工业工程与现代科学.png",
+      "version": 1,
+      "sha256": "22dc44170fb149e88791cc4e7554b78563909a4788ea110c93c3df96c6676c88",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/效果稿/03-星辰与桌游.png",
+      "version": 1,
+      "sha256": "20db9b36dad6ef083387aed25e8a24fb64af36742cfbce10ea0c8eabfedbb14a",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/效果稿/分镜静帧总览.png",
+      "version": 1,
+      "sha256": "364babc985e1444de75d02438c800f611116772e88d94c703340e8e5d60eafba",
+      "width": 1920,
+      "height": 2900
+    },
+    {
+      "path": "宣传片/效果稿/素材预览.png",
+      "version": 1,
+      "sha256": "8a4e933b326662b6cb1cf4620f5011e35b71390a2de9e17cf754a254f8611965",
+      "width": 1440,
+      "height": 1269
+    },
+    {
+      "path": "宣传片/效果稿/逐镜/SHOT-01.png",
+      "version": 1,
+      "sha256": "20d665fd7cadba380ca32ad16d246549f86383fea3547a7a39449e88b9d4a583",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/效果稿/逐镜/SHOT-02.png",
+      "version": 1,
+      "sha256": "f3d4280bcd59d1672bd0832306c1c45d89d967e5f60bc2e66ca32b4ac291caf8",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/效果稿/逐镜/SHOT-03.png",
+      "version": 1,
+      "sha256": "d8bd0653b9921e607fed455a22f5d8e0fb1d326841fd34858549bc1ca3a2bd83",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/效果稿/逐镜/SHOT-04.png",
+      "version": 1,
+      "sha256": "2b105a4ea3f6028622dbcd1415d520ff93e565ba6c695b95a79c6cac25b71763",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/效果稿/逐镜/SHOT-04B.png",
+      "version": 1,
+      "sha256": "eeb0a3b980e6dc5f254adf402cc04fc9d15c092357dc8c8b0d1f1d9a9cb398de",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/效果稿/逐镜/SHOT-05.png",
+      "version": 1,
+      "sha256": "38962103ce8432f831bb222a97ff808ddd112401f33088d51709ec94bbe930a6",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/效果稿/逐镜/SHOT-06.png",
+      "version": 1,
+      "sha256": "22dc44170fb149e88791cc4e7554b78563909a4788ea110c93c3df96c6676c88",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/效果稿/逐镜/SHOT-07.png",
+      "version": 1,
+      "sha256": "78ea93a67425ef3a7fdf8af26289b728890f1e3d8ec5b6d0d349df82fb337a82",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/效果稿/逐镜/SHOT-08.png",
+      "version": 1,
+      "sha256": "15555b30ab0a307cbf0db909ad86f746946d5e508d44ad69b4757d6a27239721",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/效果稿/逐镜/SHOT-09.png",
+      "version": 1,
+      "sha256": "20db9b36dad6ef083387aed25e8a24fb64af36742cfbce10ea0c8eabfedbb14a",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/效果稿/逐镜/SHOT-10.png",
+      "version": 1,
+      "sha256": "d6dbf880e7b9257da431ac5885dfbbed4cf28620fa4e951ca71251bdf72d97e8",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/素材/组件构图/SHOT-05.png",
+      "version": 1,
+      "sha256": "0a3fd06668ba2d31143d2bf34b3727d48ade8af475a24d7ebde2af6334c2ef8e",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/素材/组件构图/SHOT-10.png",
+      "version": 1,
+      "sha256": "7bed2afe5440be9c8a4eadc101eb5465910876fa9fdc376a892a74790f9a3a70",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-01.png",
+      "version": 1,
+      "sha256": "bffd5ee588a4037a43d0304d4e9b40701bfec8f8eece86a21d2642f6dfdf2593",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-01.svg",
+      "version": 1,
+      "sha256": "6ab15d552bf406a6081089e0e02259b3b3e33c0bb5f2b63c1fee968b38535b32"
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-02.png",
+      "version": 1,
+      "sha256": "791782f3310f5be24b90f9e620b1b751972dc47befc651fec761e9c5068db423",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-02.svg",
+      "version": 1,
+      "sha256": "f3fd919b636fb617791bf6706e9f9361c0afe198037ea77253d8dbd3ec070458"
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-03.png",
+      "version": 1,
+      "sha256": "0c7721e7810b568682a454da1e230e6f4091c5ccac580dff8f7932e40080f92f",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-03.svg",
+      "version": 1,
+      "sha256": "d95b22613a1c0787e2a274cf861da9946f345a2b0ad40482c23cd0a0833eaaf0"
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-04.png",
+      "version": 1,
+      "sha256": "2dbb1cec013c5901726478582537f7cc5cd3d7f71f93e8821928b746da06a8be",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-04.svg",
+      "version": 1,
+      "sha256": "ffa0ffbfa5f1ba5f53e8ed0ee000b6e236ad5193d7a8c2990952ae10104c40ae"
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-05.png",
+      "version": 1,
+      "sha256": "fd966d14dfdd35a906f2efeb44f56f064465d9b451305bf77b5f13ded028d3a0",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-05.svg",
+      "version": 1,
+      "sha256": "27dfc278ecbb4646fcd8cb7a205227c00f5477bc56f99073cbc002e79df634d2"
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-06.png",
+      "version": 1,
+      "sha256": "160776dd5c67e4df9c5a27be199ad86c86ed5e3bc3d703aa2352a298d393e050",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-06.svg",
+      "version": 1,
+      "sha256": "193299b29612f222bcd1134c216bf1df0cd4a0ca5c9c6687c6721a89690b91cc"
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-07.png",
+      "version": 1,
+      "sha256": "24ce954d3e845a2adb40d891fd511fd32ec6f11cdf731eaea61d29f8f72cd1f9",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-07.svg",
+      "version": 1,
+      "sha256": "bdb752ec7134e1e7b18b9436fd8952f18ea7519d102920b32a9bd06cbe3ba298"
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-08.png",
+      "version": 1,
+      "sha256": "f2072263baafd361b935de8cae0065f93d9bee61af600d017da952adcba20f65",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-08.svg",
+      "version": 1,
+      "sha256": "3ef1d31a417bbd38c90d3e8863fe8a267013500f9564eefb0cb7fd36676ece01"
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-09.png",
+      "version": 1,
+      "sha256": "88712c278306d2bb310611fec306afb9bc9ab6b59024cc22aef6b95821658457",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-09.svg",
+      "version": 1,
+      "sha256": "e303e6a9fbef14deca4d37cf2c4f7207ae583bde66674d0c34519bd9e7a5dcde"
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-10.png",
+      "version": 1,
+      "sha256": "e6ce42da417bdc0077a6998862b5e16b88afad740388343f282c020d65ac584c",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "宣传片/素材/文字/TXT-10.svg",
+      "version": 1,
+      "sha256": "655be64995f5cd85945962b263e1dd694c562cfc42ba507ed6769146b984ab4f"
+    },
+    {
+      "path": "宣传片/素材/声音/分轨/M01-弦乐与空间.wav",
+      "version": 1,
+      "sha256": "6471109ce105bf608bf0eac151774ba121fda8c11b72164b2c71de6fb18280b7"
+    },
+    {
+      "path": "宣传片/素材/声音/分轨/M01-钟音与脉动.wav",
+      "version": 1,
+      "sha256": "cf4360cefc5b063e5fa2d80e707a5d6123e01f88cda8cbbf98ac440be431aa34"
+    },
+    {
+      "path": "宣传片/素材/声音/分轨/M01-铜管主题.wav",
+      "version": 1,
+      "sha256": "ff3e7404819fb0e35c8e50d4885968d08bcaff8c612cdc578a5cfc271fb435a9"
+    },
+    {
+      "path": "宣传片/素材/声音/分轨/M01-鼓与金属.wav",
+      "version": 1,
+      "sha256": "88443a824f582b0ace55e6dc938b510bcee05705d8a6a9c35244e979049c5902"
     }
   ],
   "sources": [
@@ -3610,6 +4112,7 @@
   ],
   "notes": [
     "生成场景的原生尺寸单独记录；1080p排版导出不等于原生1080p插画。",
-    "三张早期探索稿保留在素材/主图，正式场景另存。"
+    "三张早期探索稿保留在素材/主图，正式场景另存。",
+    "文字源内容在工具/准备资源.py的LINES，排版在程序/画面.js；SVG保留可编辑文字。"
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "functionalPassed": true,
+  "nativeSceneResolutionPassed": false,
+  "allCriteriaPassed": false,
+  "remaining": [
+    "九幅生成场景的原生尺寸为1672×941，尚未达到1920×1080最低要求。"
+  ],
+  "scope": "素材制作首版；不含最终动画剪辑。"
+}

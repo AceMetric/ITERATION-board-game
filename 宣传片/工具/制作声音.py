@@ -1,4 +1,4 @@
-"""Editable original score and processed CC0 foley. Needs only NumPy + macOS afconvert.
+"""Editable original score and processed CC0 foley. Needs NumPy + miniaudio.
 Run after visual approval: python3 制作声音.py
 The composition is original additive synthesis, not a recording of an orchestra.
 """
@@ -7,7 +7,8 @@ from urllib.request import urlopen, Request
 from urllib.parse import urljoin, unquote, urlparse, quote
 from html.parser import HTMLParser
 import numpy as np
-import wave, json, hashlib, subprocess
+import miniaudio
+import wave, json, hashlib
 
 OUT=Path(__file__).resolve().parents[1]
 DEST=OUT/'素材/声音'
@@ -130,12 +131,9 @@ def source(page,filename,author):
     if not file.exists():file.write_bytes(urlopen(Request(safe,headers={'User-Agent':'Mozilla/5.0'}),timeout=60).read())
     info={'page':page,'download':url,'file':str(file.relative_to(OUT.parent)),'author':author,'license':'CC0','sha256':hashlib.sha256(file.read_bytes()).hexdigest()}
     (RAW/(filename+'.来源.json')).write_text(json.dumps(info,ensure_ascii=False,indent=2)+'\n')
-    converted=RAW/(file.stem+'-48k.wav')
-    if not converted.exists():subprocess.run(['/usr/bin/afconvert','-f','WAVE','-d','LEI16@48000',str(file),str(converted)],check=True,capture_output=True)
-    with wave.open(str(converted),'rb') as f:
-        ch=f.getnchannels();x=np.frombuffer(f.readframes(f.getnframes()),dtype='<i2').reshape(-1,ch)/32768
-    if x.shape[1]==1:x=np.repeat(x,2,axis=1)
-    return x[:,:2],info
+    decoded=miniaudio.decode_file(str(file),output_format=miniaudio.SampleFormat.FLOAT32,nchannels=2,sample_rate=SR)
+    x=np.asarray(decoded.samples,dtype=np.float64).reshape(-1,2)
+    return x,info
 
 def normalize(x,peak=.48):return x*peak/max(np.max(np.abs(x)),1e-9)
 
@@ -162,7 +160,9 @@ def foley():
         x,info=source(page,file,author)
         if id=='A04':
             # Three measured, separated construction impacts with softer higher frequencies.
-            base=x.copy();x=np.zeros((int(3.6*SR),2))
+            freq=np.fft.rfftfreq(len(x),1/SR)
+            base=np.fft.irfft(np.fft.rfft(x,axis=0)/(1+(freq[:,None]/1800)**4),n=len(x),axis=0)
+            x=np.zeros((int(3.6*SR),2))
             for at,level in [(0,.9),(.85,.7),(1.8,1)]:
                 start=int(at*SR);n=min(len(base),len(x)-start);x[start:start+n]+=base[:n]*level
         if id=='A05':x=x[:int(min(.75,len(x)/SR)*SR)]

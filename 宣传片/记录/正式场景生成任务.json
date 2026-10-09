@@ -7,7 +7,9 @@
       "卡牌/科技/基础/时代1/驯火与热加工.png"
     ],
     "prompt": "Use case: historical-scene. Generate a new environment using the referenced card's central fire illustration as the texture, palette and subject reference; ignore card UI. FINAL PRODUCTION ART, not a mockup. Please output native 3840x2160 if supported, at least 1920x1080, 16:9 widescreen. Match the CENTRAL ARTWORK ONLY of the references: clearly faceted polygon planes, fine watercolor and fibrous-paper/mineral texture, hand-painted cut-paper feel, warm gold/orange light and deep indigo blue shadows. NOT photorealistic and NOT smooth glossy 3D. Epic, optimistic, solemn human civilization. No writing, letters, numbers, card frames, icons, watermarks or logos. Use restrained details, a strong readable subject, foreground/midground/distant space and 8% outer motion margins. Preserve an uncluttered quiet area for later independent typography. Subject: early settled humans transforming daily life with a hearth. In a twilight blue valley, a modest bright orange fire encircled by faceted stones occupies lower-right-center, with a clay cooking pot, wood, simple stone tools and modest food. Only three small respectfully portrayed people gathering or tending the hearth, simple ancient plant-fiber/leather clothing, no modern objects. A tiny settlement is faintly visible farther behind; low distant hills. Firelight reveals warm material texture, night sky conveys a vast beginning. Clear fire silhouette and pot, objects not merged. Left 40% has calm deep indigo twilight with very sparse landscape silhouettes, reserved for typography; no prominent person in left area. Composition should support small zoom from hearth details toward whole settlement, not a distant panoramic farm. No towering fantasy flame or giant faces.",
-    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-e4706244-ebf3-4565-946a-12db1aa0ee46.png"
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-e4706244-ebf3-4565-946a-12db1aa0ee46.png",
+    "version": 1,
+    "tool": "内置 ImageGen"
   },
   {
     "id": "BG-02",
@@ -18,7 +20,9 @@
       "卡牌/科技/基础/时代1/轮与车.png"
     ],
     "prompt": "Use case: historical-scene. FINAL PRODUCTION ART, not a mockup. Please output native 3840x2160 if supported, at least 1920x1080, 16:9 widescreen. Match the CENTRAL ARTWORK ONLY of the references: clearly faceted polygon planes, fine watercolor and fibrous-paper/mineral texture, hand-painted cut-paper feel, warm gold/orange light and deep indigo blue shadows. NOT photorealistic and NOT smooth glossy 3D. Epic, optimistic, solemn human civilization. No writing, letters, numbers, card frames, icons, watermarks or logos. Use restrained details, a strong readable subject, foreground/midground/distant space and 8% outer motion margins. Preserve an uncluttered quiet area for later independent typography. Ancient agricultural civilization transforming a fertile river valley. Use agricultural/irrigation central art for palette, tools and soil texture; wheel/cart only for a modest wooden cart. Right half foreground has a plausible simple irrigation channel and farmer with hoe, irrigation flowing gently toward structured small fields. Three small workers, humble contemporary-to-each-other ancient linen clothing, no machinery. Woven baskets and crops, a wood wheel cart at right midground, earth villages in far distance. Fields, river and blue mountains extend with monumental depth. Warm dawn light reflects off water and terracotta earth. Left upper 40% quiet shadowed landscape and open dawn sky for text. Foreground/midground/far distance strongly separated; human collaboration more important than war or rulers. No giant wheat, no modern turbines, no card motifs.",
-    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-d7275970-4eec-41e4-b186-a1e6222a8fd3.png"
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-d7275970-4eec-41e4-b186-a1e6222a8fd3.png",
+    "version": 1,
+    "tool": "内置 ImageGen"
   },
   {
     "id": "BG-03",
@@ -29,7 +33,9 @@
       "卡牌/科技/基础/时代2/远洋航海、测绘与指南针.jpg"
     ],
     "prompt": "Use case: historical-scene. FINAL PRODUCTION ART, not a mockup. Please output native 3840x2160 if supported, at least 1920x1080, 16:9 widescreen. Match the CENTRAL ARTWORK ONLY of the references: clearly faceted polygon planes, fine watercolor and fibrous-paper/mineral texture, hand-painted cut-paper feel, warm gold/orange light and deep indigo blue shadows. NOT photorealistic and NOT smooth glossy 3D. Epic, optimistic, solemn human civilization. No writing, letters, numbers, card frames, icons, watermarks or logos. Use restrained details, a strong readable subject, foreground/midground/distant space and 8% outer motion margins. Preserve an uncluttered quiet area for later independent typography. A plausible early modern wooden printmaking and navigation workshop overlooking a coastal harbor. On the RIGHT foreground a small craftsman prints an unlettered sheet with a modest woodblock; bookbinding tools, rolled paper, blank charts, simple compass. Do not depict typesetting letters. A small navigator and another printmaker collaborate; modest historical clothing coherent with pre-industrial East Asian maritime trade. Beyond the open workshop, a few recognizable wooden sailing vessels, harbor quay and distant ocean horizon with hopeful warm light. Faceted tactile wood, paper and blue water texture. Workshop is right third, harbor in middle, calm dark blue ocean/sky and shadowed beams left 40% reserved for large typography. Keep all important tool and ship structures coherent; no surreal giant books, no modern shipping containers or electric machines. Treat card central artwork as visual reference only; no card UI.",
-    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-c2330538-4a4e-45b4-8b31-a8ef0669c5a4.png"
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-c2330538-4a4e-45b4-8b31-a8ef0669c5a4.png",
+    "version": 1,
+    "tool": "内置 ImageGen"
   },
   {
     "id": "BG-04A",
@@ -41,7 +47,8 @@
       "卡牌/奇观/时代1/金字塔.jpg"
     ],
     "prompt": "Use case: historical-scene. Refine the first exploration image into final widescreen art. FINAL PRODUCTION ART, not a mockup. Please output native 3840x2160 if supported, at least 1920x1080, 16:9 widescreen. Match the CENTRAL ARTWORK ONLY of the references: clearly faceted polygon planes, fine watercolor and fibrous-paper/mineral texture, hand-painted cut-paper feel, warm gold/orange light and deep indigo blue shadows. NOT photorealistic and NOT smooth glossy 3D. Epic, optimistic, solemn human civilization. No writing, letters, numbers, card frames, icons, watermarks or logos. Use restrained details, a strong readable subject, foreground/midground/distant space and 8% outer motion margins. Preserve an uncluttered quiet area for later independent typography. Keep the same dawn, faceted painted paper style, enormous triangular Egyptian pyramids right-center, warm golden light, small people and desert/Nile valley far away. Critical correction: REMOVE wheeled carts and all rows of visible wheels under stone. Foreground block transport uses a simple solid WOODEN SLED pulled over sand by ropes, modest believable block, no wheels. Show a handful of builders and surveyors in ancient linen clothing, no modern technology. The main pyramid should have clean continuous triangular geometry, fine horizontal stone courses, not a fantasy ziggurat with doorway castles. No excessive giant stairlike podium or huge square blocks on facade. If construction is shown, a small modest earthen access ramp at foot is enough. Keep main pyramid fully within frame with margin at top/right, distant pyramids coherent, labor tiny to emphasize scale. Left 40% quiet shadow-blue sky and distant desert negative space for later text, no solar disc behind text. Reference card second provides recognizable pyramid identity only; ignore all card border/numbers/text. Preserve hopeful human collective achievement, no pharaoh portrait.",
-    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-e1ee725a-0c99-42fe-9ed9-346f11c089ac.png"
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-e1ee725a-0c99-42fe-9ed9-346f11c089ac.png",
+    "tool": "内置 ImageGen"
   },
   {
     "id": "BG-04A",
@@ -52,7 +59,8 @@
       "宣传片/素材/候选/BG-04A-v2-运输结构待修.png"
     ],
     "prompt": "Edit this illustration with ONE very specific correction. Preserve the pyramids, river, sky, palette, faceted paper watercolor texture and whole widescreen composition exactly. REMOVE the entire foreground stone block, its whole wooden wheeled platform/rollers, ALL pulling ropes, and ALL of the pulling workers in the lower-right area. Replace that lower-right area with continuous textured ochre stone/sand ground and just THREE very small ancient Egyptian surveyors standing with simple measuring sticks and a loosely held measuring cord, facing the pyramid. No big block, no cart, no sled, no wheels, no rollers, no round objects on the ground anywhere. Make foreground humans modest in size. Keep the monumental pyramid as the clear primary subject. No text or card frame. Output at least1920x1080 if supported; otherwise preserve source canvas.",
-    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-f4514229-a6bd-46fc-96de-c0b04833fa9e.png"
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-f4514229-a6bd-46fc-96de-c0b04833fa9e.png",
+    "tool": "内置 ImageGen"
   },
   {
     "id": "BG-04B",
@@ -63,7 +71,9 @@
       "卡牌/科技/基础/时代1/驯火与热加工.png"
     ],
     "prompt": "Use case: historical-scene. FINAL PRODUCTION ART, not a mockup. Please output native 3840x2160 if supported, at least 1920x1080, 16:9 widescreen. Match the CENTRAL ARTWORK ONLY of the references: clearly faceted polygon planes, fine watercolor and fibrous-paper/mineral texture, hand-painted cut-paper feel, warm gold/orange light and deep indigo blue shadows. NOT photorealistic and NOT smooth glossy 3D. Epic, optimistic, solemn human civilization. No writing, letters, numbers, card frames, icons, watermarks or logos. Use restrained details, a strong readable subject, foreground/midground/distant space and 8% outer motion margins. Preserve an uncluttered quiet area for later independent typography. The Mogao Caves in their own dry northwestern Chinese desert cliff environment, a solemn tribute to generations of artists, artisans and travellers. Use reference 1 for recognizable ochre cliff, cave openings and restrained timber facade architecture; reference 2 ONLY for faceted paper texture. Right-center towering sedimentary cliff face with several dark cave entrances and modest historical wooden galleries. Do not invent fantasy castles or mix in pyramids. Foreground at far right near a small cave entrance: two very small painters/artisans preparing mineral pigments in simple bowls and wooden tools, a partly visible subdued mural inside a shaded cave, no readable inscriptions. A few tiny travellers on a desert path further away, small shrubs and distant dunes. Warm low sunlight on textured rock and timber, indigo shadows, generous monumental scale, 3 depths. Left 40% quiet dusky blue sky and distant desert path reserved for typography, no towering foreground human. Human clothing, tools and wooden architecture should read as coherent historical Chinese setting. Historic-inspired illustration, not an archaeological reconstruction; prioritize recognizable cave site, cultural inheritance and respectful craft. No modern vehicles, wiring, flags, signage or giant deity portraits.",
-    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-493e855a-e27d-4e0d-97ed-92a29c0182d5.png"
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-493e855a-e27d-4e0d-97ed-92a29c0182d5.png",
+    "version": 1,
+    "tool": "内置 ImageGen"
   },
   {
     "id": "BG-06",
@@ -75,7 +85,8 @@
       "卡牌/科技/专利/时代3/蒸汽机.jpg"
     ],
     "prompt": "Use case: historical-scene. Refine the first exploration while preserving its core machine design, sober workers, warm foundry light and faceted paper painting. FINAL PRODUCTION ART, not a mockup. Please output native 3840x2160 if supported, at least 1920x1080, 16:9 widescreen. Match the CENTRAL ARTWORK ONLY of the references: clearly faceted polygon planes, fine watercolor and fibrous-paper/mineral texture, hand-painted cut-paper feel, warm gold/orange light and deep indigo blue shadows. NOT photorealistic and NOT smooth glossy 3D. Epic, optimistic, solemn human civilization. No writing, letters, numbers, card frames, icons, watermarks or logos. Use restrained details, a strong readable subject, foreground/midground/distant space and 8% outer motion margins. Preserve an uncluttered quiet area for later independent typography. CRITICAL COMPOSITION CHANGE: the complete beam steam engine and circular flywheel must fit in the LEFT 52% of the picture; top beam and rods end before x=55% of canvas. Main machine center at x=36%, flywheel at x=44%, scale slightly smaller than exploration but still dominant and recognizable. No machinery, faces, beams, pipes, railings or sharp busy high contrast structures in the RIGHT UPPER 40%, especially x=58-94%, y=20-60%; that area is restrained deep blue distant valley/sky with quiet soft mountain silhouettes for large text. Ground on lower right may contain distant railway curving toward a small brick factory, but no large foreground train. Tiny workers maintain coherent 19th century clothes and hand tools at left. Steam wisps provide space, warm copper/iron highlights, clear near middle far layers. Do not alter into impossible sci-fi machine; avoid excessively detailed rods merging into each other. No modern electronics or text. Original card second is machine/palette reference only, ignore UI. Entire scene remains optimistic engineering and shared creation.",
-    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-305bde75-edd5-499b-8443-dbc4065101c8.png"
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-305bde75-edd5-499b-8443-dbc4065101c8.png",
+    "tool": "内置 ImageGen"
   },
   {
     "id": "BG-07",
@@ -87,7 +98,9 @@
       "卡牌设计/科技卡/互联网.png"
     ],
     "prompt": "Use case: historical-scene. FINAL PRODUCTION ART, not a mockup. Please output native 3840x2160 if supported, at least 1920x1080, 16:9 widescreen. Match the CENTRAL ARTWORK ONLY of the references: clearly faceted polygon planes, fine watercolor and fibrous-paper/mineral texture, hand-painted cut-paper feel, warm gold/orange light and deep indigo blue shadows. NOT photorealistic and NOT smooth glossy 3D. Epic, optimistic, solemn human civilization. No writing, letters, numbers, card frames, icons, watermarks or logos. Use restrained details, a strong readable subject, foreground/midground/distant space and 8% outer motion margins. Preserve an uncluttered quiet area for later independent typography. These are clean ORIGINAL transparent central artworks, not card mockups. Use them to match exact polygon material and the identity of the beige CRT computing equipment, tactile miniature circuit components, indigo cities and restrained cyan connection light. Create one coherent modern scientific/engineering workspace with a city seen through broad windows. At RIGHT-center a modest desk with recognizable beige CRT computer (screen shows only dim plain green blocks, absolutely no letters/code/text), two small researchers working with a REALISTIC SMALL desktop circuit board/chip held between fingers or placed on desk, not a giant chip architecture. Tiny soldering/measurement tools, restrained server cabinet further back. Outside, distant coherent blue city at twilight with a few warm windows. Open calm deep indigo sky/wall occupies LEFT 42% for typography; main figures/worktable x=60-85%, y=50-80%. Connectivity will be drawn by software later: no giant glowing network sphere or diagrams in generated art. Clearly foreground instruments, middle people and background city; thoughtful shared scientific creation, both women and men. No weapons, corporate logos, generic sci-fi holographic consoles or overly photoreal skin. Do not copy the source artworks into a chaotic collage; only preserve their subject identity and painterly faceted style in a spatially coherent scene. Warm amber work lamp and cyan scientific accents.",
-    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-eaa54c15-04ae-4aeb-a0ea-9b64119e1fa3.png"
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-eaa54c15-04ae-4aeb-a0ea-9b64119e1fa3.png",
+    "version": 1,
+    "tool": "内置 ImageGen"
   },
   {
     "id": "BG-08",
@@ -97,7 +110,9 @@
       "卡牌/奇观/时代5/FAST.png"
     ],
     "prompt": "Use case: historical-scene. FINAL PRODUCTION ART, not a mockup. Please output native 3840x2160 if supported, at least 1920x1080, 16:9 widescreen. Match the CENTRAL ARTWORK ONLY of the references: clearly faceted polygon planes, fine watercolor and fibrous-paper/mineral texture, hand-painted cut-paper feel, warm gold/orange light and deep indigo blue shadows. NOT photorealistic and NOT smooth glossy 3D. Epic, optimistic, solemn human civilization. No writing, letters, numbers, card frames, icons, watermarks or logos. Use restrained details, a strong readable subject, foreground/midground/distant space and 8% outer motion margins. Preserve an uncluttered quiet area for later independent typography. The real Five-hundred-meter Aperture Spherical radio Telescope FAST nestled in a karst mountain depression in Guizhou, an immense silver faceted shallow concave dish filling the LOWER-RIGHT half, rim fully recognizable in landscape. Use reference central illustration as exact subject and painterly material guide, ignore the purple card and all text/numbers. Accurately readable engineering: a round concave reflector composed of many small panels, one suspended receiver platform above the bowl, slender support cables connected to remote pylons around the depression. No giant solid dish mast rising from the center, no satellite dishes attached, no enormous antenna arm from bowl center. Mountains encircle it in layers, small observatory path and only two TINY engineers on a near hillside lower-right provide monumental scale. The upper half and LEFT 40% are calm deep indigo evening sky and distant layered blue mountains with restrained warm horizon glow, enough uncluttered space for large typography at upper left. Gentle stars emerging, no visible spacecraft or unrelated landmarks. Proud, solemn, hopeful human shared scientific achievement, realistic scale and faceted watercolor paper painting, not photorealistic. No labels, flags or invented recognizable institutional logos.",
-    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-c5abd625-5d41-4d7d-b1b3-11819a3587f2.png"
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-c5abd625-5d41-4d7d-b1b3-11819a3587f2.png",
+    "version": 1,
+    "tool": "内置 ImageGen"
   },
   {
     "id": "BG-09",
@@ -109,6 +124,45 @@
       "卡牌设计/科技卡/星际航行.png"
     ],
     "prompt": "Use case: stylized-future-vision. Refine first wide exploration using original transparent central illustration in reference2 to preserve EXACT SPACECRAFT IDENTITY: long ivory/silver faceted sleek body, dark elongated canopy, specific split tail fins, warm gold engine center, coherent compact structure. FINAL PRODUCTION ART, not a mockup. Please output native 3840x2160 if supported, at least 1920x1080, 16:9 widescreen. Match the CENTRAL ARTWORK ONLY of the references: clearly faceted polygon planes, fine watercolor and fibrous-paper/mineral texture, hand-painted cut-paper feel, warm gold/orange light and deep indigo blue shadows. NOT photorealistic and NOT smooth glossy 3D. Epic, optimistic, solemn human civilization. No writing, letters, numbers, card frames, icons, watermarks or logos. Use restrained details, a strong readable subject, foreground/midground/distant space and 8% outer motion margins. Preserve an uncluttered quiet area for later independent typography. CRITICAL COMPOSITION: Earth occupies only BOTTOM 24% with shallow curved horizon, blue seas and restrained cloud bands, warm sunrise rim at x=65%. Spacecraft fully within x=60-87%, y=36-48%, pointed gently toward upper-right, clearly separated from Earth; body is noticeably smaller than exploration. The left 46% and x=8-45%, y=18-57% MUST BE quiet very deep indigo space with sparse faint small stars for large type. Remove bright spiral galaxy from upper left, remove extra moons/planets and oversized golden stars entirely. A very subdued nebula only far upper right, extreme scale and solitude. Engine trail short and delicate, contained behind spacecraft, does not cross left text region; trail may be drawn by code later. Everything in clean separable zones for later Earth/ship/background layers. Preserve tactile faceted watercolor/mineral paper throughout. Human civilization continuing into unknown, optimistic game future vision, not an existing space mission. No writing, typography, card borders, reticles, badges or logos.",
-    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-770bd0f4-5c20-4275-b2ea-7f7f623972f6.png"
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-770bd0f4-5c20-4275-b2ea-7f7f623972f6.png",
+    "tool": "内置 ImageGen"
+  },
+  {
+    "id": "L-09-BG",
+    "name": "深空补底",
+    "output": "宣传片/素材/图层/BG-09/L-09-BG.png",
+    "refs": [
+      "宣传片/素材/正式场景/BG-09-星辰与未来.png"
+    ],
+    "prompt": "Create the BACKGROUND-ONLY layer of this exact widescreen space illustration. Preserve SAME full 16:9 canvas dimensions, the same dark indigo faceted watercolor paper material and upper/right subtle nebula. REMOVE the entire spaceship, engine trail, Earth, all Earth atmospheric rim glow, and the golden sun at the Earth horizon. Fill all those removed regions with seamless full opaque deep indigo starfield continuing the surrounding paper texture. No dark silhouettes, residual planet arcs, outlines, shadows, ship ghosts or gaps. Left area stays very quiet with sparse faint stars for typography. Bottom quarter must be complete background too, so Earth can later move without revealing blank areas. This is full opaque RGB/PNG background, NOT transparent. No added objects, planets, text or logos. Preserve the original background arrangement as much as possible outside removed areas. No camera move, no crop, no new composition.",
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-1b74e71d-dabc-4747-9a68-3aa538b8a213.png",
+    "version": 1,
+    "tool": "内置 ImageGen"
+  },
+  {
+    "id": "L-09-EARTH",
+    "name": "透明地球",
+    "output": "宣传片/素材/图层/BG-09/L-09-EARTH.png",
+    "refs": [
+      "宣传片/素材/正式场景/BG-09-星辰与未来.png"
+    ],
+    "transparent": true,
+    "prompt": "Extract ONLY the Earth and its narrow atmospheric rim/sunrise from this exact widescreen illustration into a REAL TRANSPARENT PNG layer. Preserve full SAME 16:9 CANVAS and Earth EXACT original scale and position. Earth remains spanning full bottom width, curved horizon peak around y=70%, fills bottom quarter; keep complete bottom edge aligned to original canvas bottom. Keep the exact painted continents, clouds, sea facets and warm sunrise rim near x=72%, y=70%, same silhouette and structure. Everything ABOVE Earth including all starfield, nebula, spaceship and engine trail MUST BE alpha=0, except subtle narrow semitransparent atmospheric/sunrise glow attached to the rim. Do not include any old navy background in the glow. No cropping to object, no recentering, no enlarging Earth, no white/black/checkerboard painted background. No extra stars or moons. This is exact layer extraction, no redesign, no camera movement. Full frame with mostly empty transparent upper 65%; output true alpha.",
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-19c87729-efb6-47c8-9e99-b16cd479f535.png",
+    "version": 1,
+    "tool": "内置 ImageGen"
+  },
+  {
+    "id": "L-09-SHIP",
+    "name": "透明飞船",
+    "output": "宣传片/素材/图层/BG-09/L-09-SHIP.png",
+    "refs": [
+      "宣传片/素材/正式场景/BG-09-星辰与未来.png"
+    ],
+    "transparent": true,
+    "prompt": "Extract ONLY the EXISTING spacecraft and its short attached engine flame from this exact widescreen image as a true transparent PNG. Full SAME 16:9 canvas, same object scale, same angle, same exact location: ship body within x=59-89%, y=34-55%, tail flame extends a little left toward x=46%. Preserve the precise ivory/silver polygon hull geometry, dark elongated canopy, split tail fins, gold engine aperture, all surface details and proportions. REMOVE all Earth, atmospheric glow, stars, starfield, nebula and unrelated light; everything outside ship and attached narrow semitransparent exhaust is alpha=0. No navy background left under wings, no star speckles included inside empty gaps between fins, no painted checkerboard. Do not crop to bounding box, do not enlarge or recenter ship, do not redesign geometry, do not change perspective. Keep generous transparent margins around the ship aligned to original widescreen canvas. Faint exhaust can fade smoothly to alpha0, no hard halo. No text. This is a faithful layer extraction, not a new illustration.",
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-7ca3acc6-8943-4c10-b68b-03ee1cc31465.png",
+    "version": 1,
+    "tool": "内置 ImageGen"
   }
 ]

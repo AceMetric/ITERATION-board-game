@@ -1,0 +1,47 @@
+{
+  "fontLoaded": true,
+  "assetCount": 70,
+  "missing": [],
+  "counts": {
+    "scene": 9,
+    "original": 20,
+    "cutout": 13,
+    "text": 10,
+    "effect": 5,
+    "layer": 3
+  },
+  "effects": [
+    {
+      "kind": "fire",
+      "repeatable": true,
+      "changesWithProgress": true
+    },
+    {
+      "kind": "atmosphere",
+      "repeatable": true,
+      "changesWithProgress": true
+    },
+    {
+      "kind": "cards",
+      "repeatable": true,
+      "changesWithProgress": true
+    },
+    {
+      "kind": "network",
+      "repeatable": true,
+      "changesWithProgress": true
+    },
+    {
+      "kind": "stars",
+      "repeatable": true,
+      "changesWithProgress": true
+    }
+  ],
+  "layerToggles": 3,
+  "audioCount": 10,
+  "audioDecoded": true,
+  "lastShotSelected": true,
+  "legacyRedirect": true,
+  "errors": [],
+  "passed": true
+}

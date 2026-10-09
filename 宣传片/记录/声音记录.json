@@ -1,0 +1,249 @@
+[
+  {
+    "path": "宣传片/素材/声音/A01-火声.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitDepth": 24,
+    "duration": 12.0,
+    "peakDbFS": -6.35,
+    "rmsDbFS": -29.7,
+    "sha256": "9d300dae7f4e8e12936247d885b1b3c1522736dcacfaa75c027962e9cc420f25",
+    "id": "A01",
+    "name": "火声",
+    "version": 1,
+    "shots": [
+      "01"
+    ],
+    "source": {
+      "page": "https://opengameart.org/content/fire-crackling",
+      "download": "https://opengameart.org/sites/default/files/fire-1.wav",
+      "file": "宣传片/素材/声音/来源/fire-1.wav",
+      "author": "AntumDeluge",
+      "license": "CC0",
+      "sha256": "26702de8a195bcbafeae72034861d875a1b7917168a25106f4e1957ecdddf7e5"
+    },
+    "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出；录音交叉淡化延展至12秒",
+    "description": "火声"
+  },
+  {
+    "path": "宣传片/素材/声音/A02-田野与流水.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitDepth": 24,
+    "duration": 12.0,
+    "peakDbFS": -6.38,
+    "rmsDbFS": -25.09,
+    "sha256": "02da2d760191dee8e88020d81360bc309dcf2651c2f32916d145005b210f5990",
+    "id": "A02",
+    "name": "田野与流水",
+    "version": 1,
+    "shots": [
+      "02"
+    ],
+    "source": {
+      "page": "https://opengameart.org/content/waterflow-sound",
+      "download": "https://opengameart.org/sites/default/files/waterflow.mp3",
+      "file": "宣传片/素材/声音/来源/waterflow.mp3",
+      "author": "TyberiusGames",
+      "license": "CC0",
+      "sha256": "5a053719d5b06a8e5005dbe81b66e020f10312635a823d66883702568c971e92"
+    },
+    "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出；录音交叉淡化延展至12秒",
+    "description": "灌溉与河流的水声，田野感由画面承担。"
+  },
+  {
+    "path": "宣传片/素材/声音/A03-纸页.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitDepth": 24,
+    "duration": 2.45,
+    "peakDbFS": -6.38,
+    "rmsDbFS": -22.15,
+    "sha256": "b9d24b53b76326d777b8402cc40026229e0e8396eebd1a60281c66f3293ee20e",
+    "id": "A03",
+    "name": "纸页",
+    "version": 1,
+    "shots": [
+      "03"
+    ],
+    "source": {
+      "page": "https://opengameart.org/content/scorchers-foley-sounds",
+      "download": "https://opengameart.org/sites/default/files/paper_rustling.wav",
+      "file": "宣传片/素材/声音/来源/paper_rustling.wav",
+      "author": "scorcher24",
+      "license": "CC0",
+      "sha256": "d4dd16dae7adecf4b9b871dfaf938d57c45579bdd0f03b0af13e874d4bd5598c"
+    },
+    "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出",
+    "description": "纸页"
+  },
+  {
+    "path": "宣传片/素材/声音/A04-建造.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitDepth": 24,
+    "duration": 3.6,
+    "peakDbFS": -6.37,
+    "rmsDbFS": -31.11,
+    "sha256": "c1fa6b9cdded75edf8426bb46fcae1ade6cad44ec0e9088c423636f39135f16b",
+    "id": "A04",
+    "name": "建造",
+    "version": 1,
+    "shots": [
+      "04"
+    ],
+    "source": {
+      "page": "https://opengameart.org/content/metal-impact-sounds",
+      "download": "https://opengameart.org/sites/default/files/thud2.wav",
+      "file": "宣传片/素材/声音/来源/thud2.wav",
+      "author": "Brian MacIntosh / BMacZero",
+      "license": "CC0",
+      "sha256": "5fb5c1b37a95cb6716d0bb529a0b9fe1ae9f3e2228b8f30c5c3dcbb1b570a3af"
+    },
+    "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出",
+    "description": "沉稳建造敲击；来自金属低沉撞击录音的三次编排。"
+  },
+  {
+    "path": "宣传片/素材/声音/A05-卡牌.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitDepth": 24,
+    "duration": 0.488,
+    "peakDbFS": -6.2,
+    "rmsDbFS": -29.95,
+    "sha256": "6d1ff9cb9f719460ebfe32b1390e1c18101353f08c82bd0ac5be0d73968e68f6",
+    "id": "A05",
+    "name": "卡牌",
+    "version": 1,
+    "shots": [
+      "05"
+    ],
+    "source": {
+      "page": "https://opengameart.org/content/various-paper-sound-effects",
+      "download": "https://opengameart.org/sites/default/files/paper_sound_-_1.mp3",
+      "file": "宣传片/素材/声音/来源/paper_sound_-_1.mp3",
+      "author": "Luckius",
+      "license": "CC0",
+      "sha256": "f62e6cab41a9c0a8c67b5752c95e80e6adc681110d579ada982627909be1773d"
+    },
+    "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出",
+    "description": "纸张短滑动拟作卡牌落位；不是实录桌游卡牌。"
+  },
+  {
+    "path": "宣传片/素材/声音/A06-蒸汽与金属.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitDepth": 24,
+    "duration": 12.0,
+    "peakDbFS": -6.35,
+    "rmsDbFS": -19.98,
+    "sha256": "1c971916eb166780915e19fa2ead9f941943d8053b5643caabaa049523490570",
+    "id": "A06",
+    "name": "蒸汽与金属",
+    "version": 1,
+    "shots": [
+      "06"
+    ],
+    "source": {
+      "page": "https://opengameart.org/content/steam-boiler-sound-loop",
+      "download": "https://opengameart.org/sites/default/files/generator_loop.wav",
+      "file": "宣传片/素材/声音/来源/generator_loop.wav",
+      "author": "bart",
+      "license": "CC0",
+      "sha256": "64b174cf8ef71e7f71aa03cf29864ab489f7be1f624456cab916043da38911bd"
+    },
+    "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出；录音交叉淡化延展至12秒",
+    "description": "蒸汽与金属"
+  },
+  {
+    "path": "宣传片/素材/声音/A07-电子脉冲.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitDepth": 24,
+    "duration": 6.0,
+    "peakDbFS": -7.96,
+    "rmsDbFS": -18.62,
+    "sha256": "c2e0391e4e28517720f9953e3b142e24cb1ae03de50faca7acd5e1faecc38f3e",
+    "id": "A07",
+    "name": "电子脉冲",
+    "shots": [
+      "07"
+    ],
+    "version": 1,
+    "source": "Codex 原创合成",
+    "description": "固定音列的轻微电子脉冲，适配知识节点连接。"
+  },
+  {
+    "path": "宣传片/素材/声音/A08-群山风声.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitDepth": 24,
+    "duration": 12.0,
+    "peakDbFS": -6.38,
+    "rmsDbFS": -25.34,
+    "sha256": "0954b2ac15386a3950937c22d2d2b816a8173c3c3951cce80a560ba51c3d5dcc",
+    "id": "A08",
+    "name": "群山风声",
+    "version": 1,
+    "shots": [
+      "08"
+    ],
+    "source": {
+      "page": "https://opengameart.org/content/short-wind-sound",
+      "download": "https://opengameart.org/sites/default/files/short%20wind%20sound.wav",
+      "file": "宣传片/素材/声音/来源/short wind sound.wav",
+      "author": "remaxim",
+      "license": "CC0",
+      "sha256": "4435f5ad1baf171f21f876f778d0a8a7447becea0c4955bb2566e0c63ab20f41"
+    },
+    "processing": "48kHz/24bit stereo；去直流；峰值归一；短淡入淡出；录音交叉淡化延展至12秒",
+    "description": "山间风声氛围；原始短风声经过延展。"
+  },
+  {
+    "path": "宣传片/素材/声音/A09-深空氛围.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitDepth": 24,
+    "duration": 16.0,
+    "peakDbFS": -10.46,
+    "rmsDbFS": -18.46,
+    "sha256": "9aa4d497b40506715bbd50c3f81e4c4b8763f03bdf9e8bbc8b5f355325f977ec",
+    "id": "A09",
+    "name": "深空氛围",
+    "shots": [
+      "09"
+    ],
+    "version": 1,
+    "source": "Codex 原创合成",
+    "description": "低频和声与缓慢漂移的氛围设计，作为游戏未来愿景的声音。"
+  },
+  {
+    "path": "宣传片/素材/声音/M01-原创电子管弦配乐.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitDepth": 24,
+    "duration": 85.0,
+    "peakDbFS": -2.16,
+    "rmsDbFS": -17.57,
+    "sha256": "2cce6512923210d9fd83618d555eda794f4307d94ba8142461b4609662a13c09",
+    "id": "M01",
+    "name": "文明向前",
+    "source": "Codex 原创加法合成",
+    "version": 1,
+    "bpm": 72,
+    "key": "D major",
+    "description": "约85秒电子管弦版本，弦乐空间、上行铜管主题、钟音脉动与鼓组逐渐汇聚；四份分轨可重新混音。不是现场管弦录音。",
+    "shots": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ]
+  }
+]

@@ -1,0 +1,767 @@
+{
+  "originalsChecked": 130,
+  "transparentOriginalsChecked": 60,
+  "changedOriginals": [],
+  "missing": [],
+  "scenes": [
+    {
+      "id": "BG-01",
+      "size": [
+        1672,
+        941
+      ],
+      "native1080p": false
+    },
+    {
+      "id": "BG-02",
+      "size": [
+        1672,
+        941
+      ],
+      "native1080p": false
+    },
+    {
+      "id": "BG-03",
+      "size": [
+        1672,
+        941
+      ],
+      "native1080p": false
+    },
+    {
+      "id": "BG-04A",
+      "size": [
+        1672,
+        941
+      ],
+      "native1080p": false
+    },
+    {
+      "id": "BG-04B",
+      "size": [
+        1672,
+        941
+      ],
+      "native1080p": false
+    },
+    {
+      "id": "BG-06",
+      "size": [
+        1672,
+        941
+      ],
+      "native1080p": false
+    },
+    {
+      "id": "BG-07",
+      "size": [
+        1672,
+        941
+      ],
+      "native1080p": false
+    },
+    {
+      "id": "BG-08",
+      "size": [
+        1672,
+        941
+      ],
+      "native1080p": false
+    },
+    {
+      "id": "BG-09",
+      "size": [
+        1672,
+        941
+      ],
+      "native1080p": false
+    }
+  ],
+  "alpha": [
+    {
+      "id": "ART-01",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        21,
+        1246,
+        1236
+      ],
+      "passed": true
+    },
+    {
+      "id": "ART-02",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        17,
+        1240,
+        1254
+      ],
+      "passed": true
+    },
+    {
+      "id": "ART-03",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        11,
+        53,
+        1254,
+        1228
+      ],
+      "passed": true
+    },
+    {
+      "id": "ART-04",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        33,
+        1244,
+        1254
+      ],
+      "passed": true
+    },
+    {
+      "id": "ART-05",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        22,
+        67,
+        1254,
+        1254
+      ],
+      "passed": true
+    },
+    {
+      "id": "ART-06",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        3,
+        1242,
+        1254
+      ],
+      "passed": true
+    },
+    {
+      "id": "ART-07",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        1253,
+        1254
+      ],
+      "passed": true
+    },
+    {
+      "id": "ART-08",
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        1312,
+        1199
+      ],
+      "passed": true
+    },
+    {
+      "id": "ART-09",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        1,
+        1254,
+        1240
+      ],
+      "passed": true
+    },
+    {
+      "id": "ART-10",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        4,
+        1247,
+        1206
+      ],
+      "passed": true
+    },
+    {
+      "id": "ART-11",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        17,
+        1253,
+        1225
+      ],
+      "passed": true
+    },
+    {
+      "id": "ART-12",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        23,
+        1235,
+        1254
+      ],
+      "passed": true
+    },
+    {
+      "id": "ART-13",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        13,
+        1230,
+        1223
+      ],
+      "passed": true
+    },
+    {
+      "id": "L-09-BG",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "passed": true
+    },
+    {
+      "id": "L-09-EARTH",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "bbox": [
+        0,
+        86,
+        1672,
+        941
+      ],
+      "passed": true
+    },
+    {
+      "id": "L-09-SHIP",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        210,
+        48,
+        1495,
+        909
+      ],
+      "passed": true
+    },
+    {
+      "id": "TXT-01",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        105,
+        101,
+        612,
+        970
+      ],
+      "passed": true
+    },
+    {
+      "id": "TXT-02",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        105,
+        101,
+        612,
+        970
+      ],
+      "passed": true
+    },
+    {
+      "id": "TXT-03",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        104,
+        101,
+        764,
+        969
+      ],
+      "passed": true
+    },
+    {
+      "id": "TXT-04",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        105,
+        101,
+        691,
+        970
+      ],
+      "passed": true
+    },
+    {
+      "id": "TXT-05",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        105,
+        101,
+        688,
+        970
+      ],
+      "passed": true
+    },
+    {
+      "id": "TXT-06",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        1028,
+        101,
+        1536,
+        970
+      ],
+      "passed": true
+    },
+    {
+      "id": "TXT-07",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        104,
+        101,
+        539,
+        970
+      ],
+      "passed": true
+    },
+    {
+      "id": "TXT-08",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        104,
+        101,
+        688,
+        970
+      ],
+      "passed": true
+    },
+    {
+      "id": "TXT-09",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        105,
+        101,
+        615,
+        970
+      ],
+      "passed": true
+    },
+    {
+      "id": "TXT-10",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        108,
+        101,
+        759,
+        1017
+      ],
+      "passed": true
+    },
+    {
+      "id": "FX-fire",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        169
+      ],
+      "bbox": [
+        996,
+        485,
+        1539,
+        1027
+      ],
+      "passed": true
+    },
+    {
+      "id": "FX-atmosphere",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        17
+      ],
+      "bbox": [
+        65,
+        0,
+        1920,
+        969
+      ],
+      "passed": true
+    },
+    {
+      "id": "FX-cards",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        129
+      ],
+      "bbox": [
+        364,
+        658,
+        903,
+        887
+      ],
+      "passed": true
+    },
+    {
+      "id": "FX-network",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        238
+      ],
+      "bbox": [
+        1029,
+        84,
+        1690,
+        303
+      ],
+      "passed": true
+    },
+    {
+      "id": "FX-stars",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        140
+      ],
+      "bbox": [
+        23,
+        46,
+        1787,
+        1041
+      ],
+      "passed": true
+    }
+  ],
+  "audio": [
+    {
+      "id": "M01",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 85.0,
+      "peak": 0.779725,
+      "passed": true
+    },
+    {
+      "id": "A01",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 12.0,
+      "peak": 0.481653,
+      "passed": true
+    },
+    {
+      "id": "A02",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 12.0,
+      "peak": 0.479999,
+      "passed": true
+    },
+    {
+      "id": "A03",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 2.45,
+      "peak": 0.480002,
+      "passed": true
+    },
+    {
+      "id": "A04",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 3.6,
+      "peak": 0.480014,
+      "passed": true
+    },
+    {
+      "id": "A05",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 0.488,
+      "peak": 0.489998,
+      "passed": true
+    },
+    {
+      "id": "A06",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 12.0,
+      "peak": 0.481268,
+      "passed": true
+    },
+    {
+      "id": "A07",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 6.0,
+      "peak": 0.4,
+      "passed": true
+    },
+    {
+      "id": "A08",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 12.0,
+      "peak": 0.479979,
+      "passed": true
+    },
+    {
+      "id": "A09",
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitDepth": 24,
+      "duration": 16.0,
+      "peak": 0.300002,
+      "passed": true
+    }
+  ],
+  "filesPassed": true,
+  "nativeSceneResolutionPassed": false,
+  "designOriginalsChecked": 141,
+  "layerCanvasMatched": true
+}
