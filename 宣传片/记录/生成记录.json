@@ -1,0 +1,58 @@
+[
+  {
+    "id": "S05",
+    "name": "文明的共同创造",
+    "output": "宣传片/素材/主图/S05-文明的共同创造.png",
+    "refs": [
+      "卡牌/奇观/时代1/金字塔.jpg",
+      "卡牌/科技/基础/时代1/驯火与热加工.png"
+    ],
+    "prompt": "Use case: historical-scene. Generate a NEW wide environment illustration using attached card artworks as style/subject references. Reference 1: pyramid silhouette and masonry style, reference 2: polygon/watercolor texture only. Match ONLY the central artwork of the reference cards, ignoring all frames, writing, currency symbols and UI. Distinctive coarse and fine faceted polygon planes, hand-painted watercolor on fibrous paper, mineral/crumpled-paper textures, sophisticated warm gold highlights and deep indigo shadows. NOT photorealistic, NOT smooth 3D rendering. Epic optimistic human-civilization illustration, solemn expansive scale. 16:9 widescreen composition, at least 1920x1080 detail; no writing, labels, logos, frames or card borders. Meaningful foreground, midground and distant background; spare darker negative space to the left for later typography, no important subject cut off, motion margins. Subject: the Egyptian pyramids at dawn, enormous stepped weathered golden stone forms towering over small orderly groups of ancient builders and surveyors, stone sled and ropes (not modern machinery), distant Nile-side cultivation and desert mountains. Keep accurate recognizable pyramids; no Chinese architecture or unrelated monuments. Humans small, respectful depictions of collective labor and achievement. Main pyramid right-center, deep sky and Nile distance left. Upper sky restrained luminous warm dawn, retain paper faceted look across landscape as well as monument. Avoid giant pharaoh portrait or fantasy palace.",
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-40b4283f-ca4c-4682-8796-3191e94f5819.png",
+    "tool": "内置 ImageGen",
+    "version": 1,
+    "status": "风格探索稿；分镜优先，暂缓其余生成",
+    "use": "静态效果探索，尚未定为成片镜头",
+    "width": 1672,
+    "height": 941,
+    "size": "1672×941",
+    "sha256": "33395f8c633e974948fd5d79e615d981b34950ca9fb56f823c364769521b38a2"
+  },
+  {
+    "id": "S03",
+    "name": "蒸汽与工程",
+    "output": "宣传片/素材/主图/S03-蒸汽与工程.png",
+    "refs": [
+      "卡牌/科技/专利/时代3/蒸汽机.jpg"
+    ],
+    "prompt": "Use case: historical-scene. NEW wide illustration. Reference image: exact art style and copper/iron steam machinery shapes. Use the central artwork of the reference cards ONLY; ignore all card frames, labels, numbers and symbols. Match their faceted low-poly painted planes, watercolor on fibrous paper, crumpled/mineral textures, warm gold lights and deep blue/violet shadows. Epic, optimistic, solemn celebration of humanity's collective creativity. Painterly, NOT photorealistic or glossy 3D. Widescreen 16:9, seek 2048x1152 or higher detail. Complete foreground/midground/distant environment, one strong subject, 8% motion margins, spare dark negative space left for independent later text. NO text, logos, UI or card borders. An expansive 19th-century industrial workshop and railway landscape at golden morning light. A recognizable beam steam engine and its large flywheel right-center, copper boiler piping properly connected, small engineers and workers as scale references. Rail tracks lead through a vast brick factory district into far mountain valleys; gentle steam and warm foundry light. Foreground sober tools and masonry, midpoint engine has clear mechanically legible silhouette, distant workshops and railways. No modern electronics, no futuristic machines, no military. Celebrate labor and engineering with grand perspective rather than chaotic clutter.",
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-e42d8b05-604c-4182-87ae-09261aad5dbb.png",
+    "tool": "内置 ImageGen",
+    "version": 1,
+    "status": "风格探索稿；分镜优先，暂缓其余生成",
+    "use": "静态效果探索，尚未定为成片镜头",
+    "width": 1672,
+    "height": 941,
+    "size": "1672×941",
+    "sha256": "6416b8a445e7d9600c88ffe2d98214a3aadbf2f60653315a02ff8c649037fcf4"
+  },
+  {
+    "id": "S06",
+    "name": "星辰与未来",
+    "output": "宣传片/素材/主图/S06-星辰与未来.png",
+    "refs": [
+      "卡牌/科技/最终/宇宙航行.png",
+      "卡牌/奇观/时代5/FAST.png"
+    ],
+    "prompt": "Use case: stylized-concept. NEW future-vision wide illustration. Reference 1: spaceship identity, Earth facets and golden trail. Reference 2: paper/faceted style only. Use the central artwork of the reference cards ONLY; ignore all card frames, labels, numbers and symbols. Match their faceted low-poly painted planes, watercolor on fibrous paper, crumpled/mineral textures, warm gold lights and deep blue/violet shadows. Epic, optimistic, solemn celebration of humanity's collective creativity. Painterly, NOT photorealistic or glossy 3D. Widescreen 16:9, seek 2048x1152 or higher detail. Complete foreground/midground/distant environment, one strong subject, 8% motion margins, spare dark negative space left for independent later text. NO text, logos, UI or card borders. Our shared human civilization reaching the stars. Preserve the recognizable long elegant silver/ivory spacecraft from the spaceflight card, traveling toward upper right, small in a vast cosmic landscape. Earth curved horizon occupies lower quarter, polygon-painted blue seas and cloud bands, warm sunrise rim. A deep indigo starfield, restrained distant spiral galaxy left-upper area. Spaceship entire silhouette inside margins at right-center, no extra invented huge wing or launch tower. Independent motion-friendly composition: ship separated clearly from Earth horizon, starfield open around ship. Magnificent scale, optimistic golden engine wake, tender paper-watercolor texture, sparse luminous stars not visual noise.",
+    "generatedSource": "/Users/acemetric/.codex/generated_images/01a11ea4-f023-7a90-a334-e93cec2a8194/exec-abafeff6-4a77-46d3-a0d2-bb4edca9f2d3.png",
+    "tool": "内置 ImageGen",
+    "version": 1,
+    "status": "风格探索稿；分镜优先，暂缓其余生成",
+    "use": "静态效果探索，尚未定为成片镜头",
+    "width": 1672,
+    "height": 941,
+    "size": "1672×941",
+    "sha256": "d885b2864013244e487eb7b06e330d7c4a4d0b974d63cd279ce937d6882c3cc2"
+  }
+]
