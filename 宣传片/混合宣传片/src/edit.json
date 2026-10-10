@@ -1,0 +1,291 @@
+{
+  "revision": 3,
+  "fps": 30,
+  "shutterAngle": 180,
+  "motionSamples": 8,
+  "joins": [
+    {
+      "pair": "00-01",
+      "type": "light",
+      "pre": 12,
+      "post": 18,
+      "focus": [
+        1220,
+        800
+      ],
+      "audioLead": 0.3,
+      "audioTail": 0.2
+    },
+    {
+      "pair": "01-02",
+      "type": "into",
+      "subject": "fire",
+      "pre": 24,
+      "post": 24,
+      "camera": [
+        0.12,
+        0.92
+      ],
+      "shape": [
+        0.12,
+        0.52
+      ],
+      "blend": [
+        0.5,
+        0.78
+      ],
+      "environment": [
+        0.025,
+        0.3
+      ],
+      "audioLead": 0.15,
+      "audioTail": 0.4,
+      "cameraEase": [
+        0.3,
+        0.66
+      ]
+    },
+    {
+      "pair": "02-03",
+      "type": "paper",
+      "pre": 12,
+      "post": 18,
+      "focus": [
+        980,
+        750
+      ],
+      "audioLead": 0.4,
+      "audioTail": 0.2,
+      "approach": {
+        "key": "weave",
+        "uv": [
+          0.48,
+          0.2
+        ],
+        "zoom": 4,
+        "range": [
+          0,
+          0.96
+        ]
+      },
+      "reveal": [
+        0.4,
+        0.89
+      ]
+    },
+    {
+      "pair": "03-04",
+      "type": "into",
+      "subject": "letters",
+      "pre": 18,
+      "post": 24,
+      "camera": [
+        0.12,
+        0.94
+      ],
+      "shape": [
+        0.19,
+        0.68
+      ],
+      "blend": [
+        0.54,
+        0.85
+      ],
+      "environment": [
+        0.025,
+        0.3
+      ],
+      "audioLead": 0.15,
+      "audioTail": 0.35,
+      "cameraEase": [
+        0.36,
+        0.64
+      ]
+    },
+    {
+      "pair": "04-05",
+      "type": "out",
+      "subject": "pyramid",
+      "pre": 24,
+      "post": 36,
+      "camera": [
+        0.04,
+        0.94
+      ],
+      "shape": [
+        0.29,
+        0.8
+      ],
+      "blend": [
+        0.12,
+        0.3
+      ],
+      "environment": [
+        0.61,
+        0.81
+      ],
+      "audioLead": 0.5,
+      "audioTail": 0.25,
+      "cameraEase": [
+        0.28,
+        0.55
+      ]
+    },
+    {
+      "pair": "05-06",
+      "type": "into",
+      "subject": "pyramid",
+      "pre": 24,
+      "post": 30,
+      "camera": [
+        0.12,
+        0.95
+      ],
+      "shape": [
+        0.19,
+        0.75
+      ],
+      "blend": [
+        0.4,
+        0.79
+      ],
+      "environment": [
+        0.025,
+        0.3
+      ],
+      "audioLead": 0.15,
+      "audioTail": 0.5,
+      "cameraEase": [
+        0.2,
+        0.6
+      ]
+    },
+    {
+      "pair": "06-07",
+      "type": "material",
+      "pre": 15,
+      "post": 21,
+      "focus": [
+        550,
+        580
+      ],
+      "audioLead": 0.45,
+      "audioTail": 0.25,
+      "approach": {
+        "key": "pyramid",
+        "uv": [
+          0.48,
+          0.2
+        ],
+        "zoom": 3.5,
+        "range": [
+          0,
+          0.96
+        ]
+      },
+      "reveal": [
+        0.25,
+        0.89
+      ]
+    },
+    {
+      "pair": "07-08",
+      "type": "mist",
+      "pre": 21,
+      "post": 21,
+      "focus": [
+        1030,
+        300
+      ],
+      "audioLead": 0.6,
+      "audioTail": 0.5
+    },
+    {
+      "pair": "08-09",
+      "type": "into",
+      "subject": "sky",
+      "pre": 21,
+      "post": 27,
+      "camera": [
+        0.12,
+        0.96
+      ],
+      "shape": [
+        0.19,
+        0.7
+      ],
+      "blend": [
+        0.48,
+        0.86
+      ],
+      "environment": [
+        0.025,
+        0.3
+      ],
+      "audioLead": 0.1,
+      "audioTail": 0.45,
+      "cameraEase": [
+        0.32,
+        0.72
+      ]
+    },
+    {
+      "pair": "09-10",
+      "type": "out",
+      "subject": "ship",
+      "pre": 30,
+      "post": 42,
+      "camera": [
+        0.26,
+        0.95
+      ],
+      "shape": [
+        0.42,
+        0.86
+      ],
+      "blend": [
+        0.24,
+        0.42
+      ],
+      "environment": [
+        0.68,
+        0.86
+      ],
+      "audioLead": 0.65,
+      "audioTail": 0.35,
+      "cameraEase": [
+        0.38,
+        0.58
+      ]
+    },
+    {
+      "pair": "10-11",
+      "type": "into",
+      "subject": "ship",
+      "pre": 27,
+      "post": 33,
+      "camera": [
+        0.12,
+        0.96
+      ],
+      "shape": [
+        0.19,
+        0.76
+      ],
+      "blend": [
+        0.58,
+        0.9
+      ],
+      "environment": [
+        0.025,
+        0.3
+      ],
+      "audioLead": 0.15,
+      "audioTail": 0.55,
+      "cameraEase": [
+        0.28,
+        0.7
+      ]
+    }
+  ]
+}

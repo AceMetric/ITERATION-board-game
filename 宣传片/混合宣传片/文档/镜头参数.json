@@ -1,0 +1,734 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "totalFrames": 2700,
+  "introFrames": 120,
+  "titleArtwork": "src/Titles.jsx; original deterministic SVG paper grain, gold arcs, typography; no AI video required",
+  "shots": [
+    {
+      "id": "00",
+      "kind": "intro",
+      "name": "片头 · 更迭",
+      "seconds": 4,
+      "start": 0,
+      "frames": 120
+    },
+    {
+      "id": "01",
+      "kind": "ai",
+      "name": "火光",
+      "seconds": 6,
+      "reference": "BG-01-火光.png",
+      "start": 120,
+      "frames": 180
+    },
+    {
+      "id": "02",
+      "kind": "purchase",
+      "name": "用资源学习科技",
+      "seconds": 12,
+      "title": "配置资源，学习科技。",
+      "era": "时代 Ⅰ · 玩家 A 的回合",
+      "start": 300,
+      "frames": 360
+    },
+    {
+      "id": "03",
+      "kind": "ai",
+      "name": "知识与远航",
+      "seconds": 6,
+      "reference": "BG-03-知识与远航.png",
+      "start": 660,
+      "frames": 180
+    },
+    {
+      "id": "04",
+      "kind": "patent",
+      "name": "专利带来回报",
+      "seconds": 9,
+      "title": "掌握专利，把握回报。",
+      "era": "时代 Ⅰ · 已拥有的专利",
+      "start": 840,
+      "frames": 270
+    },
+    {
+      "id": "05",
+      "kind": "ai",
+      "name": "共同创造奇观",
+      "seconds": 6,
+      "reference": "BG-04A-金字塔.png",
+      "start": 1110,
+      "frames": 180
+    },
+    {
+      "id": "06",
+      "kind": "wonder",
+      "name": "争取奇观",
+      "seconds": 11,
+      "title": "投入资源，竞逐奇观。",
+      "era": "时代 Ⅰ · 不同回合的投入",
+      "start": 1290,
+      "frames": 330
+    },
+    {
+      "id": "07",
+      "kind": "ai",
+      "name": "工业突破",
+      "seconds": 5,
+      "reference": "BG-06-蒸汽与工程.png",
+      "start": 1620,
+      "frames": 150
+    },
+    {
+      "id": "08",
+      "kind": "ai",
+      "name": "望向未知 · FAST",
+      "seconds": 10,
+      "reference": "BG-08-FAST.png",
+      "start": 1770,
+      "frames": 300
+    },
+    {
+      "id": "09",
+      "kind": "final",
+      "name": "挑战最终科技",
+      "seconds": 10,
+      "title": "投入科研，挑战未来。",
+      "era": "时代 Ⅴ · 成功示例",
+      "start": 2070,
+      "frames": 300
+    },
+    {
+      "id": "10",
+      "kind": "ai",
+      "name": "星辰与未来",
+      "seconds": 6,
+      "reference": "BG-09-星辰与未来.png",
+      "start": 2370,
+      "frames": 180
+    },
+    {
+      "id": "11",
+      "kind": "product",
+      "name": "更迭",
+      "seconds": 5,
+      "title": "更迭 ITERATION",
+      "era": "科技史实体策略桌游",
+      "start": 2550,
+      "frames": 150
+    }
+  ],
+  "examples": {
+    "purchase": {
+      "market": [
+        "fire",
+        "stone",
+        "agri",
+        "wheel"
+      ],
+      "cost": {
+        "gold": 2,
+        "mineral": 3
+      },
+      "paid": [
+        [
+          "gold",
+          2
+        ],
+        [
+          "mineral",
+          2
+        ],
+        [
+          "mineral",
+          1
+        ]
+      ],
+      "destination": "publicBasic",
+      "owner": "A",
+      "research": [
+        0,
+        3
+      ],
+      "refill": "weave"
+    },
+    "patent": {
+      "owner": "A",
+      "card": "letters",
+      "dice": [
+        6,
+        3
+      ],
+      "trigger": 6,
+      "income": {
+        "gold": 1
+      },
+      "retained": true
+    },
+    "wonder": {
+      "owner": "A",
+      "cost": {
+        "gold": 4,
+        "mineral": 6,
+        "people": 6
+      },
+      "A": {
+        "before": {
+          "gold": 4,
+          "mineral": 6,
+          "people": 4
+        },
+        "add": {
+          "people": 2
+        }
+      },
+      "B": {
+        "cards": [
+          [
+            "mineral",
+            2
+          ],
+          [
+            "gold",
+            2
+          ]
+        ],
+        "hidden": "gold2",
+        "returned": 2
+      },
+      "pyramidStarts": "next-own-turn"
+    },
+    "final": {
+      "era": 5,
+      "research": [
+        100,
+        70
+      ],
+      "dice": [
+        1,
+        4,
+        1,
+        6,
+        1
+      ],
+      "discount": 0,
+      "costPerDie": 6,
+      "winningFaces": [
+        1,
+        2,
+        3
+      ],
+      "needed": 3,
+      "scripted": true
+    }
+  },
+  "physicalDimensions": {
+    "cardWidth": 1.78,
+    "boardSide": 20,
+    "boardSurface": 0.034,
+    "tableSurface": -0.09,
+    "playerMatSurface": 0.0325,
+    "playerMatWidth": 18,
+    "playerMatDepth": 3.4,
+    "playerMatX": -1,
+    "playerMatZ": 13.5
+  },
+  "cameras": {
+    "wide": {
+      "position": [
+        0,
+        25,
+        27
+      ],
+      "target": [
+        0,
+        0,
+        2
+      ]
+    },
+    "dice": {
+      "position": [
+        0,
+        13.5,
+        13
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "photoCalibration": {
+    "source": "文档/比例参照/用户实拍.jpg",
+    "referenceCard": "eiffel",
+    "referenceStripUV": [
+      0.08571428571428572,
+      0.29285714285714287,
+      0.16428571428571428,
+      0.4142857142857143
+    ],
+    "observedLongEdgeToSlotWidth": [
+      0.85,
+      0.95
+    ],
+    "method": "实拍中的卡牌长边接近竖向印刷栏的窄边，仅用于相对尺寸校准。该栏不是待建奇观牌位；区域归属另按完整版图核对。"
+  },
+  "printedBoardZones": {
+    "wonder": {
+      "uv": [
+        0.834,
+        0.754
+      ],
+      "rotation": -0.7853981633974483,
+      "label": "右下角 · 奇观"
+    },
+    "shopDeck": {
+      "uv": [
+        0.209,
+        0.831
+      ],
+      "rotation": 0,
+      "label": "左下角 · 商店牌堆"
+    },
+    "eventDeck": {
+      "uv": [
+        0.25,
+        0.164
+      ],
+      "rotation": -0.7853981633974483,
+      "label": "左上角 · 事件牌"
+    },
+    "market": {
+      "bounds": [
+        0.295,
+        0.755,
+        0.71,
+        0.915
+      ],
+      "label": "下方长栏 · 商店公开区"
+    },
+    "basic": {
+      "bounds": [
+        0.36,
+        0.085,
+        0.77,
+        0.242
+      ],
+      "label": "上方长栏 · 基础科技牌"
+    },
+    "basicRight": {
+      "bounds": [
+        0.755,
+        0.242,
+        0.92,
+        0.65
+      ],
+      "label": "右侧长栏 · 基础科技牌"
+    }
+  },
+  "editorialCopy": "文档/文明场景宣传语.md",
+  "transitions": {
+    "revision": 3,
+    "fps": 30,
+    "shutterAngle": 180,
+    "motionSamples": 8,
+    "joins": [
+      {
+        "pair": "00-01",
+        "type": "light",
+        "pre": 12,
+        "post": 18,
+        "focus": [
+          1220,
+          800
+        ],
+        "audioLead": 0.3,
+        "audioTail": 0.2
+      },
+      {
+        "pair": "01-02",
+        "type": "into",
+        "subject": "fire",
+        "pre": 24,
+        "post": 24,
+        "camera": [
+          0.12,
+          0.92
+        ],
+        "shape": [
+          0.12,
+          0.52
+        ],
+        "blend": [
+          0.5,
+          0.78
+        ],
+        "environment": [
+          0.025,
+          0.3
+        ],
+        "audioLead": 0.15,
+        "audioTail": 0.4,
+        "cameraEase": [
+          0.3,
+          0.66
+        ]
+      },
+      {
+        "pair": "02-03",
+        "type": "paper",
+        "pre": 12,
+        "post": 18,
+        "focus": [
+          980,
+          750
+        ],
+        "audioLead": 0.4,
+        "audioTail": 0.2,
+        "approach": {
+          "key": "weave",
+          "uv": [
+            0.48,
+            0.2
+          ],
+          "zoom": 4,
+          "range": [
+            0,
+            0.96
+          ]
+        },
+        "reveal": [
+          0.4,
+          0.89
+        ]
+      },
+      {
+        "pair": "03-04",
+        "type": "into",
+        "subject": "letters",
+        "pre": 18,
+        "post": 24,
+        "camera": [
+          0.12,
+          0.94
+        ],
+        "shape": [
+          0.19,
+          0.68
+        ],
+        "blend": [
+          0.54,
+          0.85
+        ],
+        "environment": [
+          0.025,
+          0.3
+        ],
+        "audioLead": 0.15,
+        "audioTail": 0.35,
+        "cameraEase": [
+          0.36,
+          0.64
+        ]
+      },
+      {
+        "pair": "04-05",
+        "type": "out",
+        "subject": "pyramid",
+        "pre": 24,
+        "post": 36,
+        "camera": [
+          0.04,
+          0.94
+        ],
+        "shape": [
+          0.29,
+          0.8
+        ],
+        "blend": [
+          0.12,
+          0.3
+        ],
+        "environment": [
+          0.61,
+          0.81
+        ],
+        "audioLead": 0.5,
+        "audioTail": 0.25,
+        "cameraEase": [
+          0.28,
+          0.55
+        ]
+      },
+      {
+        "pair": "05-06",
+        "type": "into",
+        "subject": "pyramid",
+        "pre": 24,
+        "post": 30,
+        "camera": [
+          0.12,
+          0.95
+        ],
+        "shape": [
+          0.19,
+          0.75
+        ],
+        "blend": [
+          0.4,
+          0.79
+        ],
+        "environment": [
+          0.025,
+          0.3
+        ],
+        "audioLead": 0.15,
+        "audioTail": 0.5,
+        "cameraEase": [
+          0.2,
+          0.6
+        ]
+      },
+      {
+        "pair": "06-07",
+        "type": "material",
+        "pre": 15,
+        "post": 21,
+        "focus": [
+          550,
+          580
+        ],
+        "audioLead": 0.45,
+        "audioTail": 0.25,
+        "approach": {
+          "key": "pyramid",
+          "uv": [
+            0.48,
+            0.2
+          ],
+          "zoom": 3.5,
+          "range": [
+            0,
+            0.96
+          ]
+        },
+        "reveal": [
+          0.25,
+          0.89
+        ]
+      },
+      {
+        "pair": "07-08",
+        "type": "mist",
+        "pre": 21,
+        "post": 21,
+        "focus": [
+          1030,
+          300
+        ],
+        "audioLead": 0.6,
+        "audioTail": 0.5
+      },
+      {
+        "pair": "08-09",
+        "type": "into",
+        "subject": "sky",
+        "pre": 21,
+        "post": 27,
+        "camera": [
+          0.12,
+          0.96
+        ],
+        "shape": [
+          0.19,
+          0.7
+        ],
+        "blend": [
+          0.48,
+          0.86
+        ],
+        "environment": [
+          0.025,
+          0.3
+        ],
+        "audioLead": 0.1,
+        "audioTail": 0.45,
+        "cameraEase": [
+          0.32,
+          0.72
+        ]
+      },
+      {
+        "pair": "09-10",
+        "type": "out",
+        "subject": "ship",
+        "pre": 30,
+        "post": 42,
+        "camera": [
+          0.26,
+          0.95
+        ],
+        "shape": [
+          0.42,
+          0.86
+        ],
+        "blend": [
+          0.24,
+          0.42
+        ],
+        "environment": [
+          0.68,
+          0.86
+        ],
+        "audioLead": 0.65,
+        "audioTail": 0.35,
+        "cameraEase": [
+          0.38,
+          0.58
+        ]
+      },
+      {
+        "pair": "10-11",
+        "type": "into",
+        "subject": "ship",
+        "pre": 27,
+        "post": 33,
+        "camera": [
+          0.12,
+          0.96
+        ],
+        "shape": [
+          0.19,
+          0.76
+        ],
+        "blend": [
+          0.58,
+          0.9
+        ],
+        "environment": [
+          0.025,
+          0.3
+        ],
+        "audioLead": 0.15,
+        "audioTail": 0.55,
+        "cameraEase": [
+          0.28,
+          0.7
+        ]
+      }
+    ]
+  },
+  "tableLayout": {
+    "market": [
+      [
+        -3,
+        0.064,
+        6.6
+      ],
+      [
+        -1,
+        0.064,
+        6.6
+      ],
+      [
+        1,
+        0.064,
+        6.6
+      ],
+      [
+        3,
+        0.064,
+        6.6
+      ]
+    ],
+    "basic": [
+      -1.7,
+      0.064,
+      -6.7
+    ],
+    "wonder": [
+      6.68,
+      0.064,
+      5.08
+    ],
+    "techPile": [
+      -5.82,
+      0.064,
+      6.619999999999999
+    ],
+    "eventPile": [
+      -5,
+      0.064,
+      -6.719999999999999
+    ],
+    "wonderPile": [
+      13.8,
+      -0.06,
+      -7
+    ],
+    "A": [
+      -4.7,
+      0.064,
+      13.5
+    ],
+    "B": [
+      -4.7,
+      0.064,
+      -13.5
+    ],
+    "patent": [
+      -7.2,
+      0.064,
+      13.5
+    ],
+    "ownedWonder": [
+      5.3,
+      0.064,
+      13.5
+    ],
+    "bank": [
+      [
+        -14.4,
+        0.03,
+        -4
+      ],
+      [
+        -14.4,
+        0.03,
+        0
+      ],
+      [
+        -14.4,
+        0.03,
+        4
+      ]
+    ],
+    "discard": [
+      [
+        -11.8,
+        -0.06,
+        -4
+      ],
+      [
+        -11.8,
+        -0.06,
+        0
+      ],
+      [
+        -11.8,
+        -0.06,
+        4
+      ]
+    ]
+  },
+  "modelRecipe": {
+    "card": "src/geometry.js makeCard; width 1.78; height from per-face crop; thickness .04 + bevel .008; independent original front/back UV",
+    "dice": "src/geometry.js makeDie; side .9; 6 holed shells + recessed cups; opposite faces sum7",
+    "board": "original image, 20 square, .12 thickness; photo-relative calibration",
+    "camera": "src/scene.js updateScene; perspective44deg; full view [0,25,27]; dice view [0,13.5,13]",
+    "animation": "absolute frame / 30; deterministic analytic easing; no runtime random or previous-frame dependence"
+  },
+  "aiClipStatus": "src/ai.json"
+}

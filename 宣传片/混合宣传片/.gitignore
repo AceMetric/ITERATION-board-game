@@ -1,0 +1,17 @@
+node_modules
+.cache/
+.venv*/
+预览/
+__pycache__/
+*.pyc
+*.log
+
+# 可从素材与锁定参数重建；不提交转场帧或重复贴图
+/public/*
+!/public/quality.html
+/即梦素材包/*.png
+/文档/比例参照/
+/记录/
+/输出/
+
+# 成片与六段增强视频通过 GitHub Release 发布

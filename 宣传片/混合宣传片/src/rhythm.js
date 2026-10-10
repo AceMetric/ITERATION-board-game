@@ -1,0 +1,5 @@
+import rhythm from './rhythm.json' with {type:'json'};
+// Monotone cubic interpolation keeps velocity continuous across musical accents.
+// Maps presentation seconds to the original action clock without moving edits.
+export function actionTime(kind,t){const knots=rhythm.shots[kind];if(!knots||t<=knots[0][0]||t>=knots.at(-1)[0])return t;let i=0;while(t>knots[i+1][0])i++;const slopes=knots.slice(1).map((p,j)=>(p[1]-knots[j][1])/(p[0]-knots[j][0]));const tangent=j=>{if(j===0||j===knots.length-1)return 1;const a=slopes[j-1],b=slopes[j];return a*b<=0?0:2*a*b/(a+b)};const [x,y]=knots[i],[xx,yy]=knots[i+1],h=xx-x,u=(t-x)/h;return (2*u**3-3*u*u+1)*y+(u**3-2*u*u+u)*h*tangent(i)+(-2*u**3+3*u*u)*yy+(u**3-u*u)*h*tangent(i+1);}
+export function presentationTime(kind,source){const knots=rhythm.shots[kind];if(!knots||source<=0||source>=knots.at(-1)[1])return source;let lo=0,hi=knots.at(-1)[0];for(let i=0;i<40;i++){const mid=(lo+hi)/2;if(actionTime(kind,mid)<source)lo=mid;else hi=mid;}return(lo+hi)/2;}

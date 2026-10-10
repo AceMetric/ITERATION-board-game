@@ -2,3 +2,21 @@
 *.drivedownload
 *.ai
 .未上传源文件/
+
+# 本地环境、编辑器文件和密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+.venv*/
+__pycache__/
+*.pyc
+.cache/
+node_modules
+
+# 未采用的实验工程和历史审片保留在本地
+宣传片/动画-v2/
+宣传片/动画/记录/
+宣传片/动画/输出/

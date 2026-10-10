@@ -1,0 +1,249 @@
+{
+  "verifiedOn": "2026-10-10",
+  "masterSHA256": "69d36e7a161dea4d2cb4ae44b7708d1a37a74128a7bce3292a31044a4154030e",
+  "masterVerification": {
+    "passed": true,
+    "videos": [
+      {
+        "file": "输出/更迭-90秒混合宣传片-4K.mp4",
+        "size": [
+          3840,
+          2160
+        ],
+        "frames": 2700,
+        "fps": 30,
+        "fullDecode": "passed",
+        "sha256": "69d36e7a161dea4d2cb4ae44b7708d1a37a74128a7bce3292a31044a4154030e"
+      },
+      {
+        "file": "输出/更迭-90秒混合宣传片.mp4",
+        "size": [
+          1920,
+          1080
+        ],
+        "frames": 2700,
+        "fps": 30,
+        "fullDecode": "passed",
+        "sha256": "5e34a156282b8cf0cd7dbc79506090a91de05496c46b6508e3b3085d6d69c25a"
+      }
+    ],
+    "masterAndShareDecodedAudioIdentical": true,
+    "baselineDecodedAudioMaxDifference": 0.0,
+    "peakDBFS": -3.5262036017179743,
+    "timingAudioFilesUnchanged": true,
+    "threeDNative4K": true,
+    "aiSource": [
+      852,
+      480
+    ],
+    "aiOutput": [
+      3840,
+      2160
+    ],
+    "aiNative4K": false,
+    "aiFrameMatching": {
+      "checkedFrames": 879,
+      "passed": true,
+      "report": "记录/AI逐帧时序核对.json"
+    },
+    "visualScope": "All plain AI frames matched to source; transitions separately checked; normal/half-speed playback samples. Technical checks do not prove every visual detail."
+  },
+  "decodedDeliverables": [
+    {
+      "file": "Opening.mp4",
+      "size": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "duration": 4.01,
+      "framesDecoded": 120,
+      "codec": "H.264",
+      "audio": "AAC 48000Hz stereo",
+      "fullDecode": "passed"
+    },
+    {
+      "file": "TransitionDemo.mp4",
+      "size": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "duration": 5.01,
+      "framesDecoded": 150,
+      "codec": "H.264",
+      "audio": "AAC 48000Hz stereo",
+      "fullDecode": "passed"
+    },
+    {
+      "file": "TransitionReel.mp4",
+      "size": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "duration": 28.42,
+      "framesDecoded": 852,
+      "codec": "H.264",
+      "audio": "AAC 48000Hz stereo",
+      "fullDecode": "passed"
+    },
+    {
+      "file": "FeatureCompare.mp4",
+      "size": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "duration": 8.81,
+      "framesDecoded": 264,
+      "codec": "H.264",
+      "audio": "AAC 48000Hz stereo",
+      "fullDecode": "passed"
+    },
+    {
+      "file": "Shot02.mp4",
+      "size": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "duration": 12.01,
+      "framesDecoded": 360,
+      "codec": "H.264",
+      "audio": "AAC 48000Hz stereo",
+      "fullDecode": "passed"
+    },
+    {
+      "file": "Shot04.mp4",
+      "size": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "duration": 9.0,
+      "framesDecoded": 270,
+      "codec": "H.264",
+      "audio": "AAC 48000Hz stereo",
+      "fullDecode": "passed"
+    },
+    {
+      "file": "Shot06.mp4",
+      "size": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "duration": 11.01,
+      "framesDecoded": 330,
+      "codec": "H.264",
+      "audio": "AAC 48000Hz stereo",
+      "fullDecode": "passed"
+    },
+    {
+      "file": "Shot09.mp4",
+      "size": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "duration": 10.01,
+      "framesDecoded": 300,
+      "codec": "H.264",
+      "audio": "AAC 48000Hz stereo",
+      "fullDecode": "passed"
+    },
+    {
+      "file": "Shot11.mp4",
+      "size": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "duration": 5.01,
+      "framesDecoded": 150,
+      "codec": "H.264",
+      "audio": "AAC 48000Hz stereo",
+      "fullDecode": "passed"
+    },
+    {
+      "file": "更迭-90秒混合宣传片-4K.mp4",
+      "size": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "duration": 90.01,
+      "framesDecoded": 2700,
+      "codec": "H.264",
+      "audio": "AAC 48000Hz stereo",
+      "fullDecode": "passed"
+    },
+    {
+      "file": "首轮样片-学习科技与FAST-4K.mp4",
+      "size": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "duration": 22.02,
+      "framesDecoded": 660,
+      "codec": "H.264",
+      "audio": "AAC 48000Hz stereo",
+      "fullDecode": "passed"
+    }
+  ],
+  "captions": {
+    "01": {
+      "chapter": "文明的曙光",
+      "lines": [
+        "烈火撕开黑夜的帷幕，",
+        "照亮前路永恒的探索"
+      ]
+    },
+    "03": {
+      "lines": [
+        "让记忆超越生死的界限，",
+        "让思想驶向未至之境"
+      ]
+    },
+    "05": {
+      "lines": [
+        "几代人的双手，",
+        "筑起人类绵延千年的高峰"
+      ],
+      "chapter": "时间的丰碑"
+    },
+    "07": {
+      "lines": [
+        "唤醒沉睡亿年的能量，",
+        "推动时代奔涌向前"
+      ]
+    },
+    "08": {
+      "lines": [
+        "用群山托起群星的梦想，",
+        "向未知发起永无止境的冲锋"
+      ],
+      "chapter": "挑战未知"
+    },
+    "10": {
+      "lines": [
+        "自大地升起的星星之火，",
+        "必将照亮星海的征途"
+      ]
+    }
+  },
+  "identity": "科技史策略桌游",
+  "investmentLabels": [
+    "A · 投入",
+    "B · 投入"
+  ],
+  "removedLabels": [
+    "专利留在玩家 A 的个人区域",
+    "每张投入牌可选择明置或暗置",
+    "此局面没有适用折扣",
+    "还需 2 人力"
+  ],
+  "scope": "来源帧序、完整解码、音轨与参数检查；机器检查不代替正常及半速视觉审看。历史工作记录和检查图片仅保留本地。"
+}

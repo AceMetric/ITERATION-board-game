@@ -1,0 +1,1216 @@
+{
+  "fire": {
+    "file": "textures/fire.png",
+    "source": "卡牌/科技/基础/时代1/驯火与热加工.png",
+    "back": "basicBack",
+    "size": [
+      786,
+      1199
+    ],
+    "rect": [
+      4,
+      0,
+      779,
+      1185
+    ],
+    "sha256": "5123e843765f5df4a123b176b012c6647511e640dbf11d8b890ea88ef1c3f257"
+  },
+  "stone": {
+    "file": "textures/stone.png",
+    "source": "卡牌/科技/基础/时代1/石器与复合工具.png",
+    "back": "basicBack",
+    "size": [
+      789,
+      1196
+    ],
+    "rect": [
+      10,
+      0,
+      779,
+      1186
+    ],
+    "sha256": "7d5cc707d8d40a1707c4c284384b132c36415c714bbf19cdfe5a6586f49305d5"
+  },
+  "agri": {
+    "file": "textures/agri.png",
+    "source": "卡牌/科技/基础/时代1/农业与灌溉.png",
+    "back": "basicBack",
+    "size": [
+      786,
+      1197
+    ],
+    "rect": [
+      4,
+      0,
+      780,
+      1185
+    ],
+    "sha256": "2f4c1c498e3cb37f09f18464fb99bdaff7ce782db23f6f795f64eb374a8cd2e2"
+  },
+  "wheel": {
+    "file": "textures/wheel.png",
+    "source": "卡牌/科技/基础/时代1/轮与车.png",
+    "back": "basicBack",
+    "size": [
+      786,
+      1194
+    ],
+    "rect": [
+      3,
+      0,
+      780,
+      1185
+    ],
+    "sha256": "160d1529bffe2f4207d33e8996923f087d3028f283eb5fd235f1eb0e27609e78"
+  },
+  "weave": {
+    "file": "textures/weave.png",
+    "source": "卡牌/科技/基础/时代1/纺织与编织.png",
+    "back": "basicBack",
+    "size": [
+      786,
+      1198
+    ],
+    "rect": [
+      4,
+      0,
+      779,
+      1186
+    ],
+    "sha256": "c5d41c3c6bc381b52d7ac7c4040b5b1f28e36406ddff41c93e2e9953c87c5938"
+  },
+  "letters": {
+    "file": "textures/letters.png",
+    "source": "卡牌/科技/专利/时代1/文字与计数.png",
+    "back": "patentBack",
+    "size": [
+      802,
+      1239
+    ],
+    "rect": [
+      0,
+      0,
+      786,
+      1239
+    ],
+    "sha256": "37d732363917661c44c6b98169933409d1bd4968d6f4a5e620d70d8e6768da2c"
+  },
+  "pyramid": {
+    "file": "textures/pyramid.jpg",
+    "source": "卡牌/奇观/时代1/金字塔.jpg",
+    "back": "wonderBack",
+    "size": [
+      758,
+      1237
+    ],
+    "rect": [
+      0,
+      0,
+      758,
+      1237
+    ],
+    "sha256": "263749928502aa5ffaaa3b87c31edafc88dc73b12978bea1dbb073632dd1d44f"
+  },
+  "eiffel": {
+    "file": "textures/eiffel.jpg",
+    "source": "卡牌/奇观/时代4/埃菲尔铁塔.jpg",
+    "back": "wonderBackIV",
+    "size": [
+      758,
+      1238
+    ],
+    "rect": [
+      0,
+      0,
+      758,
+      1238
+    ],
+    "sha256": "0a6920256dff38c09d1e768b722efa329c61041745c12e0e9a2069c745a966a1"
+  },
+  "wonderBackIV": {
+    "file": "textures/wonderBackIV.png",
+    "source": "卡牌/奇观/时代4/卡背.png",
+    "back": null,
+    "size": [
+      863,
+      1368
+    ],
+    "rect": [
+      0,
+      0,
+      863,
+      1368
+    ],
+    "sha256": "dc1ff85be6d9abe818dfbb51c8bd3b5d0dee984626d59bf7e6372791cdd2c217"
+  },
+  "final": {
+    "file": "textures/final.png",
+    "source": "卡牌/科技/最终/宇宙航行.png",
+    "back": "finalBack",
+    "size": [
+      802,
+      1246
+    ],
+    "rect": [
+      9,
+      0,
+      785,
+      1221
+    ],
+    "sha256": "9f7f719d9934d591e8dd8fa4a9ebe5eaa62c668f19e8ac5fca53178b3aa7d253"
+  },
+  "semiconductor": {
+    "file": "textures/semiconductor.png",
+    "source": "卡牌/科技/专利/时代5/半导体物理.png",
+    "back": "patentBackV",
+    "size": [
+      802,
+      1243
+    ],
+    "rect": [
+      9,
+      0,
+      785,
+      1221
+    ],
+    "sha256": "5e9a14056519e974c9f5854c8a0ab7238262cc36bc26bebee8af3b7faabfb29f"
+  },
+  "ic": {
+    "file": "textures/ic.png",
+    "source": "卡牌/科技/专利/时代5/集成电路.png",
+    "back": "patentBackV",
+    "size": [
+      802,
+      1243
+    ],
+    "rect": [
+      9,
+      0,
+      784,
+      1221
+    ],
+    "sha256": "039ab946ae90e0eca358bbfc6d802796c179672bea7896370cac3cb14e6ff98c"
+  },
+  "internet": {
+    "file": "textures/internet.png",
+    "source": "卡牌/科技/专利/时代5/互联网.png",
+    "back": "patentBackV",
+    "size": [
+      802,
+      1240
+    ],
+    "rect": [
+      9,
+      1,
+      784,
+      1221
+    ],
+    "sha256": "843922175efc17b1ad95b524c35292beaa89cb1be27ac7c0581bff94b3ae7c51"
+  },
+  "patentBackV": {
+    "file": "textures/patentBackV.png",
+    "source": "卡牌/科技/专利/时代5/卡背.png",
+    "back": null,
+    "size": [
+      784,
+      1221
+    ],
+    "rect": [
+      0,
+      0,
+      784,
+      1221
+    ],
+    "sha256": "446b0f5e3c25f31f3eeef58d54933142dfc0ed5df2c3abc7dcd8c8830efc42f0"
+  },
+  "gold1": {
+    "file": "textures/gold1.png",
+    "source": "卡牌/资源/金币1.png",
+    "back": "resourceBack",
+    "size": [
+      855,
+      1328
+    ],
+    "rect": [
+      0,
+      0,
+      855,
+      1328
+    ],
+    "sha256": "186aa0858a9666c2ce2cddc122700497923f48254b925de53ddb897c824af657"
+  },
+  "gold2": {
+    "file": "textures/gold2.png",
+    "source": "卡牌/资源/金币2.png",
+    "back": "resourceBack",
+    "size": [
+      855,
+      1328
+    ],
+    "rect": [
+      0,
+      0,
+      855,
+      1328
+    ],
+    "sha256": "6089b3536986856eebaf2a3ee6794b88291bc5d3f211a47f3e9d231d1e406939"
+  },
+  "min1": {
+    "file": "textures/min1.png",
+    "source": "卡牌/资源/矿物1.png",
+    "back": "resourceBack",
+    "size": [
+      855,
+      1328
+    ],
+    "rect": [
+      0,
+      0,
+      855,
+      1328
+    ],
+    "sha256": "b25a0d82bd9b183cc193cae9eeabcdcce592e140a7c755feb444f8f9ea21a359"
+  },
+  "min2": {
+    "file": "textures/min2.png",
+    "source": "卡牌/资源/矿物2.png",
+    "back": "resourceBack",
+    "size": [
+      855,
+      1328
+    ],
+    "rect": [
+      0,
+      0,
+      855,
+      1328
+    ],
+    "sha256": "a64d839532861412f9ddd3edbfcd5333b93d08cd2d1b91314a500d5686ebb151"
+  },
+  "min5": {
+    "file": "textures/min5.png",
+    "source": "卡牌/资源/矿物5.png",
+    "back": "resourceBack",
+    "size": [
+      855,
+      1328
+    ],
+    "rect": [
+      0,
+      0,
+      855,
+      1328
+    ],
+    "sha256": "64757e5c9435acc015a808ab9605eb8acc4eeb62c7f51d3f24607e8bb5832754"
+  },
+  "people2": {
+    "file": "textures/people2.png",
+    "source": "卡牌/资源/人力2.png",
+    "back": "resourceBack",
+    "size": [
+      855,
+      1328
+    ],
+    "rect": [
+      0,
+      0,
+      855,
+      1328
+    ],
+    "sha256": "c34d717aa26c1513a3aec233bb92a05b22d797c00a25732fd822da5f7034bd18"
+  },
+  "basicBack": {
+    "file": "textures/basicBack.png",
+    "source": "卡牌/科技/基础/时代1/卡背.png",
+    "back": null,
+    "size": [
+      779,
+      1185
+    ],
+    "rect": [
+      0,
+      0,
+      779,
+      1185
+    ],
+    "sha256": "ba5d49c8728c22b79be556965d8fa491d0bb34b646dc18d6fc7b9663cc33aa6e"
+  },
+  "patentBack": {
+    "file": "textures/patentBack.png",
+    "source": "卡牌/科技/专利/时代1/卡背.png",
+    "back": null,
+    "size": [
+      784,
+      1221
+    ],
+    "rect": [
+      0,
+      0,
+      784,
+      1221
+    ],
+    "sha256": "15ca51953d31da05ac3ef31fca8e3db7f40bbeb576ab4e8db3f2f08308799086"
+  },
+  "wonderBack": {
+    "file": "textures/wonderBack.png",
+    "source": "卡牌/奇观/时代1/卡背.png",
+    "back": null,
+    "size": [
+      863,
+      1368
+    ],
+    "rect": [
+      0,
+      0,
+      863,
+      1368
+    ],
+    "sha256": "2fb16057132908f5b7d56f21d2795f9ef5af24abac56059c13770989f11f763f"
+  },
+  "finalBack": {
+    "file": "textures/finalBack.png",
+    "source": "卡牌/科技/最终/卡背.png",
+    "back": null,
+    "size": [
+      790,
+      1221
+    ],
+    "rect": [
+      5,
+      0,
+      785,
+      1221
+    ],
+    "sha256": "b5259f7ff831fbb7bc06dcc9ecc074dddd8bd11be87801f0bdb91a2d251642e9"
+  },
+  "resourceBack": {
+    "file": "textures/resourceBack.png",
+    "source": "卡牌/资源/卡背.png",
+    "back": null,
+    "size": [
+      855,
+      1328
+    ],
+    "rect": [
+      0,
+      0,
+      855,
+      1328
+    ],
+    "sha256": "76673755a6f553733d19c27321e211fdacb644d5c468dbf061b14b38705b82a7"
+  },
+  "eventBack": {
+    "file": "textures/eventBack.png",
+    "source": "卡牌/事件/卡背.png",
+    "back": null,
+    "size": [
+      869,
+      1249
+    ],
+    "rect": [
+      0,
+      0,
+      869,
+      1249
+    ],
+    "sha256": "cbeb4539e6f0216c19b0ea58371c7559dcfbcc9759c85fdfb958df3dcf71f90d"
+  },
+  "board": {
+    "file": "textures/board.png",
+    "source": "版图/版图.png",
+    "back": null,
+    "size": [
+      7087,
+      7087
+    ],
+    "rect": [
+      0,
+      0,
+      7087,
+      7087
+    ],
+    "sha256": "5248b322fd816ca2522d5bc5ee492a225a1fdc95612cc65a654b6fac98370306"
+  },
+  "gold5": {
+    "file": "textures/gold5.png",
+    "source": "卡牌/资源/金币5.png",
+    "back": "resourceBack",
+    "size": [
+      855,
+      1328
+    ],
+    "rect": [
+      0,
+      0,
+      855,
+      1328
+    ],
+    "sha256": "72b5c3b6d77ee3518688cb01dbb9b880298d9e52cbe20d99e42c639ff08cec9b"
+  },
+  "gold10": {
+    "file": "textures/gold10.png",
+    "source": "卡牌/资源/金币10.png",
+    "back": "resourceBack",
+    "size": [
+      855,
+      1328
+    ],
+    "rect": [
+      0,
+      0,
+      855,
+      1328
+    ],
+    "sha256": "2cc9db77a204e32e316c856ed79e703528ae3a97df82c28b822f635b6d1cbbec"
+  },
+  "min10": {
+    "file": "textures/min10.png",
+    "source": "卡牌/资源/矿物10.png",
+    "back": "resourceBack",
+    "size": [
+      855,
+      1328
+    ],
+    "rect": [
+      0,
+      0,
+      855,
+      1328
+    ],
+    "sha256": "dcfa82dd8beacd1aa6222ca9b166a0354b37bf0d99d14ab572466df66f0c0b74"
+  },
+  "people1": {
+    "file": "textures/people1.png",
+    "source": "卡牌/资源/人力1.png",
+    "back": "resourceBack",
+    "size": [
+      855,
+      1328
+    ],
+    "rect": [
+      0,
+      0,
+      855,
+      1328
+    ],
+    "sha256": "8279b6081f30d0320c3a26b2c8cf08e419886b2dd832b403fe6e0357a659577e"
+  },
+  "people5": {
+    "file": "textures/people5.png",
+    "source": "卡牌/资源/人力5.png",
+    "back": "resourceBack",
+    "size": [
+      855,
+      1328
+    ],
+    "rect": [
+      0,
+      0,
+      855,
+      1328
+    ],
+    "sha256": "5066e87761b1addd257daacf92bbe957be147d176b3a3df452f056a54e81f4ca"
+  },
+  "people10": {
+    "file": "textures/people10.png",
+    "source": "卡牌/资源/人力10.png",
+    "back": "resourceBack",
+    "size": [
+      855,
+      1328
+    ],
+    "rect": [
+      0,
+      0,
+      855,
+      1328
+    ],
+    "sha256": "060b60329d7b14610a2222eb72dc4c74a9a8b009d5e1de58c1a9d1ae5a4af8b0"
+  },
+  "pottery": {
+    "file": "textures/pottery.png",
+    "source": "卡牌/科技/基础/时代1/陶器与窑烧.png",
+    "back": "basicBack",
+    "size": [
+      786,
+      1198
+    ],
+    "rect": [
+      2,
+      0,
+      779,
+      1185
+    ],
+    "sha256": "c6f1e17b45ad5360f44c240dc1580041d7a97774b175a57dcd6f5403a6a01408"
+  },
+  "science": {
+    "file": "textures/science.png",
+    "source": "卡牌/科技/基础/时代1/实验科学方法.png",
+    "back": "basicBack",
+    "size": [
+      785,
+      1194
+    ],
+    "rect": [
+      5,
+      0,
+      780,
+      1186
+    ],
+    "sha256": "354dac47647b916e735b86ad8072065f2f0fd7de596af679dc6119cf1ae29460"
+  },
+  "elements": {
+    "file": "textures/elements.png",
+    "source": "卡牌/科技/专利/时代1/四元素说.png",
+    "back": "patentBack",
+    "size": [
+      802,
+      1248
+    ],
+    "rect": [
+      11,
+      0,
+      791,
+      1248
+    ],
+    "sha256": "1c818d0c6de9dffd445aeaa3715bbe06972e8f9d5cba32de2b0681d3cbc4db1f"
+  },
+  "astronomy": {
+    "file": "textures/astronomy.png",
+    "source": "卡牌/科技/专利/时代1/天文观测.png",
+    "back": "patentBack",
+    "size": [
+      802,
+      1246
+    ],
+    "rect": [
+      11,
+      0,
+      785,
+      1220
+    ],
+    "sha256": "9afc6c6288802a8a86d482ca546bd505b35961c4220358157a3798ba437cc2d8"
+  },
+  "bronze": {
+    "file": "textures/bronze.png",
+    "source": "卡牌/科技/专利/时代1/青铜与铁器冶炼.png",
+    "back": "patentBack",
+    "size": [
+      802,
+      1240
+    ],
+    "rect": [
+      13,
+      5,
+      784,
+      1221
+    ],
+    "sha256": "270d0001afee544aebb147d9d3fccdee65abaf6096ae27da7f78a1e0dc0133bf"
+  },
+  "waterworks": {
+    "file": "textures/waterworks.png",
+    "source": "卡牌/科技/专利/时代1/大型水利工程.png",
+    "back": "patentBack",
+    "size": [
+      802,
+      1240
+    ],
+    "rect": [
+      7,
+      0,
+      785,
+      1221
+    ],
+    "sha256": "123583481e6dd17f4382f9ccc53d042a308ec3527a43c2ca732ef9346b97cd87"
+  },
+  "henge": {
+    "file": "textures/henge.jpg",
+    "source": "卡牌/奇观/时代1/巨石阵.jpg",
+    "back": "wonderBack",
+    "size": [
+      759,
+      1237
+    ],
+    "rect": [
+      0,
+      0,
+      759,
+      1237
+    ],
+    "sha256": "cb85ccca27f6d2e2cfe6c3be490abcf6c79dd53380b3722b2416bd637c4a2a3d"
+  },
+  "terracotta": {
+    "file": "textures/terracotta.jpg",
+    "source": "卡牌/奇观/时代1/兵马俑.jpg",
+    "back": "wonderBack",
+    "size": [
+      759,
+      1237
+    ],
+    "rect": [
+      0,
+      0,
+      759,
+      1237
+    ],
+    "sha256": "94f343ef3ec3e98356b520b5aec7c2dacf142e2681db4b2ac07168da5f953302"
+  },
+  "gardens": {
+    "file": "textures/gardens.jpg",
+    "source": "卡牌/奇观/时代1/空中花园.jpg",
+    "back": "wonderBack",
+    "size": [
+      758,
+      1237
+    ],
+    "rect": [
+      0,
+      0,
+      758,
+      1237
+    ],
+    "sha256": "7a94f0a2120a46286566cbebf070b2733fa11cd1028c07286e35a42b23046550"
+  },
+  "temple": {
+    "file": "textures/temple.jpg",
+    "source": "卡牌/奇观/时代1/悬空寺.jpg",
+    "back": "wonderBack",
+    "size": [
+      758,
+      1237
+    ],
+    "rect": [
+      0,
+      0,
+      758,
+      1237
+    ],
+    "sha256": "0b3eed9fddf1cf49a5d45a6fbb9dfc7275cd8a4737b8d53701017d5563c9750c"
+  },
+  "mogao": {
+    "file": "textures/mogao.jpg",
+    "source": "卡牌/奇观/时代1/莫高窟.jpg",
+    "back": "wonderBack",
+    "size": [
+      758,
+      1237
+    ],
+    "rect": [
+      0,
+      0,
+      758,
+      1237
+    ],
+    "sha256": "4239c342baa418a707fe87f73a5c4e56c121773ab19aa32ce8af4d591e133e41"
+  },
+  "fast": {
+    "file": "textures/fast.png",
+    "source": "卡牌/奇观/时代5/FAST.png",
+    "back": "wonderBackV",
+    "size": [
+      767,
+      1163
+    ],
+    "rect": [
+      0,
+      0,
+      767,
+      1163
+    ],
+    "sha256": "74af78158d7c836d55bd62959847b095764fa2c877080490159d31214b30b66d"
+  },
+  "genome": {
+    "file": "textures/genome.png",
+    "source": "卡牌/奇观/时代5/人类基因组计划.png",
+    "back": "wonderBackV",
+    "size": [
+      767,
+      1163
+    ],
+    "rect": [
+      0,
+      0,
+      767,
+      1163
+    ],
+    "sha256": "a8341d54ea1949ae4c0871a4ef02cd6884b7f7aa247abe47f456feff54b20484"
+  },
+  "center": {
+    "file": "textures/center.png",
+    "source": "卡牌/奇观/时代5/知春创新中心.png",
+    "back": "wonderBackV",
+    "size": [
+      767,
+      1163
+    ],
+    "rect": [
+      0,
+      0,
+      767,
+      1163
+    ],
+    "sha256": "bbe29980754807fe14519f3950f354ebe7065590c9c5b93fcdff3d1c55470e49"
+  },
+  "wonderBackV": {
+    "file": "textures/wonderBackV.png",
+    "source": "卡牌/奇观/时代5/卡背.png",
+    "back": null,
+    "size": [
+      862,
+      1368
+    ],
+    "rect": [
+      0,
+      0,
+      862,
+      1368
+    ],
+    "sha256": "c38da259defa53a2ecbca6c9c4daa23fdfc6653e860b8ee10384c71348ab4c88"
+  },
+  "forbidden": {
+    "file": "textures/forbidden.jpg",
+    "source": "卡牌/奇观/时代4/紫禁城.jpg",
+    "back": "wonderBackIV",
+    "size": [
+      758,
+      1238
+    ],
+    "rect": [
+      0,
+      0,
+      758,
+      1238
+    ],
+    "sha256": "fb729ee59faa5a4aecc93094222b8c9a1e159af9d90c3ff41d473d55d3698870"
+  },
+  "suez": {
+    "file": "textures/suez.jpg",
+    "source": "卡牌/奇观/时代4/苏伊士运河.jpg",
+    "back": "wonderBackIV",
+    "size": [
+      759,
+      1238
+    ],
+    "rect": [
+      0,
+      0,
+      759,
+      1238
+    ],
+    "sha256": "02424751570d1fed6edb19131434fd7fb4fb3de0180740a4357641ece7821cf7"
+  },
+  "eniac": {
+    "file": "textures/eniac.png",
+    "source": "卡牌/奇观/时代4/ENIAC.png",
+    "back": "wonderBackIV",
+    "size": [
+      767,
+      1164
+    ],
+    "rect": [
+      0,
+      0,
+      767,
+      1163
+    ],
+    "sha256": "8e946bdf99981622dccd2d0359f696caf636d27348092b199fc1e5439fe271ae"
+  },
+  "daqing": {
+    "file": "textures/daqing.png",
+    "source": "卡牌/奇观/时代4/大庆油田.png",
+    "back": "wonderBackIV",
+    "size": [
+      767,
+      1163
+    ],
+    "rect": [
+      0,
+      0,
+      767,
+      1163
+    ],
+    "sha256": "0455fccd90dcee01485dbaad935632957102c421579dc988c18979cde0cf15fa"
+  },
+  "rail": {
+    "file": "textures/rail.png",
+    "source": "卡牌/奇观/时代4/青藏铁路.png",
+    "back": "wonderBackIV",
+    "size": [
+      768,
+      1167
+    ],
+    "rect": [
+      0,
+      0,
+      768,
+      1163
+    ],
+    "sha256": "6ff2f7c3092f66014863788cd716d58e1ca786ad2aac2ec5119457363cb799c9"
+  },
+  "information": {
+    "file": "textures/information.png",
+    "source": "卡牌/科技/专利/时代5/信息论.png",
+    "back": "patentBackV",
+    "size": [
+      802,
+      1240
+    ],
+    "rect": [
+      9,
+      1,
+      785,
+      1220
+    ],
+    "sha256": "93cc45d7121dfbc55e386f6a9ee24e7b7872e75b99f53a7f976dc25cadcf343a"
+  },
+  "evolution": {
+    "file": "textures/evolution.png",
+    "source": "卡牌/科技/专利/时代5/现代综合进化论与DNA.png",
+    "back": "patentBackV",
+    "size": [
+      802,
+      1240
+    ],
+    "rect": [
+      13,
+      1,
+      785,
+      1221
+    ],
+    "sha256": "9311df3b39869734320f7ec18575a4802ad9461e589d86c4a7d35d8de9b55a46"
+  },
+  "diecasting": {
+    "file": "textures/diecasting.png",
+    "source": "卡牌/科技/专利/时代5/巨型一体化压铸技术.png",
+    "back": "patentBackV",
+    "size": [
+      802,
+      1245
+    ],
+    "rect": [
+      9,
+      0,
+      785,
+      1221
+    ],
+    "sha256": "b3a23d82027d8324623933ac168f72a7f041c278078c2a50d9a055be96bd7d92"
+  },
+  "steady": {
+    "file": "textures/steady.png",
+    "source": "卡牌/科技/专利/时代5/稳态宇宙论.png",
+    "back": "patentBackV",
+    "size": [
+      802,
+      1243
+    ],
+    "rect": [
+      14,
+      0,
+      785,
+      1220
+    ],
+    "sha256": "f1b99dd3a28b4e59a7bdadb0207503c82b0e01d4f67764f59f057f1a844a2b26"
+  },
+  "addiction": {
+    "file": "textures/addiction.jpg",
+    "source": "卡牌/科技/专利/时代5/成瘾性药物.jpg",
+    "back": "patentBackV",
+    "size": [
+      784,
+      1229
+    ],
+    "rect": [
+      3,
+      0,
+      781,
+      1229
+    ],
+    "sha256": "d3567903699326061e24e4c0a37f0f7a7d89939927d3d839fdb48555f919484c"
+  },
+  "bci": {
+    "file": "textures/bci.png",
+    "source": "卡牌/科技/最终/脑机接口.png",
+    "back": "finalBack",
+    "size": [
+      803,
+      1242
+    ],
+    "rect": [
+      7,
+      0,
+      785,
+      1221
+    ],
+    "sha256": "5f98cdb0a625af38bdffa7e3dd86d38762b6cd99156b02f28285c59fbf0a2d25"
+  },
+  "agi": {
+    "file": "textures/agi.png",
+    "source": "卡牌/科技/最终/通用人工智能.png",
+    "back": "finalBack",
+    "size": [
+      802,
+      1243
+    ],
+    "rect": [
+      11,
+      0,
+      784,
+      1220
+    ],
+    "sha256": "65625bf2ad94cbfbf104cdd01ed79adfbc058daadda4f97d3bfda24667eeff98"
+  },
+  "event0": {
+    "file": "textures/event0.png",
+    "source": "卡牌/事件/凡尔赛条约.png",
+    "back": "eventBack",
+    "size": [
+      761,
+      1249
+    ],
+    "rect": [
+      0,
+      0,
+      761,
+      1249
+    ],
+    "sha256": "edf612d46e610fac863f1c0a59f003b47b2108896336e929191920636fac0321"
+  },
+  "event2": {
+    "file": "textures/event2.jpg",
+    "source": "卡牌/事件/发射人造地球卫星.jpg",
+    "back": "eventBack",
+    "size": [
+      776,
+      1250
+    ],
+    "rect": [
+      0,
+      0,
+      776,
+      1250
+    ],
+    "sha256": "738787265d3f35ab5ca2d505748747c305424ba7a59a4acbe8a5aef21d87d573"
+  },
+  "event3": {
+    "file": "textures/event3.png",
+    "source": "卡牌/事件/尤里卡.png",
+    "back": "eventBack",
+    "size": [
+      761,
+      1249
+    ],
+    "rect": [
+      0,
+      0,
+      761,
+      1249
+    ],
+    "sha256": "63c4a60c9fda82e36873be86e7c0fa52999c374d542375d878e3f0fccc7e42fd"
+  },
+  "event4": {
+    "file": "textures/event4.png",
+    "source": "卡牌/事件/张骞出使西域.png",
+    "back": "eventBack",
+    "size": [
+      761,
+      1248
+    ],
+    "rect": [
+      0,
+      0,
+      761,
+      1248
+    ],
+    "sha256": "4067418f2327de20404bc6294963f265564b598832aae23aa6de35a653fcd271"
+  },
+  "event5": {
+    "file": "textures/event5.png",
+    "source": "卡牌/事件/文艺复兴.png",
+    "back": "eventBack",
+    "size": [
+      762,
+      1249
+    ],
+    "rect": [
+      0,
+      0,
+      762,
+      1249
+    ],
+    "sha256": "028512e11866074f97d9995f122822942f28a9c1a52e33b95e9ab9bd60ce7538"
+  },
+  "event6": {
+    "file": "textures/event6.jpg",
+    "source": "卡牌/事件/月光社.jpg",
+    "back": "eventBack",
+    "size": [
+      776,
+      1311
+    ],
+    "rect": [
+      0,
+      0,
+      776,
+      1250
+    ],
+    "sha256": "f65abce2a59ba1bab09fc596217c66766140fdc487525243d5d4686a6fcc19dd"
+  },
+  "event7": {
+    "file": "textures/event7.jpg",
+    "source": "卡牌/事件/柏林墙.jpg",
+    "back": "eventBack",
+    "size": [
+      777,
+      1250
+    ],
+    "rect": [
+      0,
+      0,
+      777,
+      1250
+    ],
+    "sha256": "e85a03afadbeec804a11ab6b16eb369fc9abd6e5b685785a370e00a4fec85d45"
+  },
+  "event8": {
+    "file": "textures/event8.jpg",
+    "source": "卡牌/事件/泡沫经济.jpg",
+    "back": "eventBack",
+    "size": [
+      776,
+      1250
+    ],
+    "rect": [
+      0,
+      0,
+      776,
+      1250
+    ],
+    "sha256": "8faabb097063efea637a0f94506f16c1f9762e2ba161118f04e45cdf74cac285"
+  },
+  "event9": {
+    "file": "textures/event9.png",
+    "source": "卡牌/事件/火烧大图书馆.png",
+    "back": "eventBack",
+    "size": [
+      761,
+      1249
+    ],
+    "rect": [
+      0,
+      0,
+      761,
+      1249
+    ],
+    "sha256": "75f893d37f70663c36269b7cd0b24146c8eb2f695cdd3918cf4d746a9dcc7d51"
+  },
+  "event10": {
+    "file": "textures/event10.png",
+    "source": "卡牌/事件/盐铁之议.png",
+    "back": "eventBack",
+    "size": [
+      761,
+      1249
+    ],
+    "rect": [
+      0,
+      0,
+      761,
+      1249
+    ],
+    "sha256": "c4dd6722540bf19c92342df4565a7deb2cf8ad73130671e97b1c5a46d411adfc"
+  },
+  "event11": {
+    "file": "textures/event11.jpg",
+    "source": "卡牌/事件/第二次鼠疫大流行.jpg",
+    "back": "eventBack",
+    "size": [
+      777,
+      1250
+    ],
+    "rect": [
+      0,
+      0,
+      777,
+      1250
+    ],
+    "sha256": "cd1c0a21f74c7c549ddb95e213441b2fe9c46ce8a0ceef91fbe8d4b9eceeca46"
+  },
+  "event12": {
+    "file": "textures/event12.png",
+    "source": "卡牌/事件/统一度量衡.png",
+    "back": "eventBack",
+    "size": [
+      761,
+      1248
+    ],
+    "rect": [
+      0,
+      0,
+      761,
+      1248
+    ],
+    "sha256": "613cb08a9675d03719ef52d5cc955c8a5d69292d39eb7b7e310a7d31605b09a1"
+  },
+  "event13": {
+    "file": "textures/event13.png",
+    "source": "卡牌/事件/郑和下西洋.png",
+    "back": "eventBack",
+    "size": [
+      761,
+      1249
+    ],
+    "rect": [
+      0,
+      0,
+      761,
+      1249
+    ],
+    "sha256": "76f2c2aec1e628d56e4d1fd0cd5f189210816fa1661c451e0dbb4bbc660297d2"
+  },
+  "event14": {
+    "file": "textures/event14.png",
+    "source": "卡牌/事件/都江堰.png",
+    "back": "eventBack",
+    "size": [
+      762,
+      1249
+    ],
+    "rect": [
+      0,
+      0,
+      762,
+      1249
+    ],
+    "sha256": "e93fa344a20c45a797ee991e297f97efaf7616bde2a8ba8a3de65aba6bee002a"
+  },
+  "scene01": {
+    "file": "scenes/BG-01-火光.png",
+    "source": "宣传片/素材/正式场景/BG-01-火光.png",
+    "sha256": "42ff70e5aeee0e8a540f1b154a35b21ad8a2f18fa955ce4e4be16d2724327beb"
+  },
+  "scene03": {
+    "file": "scenes/BG-03-知识与远航.png",
+    "source": "宣传片/素材/正式场景/BG-03-知识与远航.png",
+    "sha256": "81d62d3c83b8f754e4035d3ffb3b8aa3720ef48aff7e554e741a72ab1ab4d6a3"
+  },
+  "scene05": {
+    "file": "scenes/BG-04A-金字塔.png",
+    "source": "宣传片/素材/正式场景/BG-04A-金字塔.png",
+    "sha256": "3089387e432af2cedcdcf64315401e450f975eace0abe7b73687247d0973ac90"
+  },
+  "scene07": {
+    "file": "scenes/BG-06-蒸汽与工程.png",
+    "source": "宣传片/素材/正式场景/BG-06-蒸汽与工程.png",
+    "sha256": "f38774fa4acd932f4d28bc45e1bfaf4dbf3307e8978c8fa17a2f975ac8237e39"
+  },
+  "scene08": {
+    "file": "scenes/BG-08-FAST.png",
+    "source": "宣传片/素材/正式场景/BG-08-FAST.png",
+    "sha256": "b05cced48516016157871df86277376aae4ea412fbb26d1454127fcf90c5b69c"
+  },
+  "scene10": {
+    "file": "scenes/BG-09-星辰与未来.png",
+    "source": "宣传片/素材/正式场景/BG-09-星辰与未来.png",
+    "sha256": "d3e4ca68d1e4c1058b10017adc4df8df9b71db3836610b86a5d2d42146c59085"
+  }
+}

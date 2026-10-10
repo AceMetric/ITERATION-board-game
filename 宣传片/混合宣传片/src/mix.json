@@ -1,0 +1,11 @@
+{
+  "masterGain": 0.8383448381016225,
+  "attenuationDB": {
+    "operation": -12,
+    "cue": -14,
+    "ambience": -10
+  },
+  "autoNormalize": false,
+  "baseline": "输出/对比基准/更迭-材质与片尾精修前.mp4",
+  "description": "相对当前成片衰减非配乐声；冻结原总线增益，保留配乐原速、动态与收尾。"
+}

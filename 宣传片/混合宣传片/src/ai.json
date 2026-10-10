@@ -1,0 +1,212 @@
+{
+  "01": {
+    "status": "ready",
+    "file": "ai-enhanced-4k/01.mp4",
+    "name": "火光",
+    "seconds": 6,
+    "source": "宣传片/素材/AI视频/sense1.mp4",
+    "nativeSize": [
+      852,
+      480
+    ],
+    "sourceDuration": 6.05,
+    "sourceSha256": "8df0e45fe8167768cdc6bdcc0ac6d5c1bd158e0ba3017eb0f68d4ec13f6cdc27",
+    "hasAudio": true,
+    "notes": "原始852×480；本地超分与原片放大混合后3840×2160输出，非原生高清。",
+    "originalFile": "ai/01.mp4",
+    "enhancement": {
+      "model": "general",
+      "blend": 0.35,
+      "denoiseStrength": 0.35,
+      "reason": "火焰边缘及石材更清楚；35%保留人物与纸张纹理",
+      "file": "ai-enhanced-4k/01.mp4",
+      "sha256": "51a7d48ce0a11e04027bd7c575821f300177ee74bbff93173b5b0d3f41653958",
+      "outputSize": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "method": "Real-ESRGAN official SRVGG + Lanczos baseline blend",
+      "sourceSha256": "8df0e45fe8167768cdc6bdcc0ac6d5c1bd158e0ba3017eb0f68d4ec13f6cdc27",
+      "faceEnhance": false,
+      "extraSharpen": false,
+      "processingReport": "记录/AI画质增强处理-4k.json"
+    },
+    "activeVariant": "enhanced"
+  },
+  "03": {
+    "status": "ready",
+    "file": "ai-enhanced-4k/03.mp4",
+    "name": "知识与远航",
+    "seconds": 6,
+    "source": "宣传片/素材/AI视频/sense3.mp4",
+    "nativeSize": [
+      852,
+      480
+    ],
+    "sourceDuration": 6.05,
+    "sourceSha256": "40198194a95e5bf56ff0840ba1236db2eb1885a7758e24d3863d9099578d656a",
+    "hasAudio": true,
+    "notes": "原始852×480；本地超分与原片放大混合后3840×2160输出，非原生高清。",
+    "originalFile": "ai/03.mp4",
+    "enhancement": {
+      "model": "general",
+      "blend": 0.35,
+      "denoiseStrength": 0.35,
+      "reason": "温和增强书册、船帆和港口；全段另行检查",
+      "file": "ai-enhanced-4k/03.mp4",
+      "sha256": "481c9ab747b25e764deafa9cf498c4a04f4a88fb45b04b648fb1a1da7978088a",
+      "outputSize": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "method": "Real-ESRGAN official SRVGG + Lanczos baseline blend",
+      "sourceSha256": "40198194a95e5bf56ff0840ba1236db2eb1885a7758e24d3863d9099578d656a",
+      "faceEnhance": false,
+      "extraSharpen": false,
+      "processingReport": "记录/AI画质增强处理-4k.json"
+    },
+    "activeVariant": "enhanced"
+  },
+  "05": {
+    "status": "ready",
+    "file": "ai-enhanced-4k/05.mp4",
+    "name": "金字塔",
+    "seconds": 6,
+    "source": "宣传片/素材/AI视频/sense5.mp4",
+    "nativeSize": [
+      852,
+      480
+    ],
+    "sourceDuration": 6.05,
+    "sourceSha256": "df7bd0901097d1d89ca6b74f3835bac64800cabbf9e3e6fd7184494cf020445d",
+    "hasAudio": true,
+    "notes": "原始852×480；本地超分与原片放大混合后3840×2160输出，非原生高清。",
+    "originalFile": "ai/05.mp4",
+    "enhancement": {
+      "model": "general",
+      "blend": 0.35,
+      "denoiseStrength": 0.35,
+      "reason": "温和增强建筑轮廓；全段另行检查",
+      "file": "ai-enhanced-4k/05.mp4",
+      "sha256": "f411e41b76b01c69906e9645fdd7063b3c99612c82702be238ec0b6018a9225c",
+      "outputSize": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "method": "Real-ESRGAN official SRVGG + Lanczos baseline blend",
+      "sourceSha256": "df7bd0901097d1d89ca6b74f3835bac64800cabbf9e3e6fd7184494cf020445d",
+      "faceEnhance": false,
+      "extraSharpen": false,
+      "processingReport": "记录/AI画质增强处理-4k.json"
+    },
+    "activeVariant": "enhanced"
+  },
+  "07": {
+    "status": "ready",
+    "file": "ai-enhanced-4k/07.mp4",
+    "name": "蒸汽与工程",
+    "seconds": 5,
+    "source": "宣传片/素材/AI视频/sense7.mp4",
+    "nativeSize": [
+      852,
+      480
+    ],
+    "sourceDuration": 5.06,
+    "sourceSha256": "5bd365abf10a4ea96319ac2ede07c093cc74a9914684be368cc1bea7fcad469e",
+    "hasAudio": true,
+    "notes": "原始852×480；本地超分与原片放大混合后3840×2160输出，非原生高清。",
+    "originalFile": "ai/07.mp4",
+    "enhancement": {
+      "model": "general",
+      "blend": 0.35,
+      "denoiseStrength": 0.35,
+      "reason": "保留蒸汽层次；全段另行检查",
+      "file": "ai-enhanced-4k/07.mp4",
+      "sha256": "15c49b526ddb90c45fa8f5d5f60a9be79d930126f1feb27887f26169a333bc05",
+      "outputSize": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "method": "Real-ESRGAN official SRVGG + Lanczos baseline blend",
+      "sourceSha256": "5bd365abf10a4ea96319ac2ede07c093cc74a9914684be368cc1bea7fcad469e",
+      "faceEnhance": false,
+      "extraSharpen": false,
+      "processingReport": "记录/AI画质增强处理-4k.json"
+    },
+    "activeVariant": "enhanced"
+  },
+  "08": {
+    "status": "ready",
+    "file": "ai-enhanced-4k/08.mp4",
+    "name": "FAST",
+    "seconds": 10,
+    "source": "宣传片/素材/AI视频/sense8.mp4",
+    "nativeSize": [
+      852,
+      480
+    ],
+    "sourceDuration": 10.05,
+    "sourceSha256": "d0ea0dd0e5ff88fd50df00a0b547367fb66e8494be4fdcad4e9d6741a4eb5cd3",
+    "hasAudio": true,
+    "notes": "原始852×480；本地超分与原片放大混合后3840×2160输出，非原生高清。",
+    "originalFile": "ai/08.mp4",
+    "enhancement": {
+      "model": "general",
+      "blend": 0.35,
+      "denoiseStrength": 0.35,
+      "reason": "35%改善反射面与塔架；55%使山体纹理趋于平滑",
+      "file": "ai-enhanced-4k/08.mp4",
+      "sha256": "1711de4cb73309cd698363865b5abce74195846af46938b0f993301852bdda59",
+      "outputSize": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "method": "Real-ESRGAN official SRVGG + Lanczos baseline blend",
+      "sourceSha256": "d0ea0dd0e5ff88fd50df00a0b547367fb66e8494be4fdcad4e9d6741a4eb5cd3",
+      "faceEnhance": false,
+      "extraSharpen": false,
+      "processingReport": "记录/AI画质增强处理-4k.json"
+    },
+    "activeVariant": "enhanced"
+  },
+  "10": {
+    "status": "ready",
+    "file": "ai-enhanced-4k/10.mp4",
+    "name": "星辰与未来",
+    "seconds": 6,
+    "source": "宣传片/素材/AI视频/sense10.mp4",
+    "nativeSize": [
+      852,
+      480
+    ],
+    "sourceDuration": 6.05,
+    "sourceSha256": "4eceb8ad53662c17d2a9697aab7f9cde13bdded5863adc9a182ece97a705fc52",
+    "hasAudio": true,
+    "notes": "原始852×480；本地超分与原片放大混合后3840×2160输出，非原生高清。",
+    "originalFile": "ai/10.mp4",
+    "enhancement": {
+      "model": "general",
+      "blend": 0.35,
+      "denoiseStrength": 0.35,
+      "reason": "35%改善飞船边缘；保留星空颗粒与尾焰层次",
+      "file": "ai-enhanced-4k/10.mp4",
+      "sha256": "47c27419d0616e42aa9f8c7f6209438d1d8b2184b857788a0c1c04fbd3b6f6fd",
+      "outputSize": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "method": "Real-ESRGAN official SRVGG + Lanczos baseline blend",
+      "sourceSha256": "4eceb8ad53662c17d2a9697aab7f9cde13bdded5863adc9a182ece97a705fc52",
+      "faceEnhance": false,
+      "extraSharpen": false,
+      "processingReport": "记录/AI画质增强处理-4k.json"
+    },
+    "activeVariant": "enhanced"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "revision": 1,
+  "priority": [
+    "temporal stability",
+    "watercolor identity",
+    "clarity"
+  ],
+  "shots": {
+    "01": {
+      "model": "general",
+      "blend": 0.35,
+      "denoiseStrength": 0.35,
+      "reason": "火焰边缘及石材更清楚；35%保留人物与纸张纹理"
+    },
+    "03": {
+      "model": "general",
+      "blend": 0.35,
+      "denoiseStrength": 0.35,
+      "reason": "温和增强书册、船帆和港口；全段另行检查"
+    },
+    "05": {
+      "model": "general",
+      "blend": 0.35,
+      "denoiseStrength": 0.35,
+      "reason": "温和增强建筑轮廓；全段另行检查"
+    },
+    "07": {
+      "model": "general",
+      "blend": 0.35,
+      "denoiseStrength": 0.35,
+      "reason": "保留蒸汽层次；全段另行检查"
+    },
+    "08": {
+      "model": "general",
+      "blend": 0.35,
+      "denoiseStrength": 0.35,
+      "reason": "35%改善反射面与塔架；55%使山体纹理趋于平滑"
+    },
+    "10": {
+      "model": "general",
+      "blend": 0.35,
+      "denoiseStrength": 0.35,
+      "reason": "35%改善飞船边缘；保留星空颗粒与尾焰层次"
+    }
+  },
+  "models": "tools/upscale_vendor/sources.json",
+  "noFaceEnhance": true,
+  "noExtraSharpen": true,
+  "noAIInterpolation": true
+}
