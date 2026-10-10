@@ -6,7 +6,15 @@
 | --- | --- | --- |
 | 2–4 人 | 约 75–105 分钟 | 测试版 |
 
-[阅读纯文字说明书](规则/说明书.md) · [下载打印版说明书](规则/打印版.pdf) · [网页版试玩与数值测试](https://game.lexnode-ciluo.com/) · [观看与下载宣传片](https://github.com/AceMetric/ITERATION-board-game/releases/tag/promo-2026-10-10)
+[阅读纯文字说明书](规则/说明书.md) · [下载打印版说明书](规则/打印版.pdf) · [网页版试玩与数值测试](https://game.lexnode-ciluo.com/) · [观看宣传片](#宣传片)
+
+## 宣传片
+
+**文明的下一章，由你开创**
+
+https://github.com/user-attachments/assets/538be30b-82ed-4365-b802-578c14e050f4
+
+90 秒完整预览 · [下载4K完整版](https://github.com/AceMetric/ITERATION-board-game/releases/download/promo-2026-10-10/iteration-promo-4k.mp4) · [下载1080P完整版](https://github.com/AceMetric/ITERATION-board-game/releases/download/promo-2026-10-10/iteration-promo-1080p.mp4)
 
 ## 游戏目标与玩法
 
